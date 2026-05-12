@@ -4023,7 +4023,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b91bfcc4-c4da-404b-8879-bad81dc0d2b2")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4241,7 +4241,7 @@
 		(property ki_fp_filters "Heatsink_*")
 		(path "/1b689995-7c98-4d53-90e0-5cfdabf79b83")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5743,7 +5743,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/24054009-b6b2-4eb2-9a19-7fb2369996dd")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8755,7 +8755,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1626d1cb-ff0c-41e7-ad29-494f89fc2632")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9030,7 +9030,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/559fe550-3979-49dc-a66d-262f501e565f")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10709,7 +10709,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/6b5e4188-1e9d-4ba5-a145-a6a81e6d7127")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11562,7 +11562,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22317,7 +22317,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/cb54600b-2c93-474f-822b-7bb587446d0c")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29568,7 +29568,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5925d073-261b-415f-b97e-316e7b5ac330")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42647,7 +42647,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/b3f5c192-b088-4ada-8ff3-36d82ff2adb5")
 		(sheetname "/")
-		(sheetfile "bitaxeProto-1102x.kicad_sch")
+		(sheetfile "bitaxeProto.kicad_sch")
 		(units
 			(unit
 				(name "A")

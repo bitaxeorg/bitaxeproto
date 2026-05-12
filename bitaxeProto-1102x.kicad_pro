@@ -807,7 +807,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3,U8,U13-19,TP2,TP4,TP6,TP10-12,A1-4,C25,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,R25-26,R55-60,R68-71",
     "variants": []
   },
   "sheets": [
@@ -832,48 +832,8 @@
       "fan"
     ],
     [
-      "0b314527-732d-4d6f-9540-ebf0924018a1",
-      "bypass1-1"
-    ],
-    [
-      "060eeb32-0482-45f7-b4e4-b73543e2dd42",
-      "bypass1-2"
-    ],
-    [
-      "738594fe-1288-43e3-9e4f-e2da75329125",
-      "bypass2-1"
-    ],
-    [
-      "33cb6616-90d8-42c9-ad09-2bceffa8f955",
-      "bypass2-2"
-    ],
-    [
-      "ada93258-16f8-4acd-87cd-16f278040345",
-      "bypass3-1"
-    ],
-    [
-      "b75916be-68de-4e9b-8ee2-d2bc736f0a43",
-      "bypass3-2"
-    ],
-    [
-      "75b9a33f-247e-49c5-b55b-a91e6270f1de",
-      "bypass4-1"
-    ],
-    [
-      "28a428a1-27e3-493d-b83b-53c4a3d8a0ed",
-      "bypass4-2"
-    ],
-    [
-      "77e107fa-f35d-45bb-bf6d-758e10cfffbd",
-      "shifter1-2"
-    ],
-    [
-      "8201832f-9551-4969-84e2-32187e0075ba",
-      "shifter2-3"
-    ],
-    [
-      "7d89e220-d1ae-4c07-8d25-5bbe4d704970",
-      "shifter3-4"
+      "63642d1f-2be8-4086-b0fd-62c788dcf98f",
+      "Level Shifter"
     ]
   ],
   "text_variables": {},

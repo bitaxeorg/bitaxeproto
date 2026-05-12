@@ -706,6 +706,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081c1e40-dc73-4047-a393-06474ccdf700")
+	)
+	(wire
+		(pts
 			(xy 128.27 104.14) (xy 139.7 104.14)
 		)
 		(stroke
@@ -806,16 +816,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 64.77) (xy 198.12 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286a0ac4-1a7d-46e4-94ba-e66751e48c37")
-	)
-	(wire
-		(pts
 			(xy 132.08 96.52) (xy 132.08 69.85)
 		)
 		(stroke
@@ -843,16 +843,6 @@
 			(type default)
 		)
 		(uuid "40cb9b6f-4278-4c16-b54e-f2d351d9e061")
-	)
-	(wire
-		(pts
-			(xy 156.21 64.77) (xy 156.21 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e711c9-8a82-4047-98ac-0cb66ab14e16")
 	)
 	(wire
 		(pts
@@ -993,16 +983,6 @@
 			(type default)
 		)
 		(uuid "82c29ff6-8d1f-4751-a99d-86bdfa9cbb31")
-	)
-	(wire
-		(pts
-			(xy 156.21 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b491cd-569b-4430-8cbe-5b65d30bc643")
 	)
 	(wire
 		(pts
@@ -1323,6 +1303,16 @@
 			(justify right bottom)
 		)
 		(uuid "5cb840e2-f3af-448b-b2af-7201a4d303b3")
+	)
+	(label "5V"
+		(at 185.42 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f4b2ddd-c5da-4db4-ae0c-7cd19ecf5d31")
 	)
 	(label "12V"
 		(at 90.17 44.45 0)
@@ -2679,36 +2669,6 @@
 				(justify left)
 			)
 		)
-		(pin "TX_3V3" input
-			(at 128.27 116.84 0)
-			(uuid "62cf6029-e231-4dc8-84dd-b55e2d1348c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RX_3V3" output
-			(at 128.27 120.65 0)
-			(uuid "42fcedbd-f090-4f43-8fb3-313d86098cf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RST_3V3" output
-			(at 128.27 113.03 0)
-			(uuid "cf16ae45-bcdb-487f-8874-8f625f45b587")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "3V3" input
 			(at 102.87 120.65 180)
 			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
@@ -2727,16 +2687,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "TRIP_3V3" input
-			(at 128.27 109.22 0)
-			(uuid "f5418e00-323d-4806-97e6-d4df95eea854")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "FAN_PWM" output
@@ -2767,6 +2717,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ASIC_RST" input
+			(at 128.27 109.22 0)
+			(uuid "b5ddce7a-c513-4bd8-bd3b-dbf6615231e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ASIC_RX" input
+			(at 128.27 116.84 0)
+			(uuid "1f248682-3d4a-4438-a496-d0667a601c02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ASIC_TX" output
+			(at 128.27 113.03 0)
+			(uuid "be599879-90a3-4720-aefd-c4ec153867ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2981,9 +2961,29 @@
 				(justify right)
 			)
 		)
+		(pin "5V" input
+			(at 198.12 45.72 180)
+			(uuid "69a7fe82-15c2-4823-9c86-e8c4e7f0cd62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "RST_3V3" input
+			(at 198.12 53.34 180)
+			(uuid "834463d9-5339-4201-9cd2-1bf0e68a54f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_3V3" input
 			(at 198.12 57.15 180)
-			(uuid "110f0e1a-23b2-4349-beb7-3af5e0282524")
+			(uuid "04673665-86a8-48ab-8cfd-f9ef7adb1154")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,27 +2993,7 @@
 		)
 		(pin "TX_3V3" output
 			(at 198.12 60.96 180)
-			(uuid "316b3159-49fe-47eb-9ac0-cd13e8e09150")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX_3V3" input
-			(at 198.12 64.77 180)
-			(uuid "f3836b2b-b9a0-436e-800d-8391ee33ff99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TRIP_3V3" output
-			(at 198.12 53.34 180)
-			(uuid "861cbd2b-4013-4b1c-8fa7-fd741a937e1a")
+			(uuid "c2040d80-17c7-4645-aeae-08f8ce45f96b")
 			(effects
 				(font
 					(size 1.27 1.27)

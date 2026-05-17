@@ -706,16 +706,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 198.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081c1e40-dc73-4047-a393-06474ccdf700")
-	)
-	(wire
-		(pts
 			(xy 128.27 104.14) (xy 139.7 104.14)
 		)
 		(stroke
@@ -1304,16 +1294,6 @@
 		)
 		(uuid "5cb840e2-f3af-448b-b2af-7201a4d303b3")
 	)
-	(label "5V"
-		(at 185.42 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f4b2ddd-c5da-4db4-ae0c-7cd19ecf5d31")
-	)
 	(label "12V"
 		(at 90.17 44.45 0)
 		(effects
@@ -1501,7 +1481,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 81.28 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 81.28 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -1612,7 +1614,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 31.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -1736,7 +1760,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 81.28 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 81.28 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -1848,7 +1894,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 81.28 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 81.28 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +2059,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 50.8 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2112,7 +2202,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -2221,7 +2333,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 81.28 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.28 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 81.28 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2467,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 52.07 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 52.07 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -2442,7 +2598,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 52.07 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -2551,7 +2729,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 52.07 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -2619,7 +2819,7 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" input
+		(pin "SCL" output
 			(at 128.27 104.14 0)
 			(uuid "e6ecbd0f-7e6e-4b2f-8ca8-12d3bbb7b389")
 			(effects
@@ -2845,7 +3045,7 @@
 				(justify right)
 			)
 		)
-		(pin "PGOOD" input
+		(pin "PGOOD" output
 			(at 102.87 66.04 180)
 			(uuid "75d9d3be-67b4-4422-abb6-4ad231cd5432")
 			(effects
@@ -2959,16 +3159,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 198.12 45.72 180)
-			(uuid "69a7fe82-15c2-4823-9c86-e8c4e7f0cd62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "RST_3V3" input

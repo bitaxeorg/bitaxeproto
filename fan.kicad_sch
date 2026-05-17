@@ -1700,7 +1700,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1840,7 +1862,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 168.91 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 168.91 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 168.91 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -1977,7 +2021,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 229.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 229.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 229.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2103,7 +2169,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 175.26 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 175.26 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -2241,7 +2329,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 250.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2384,7 +2494,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2521,7 +2653,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 111.76 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 111.76 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2658,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "LCSC" "C307331"
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2669,7 +2823,29 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "ALT1" ""
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2815,7 +2991,29 @@
 				)
 			)
 		)
-		(property "Height" ""
+		(property "ALT1" ""
+			(at 218.44 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 218.44 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 218.44 99.06 90)
 			(hide yes)
 			(show_name no)

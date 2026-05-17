@@ -670,7 +670,7 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
+          "label": "voltage",
           "name": "Voltage",
           "show": false
         },
@@ -706,14 +706,8 @@
         },
         {
           "group_by": false,
-          "label": "partnum",
+          "label": "Partnum",
           "name": "partnum",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "voltage",
-          "name": "voltage",
           "show": false
         },
         {
@@ -730,20 +724,8 @@
         },
         {
           "group_by": false,
-          "label": "Partnum",
-          "name": "Partnum",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "ALT1",
           "name": "ALT1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
           "show": false
         },
         {
@@ -751,11 +733,23 @@
           "label": "ME",
           "name": "ME",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -809,13 +803,13 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "L2-3,J8,U3-5,U8,U13-19,TP2,TP4,TP6,TP9-13,TP20-21,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,R12-16,R25-27,R55-60,R68-71",
+    "used_designators": "L2-3,J8,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,TP2,TP4,TP6,TP9-13,TP20-21,U3-5,U8,U13-19,R12-16,R25-27,R55-60,R68-71",
     "variants": []
   },
   "sheets": [
     [
       "61fe8d2c-9301-4ad9-8caf-c47acfa835b0",
-      "bitaxeProto-1102x"
+      "bitaxeProto"
     ],
     [
       "24036843-8461-4d4b-b738-f953c909ed6c",

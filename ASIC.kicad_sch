@@ -811,24 +811,26 @@
 				("21" "6")
 				("22" "5")
 			)
-			(property "Reference" "U"
-				(at 12.192 17.526 0)
+			(property "Reference" "A1"
+				(at -17.78 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ProtoMC3"
-				(at -12.446 17.526 0)
+				(at 6.096 -20.574 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "bitaxe:proto-mc3"
@@ -1463,24 +1465,26 @@
 				("21" "6")
 				("22" "5")
 			)
-			(property "Reference" "U"
-				(at 12.192 17.526 0)
+			(property "Reference" "A4"
+				(at -16.51 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ProtoMC3"
-				(at -12.446 17.526 0)
+				(at 6.096 -20.828 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "bitaxe:proto-mc3"
@@ -2105,14 +2109,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:TLV755P"
+		(symbol "bitaxe:SN74AVC2T45DCUR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 5.08 0)
+			(property "Reference" "U14"
+				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2121,8 +2125,237 @@
 					)
 				)
 			)
-			(property "Value" "TLV755P"
-				(at 5.08 5.08 0)
+			(property "Value" "SN74AVC2T45DCUR"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bitaxe:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74AVC2T45DCUR_SN74AVC2T45DCUR_C140318.html"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C140318"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74AVC2T45DCUR_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitaxe:TLV755P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U3"
+				(at -0.508 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV755075PDQNR"
+				(at -0.508 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2164,11 +2397,32 @@
 					)
 				)
 			)
-			(property "PARTNO" ""
+			(property "PARTNO" "TLV755075PDQNR"
 				(at 0 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "296-TLV755075PDQNRCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2189,7 +2443,7 @@
 				)
 			)
 			(symbol "TLV755P_1_0"
-				(pin bidirectional line
+				(pin power_out line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "VOUT"
@@ -2243,7 +2497,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "VIN"
@@ -2645,235 +2899,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxeBlock:SN74AVC2T45DCUR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74AVC2T45DCUR"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxeBlock:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74AVC2T45DCUR_SN74AVC2T45DCUR_C140318.html"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C140318"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74AVC2T45DCUR_0_1"
-				(rectangle
-					(start -10.16 6.35)
-					(end 10.16 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "DIR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 3.81 180)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "1.2V LDO"
 		(exclude_from_sim no)
@@ -3172,7 +3197,7 @@
 		(uuid "58f2ecd6-e844-4997-8c64-0adf8ff144a8")
 	)
 	(junction
-		(at 439.166 104.14)
+		(at 439.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58fbf709-a134-43db-beff-38d08884cef7")
@@ -3214,16 +3239,16 @@
 		(uuid "626cc7f9-7bbf-4f1f-8ed4-ccc275b975a2")
 	)
 	(junction
-		(at 135.89 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62fe57d8-0997-4c20-bf5b-66c2dc50ad42")
-	)
-	(junction
 		(at 199.39 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7e3db2-9559-4cda-b258-1bec0754870e")
+	)
+	(junction
+		(at 134.62 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fa5f3fd-65ba-46b0-bd8e-7727e6ab7ea1")
 	)
 	(junction
 		(at 190.5 96.52)
@@ -3250,7 +3275,7 @@
 		(uuid "7d0487db-d027-436b-a73e-b6259d9d9c9d")
 	)
 	(junction
-		(at 456.946 104.14)
+		(at 457.2 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7febf8fc-4935-400a-8e57-d2d56dc89dc0")
@@ -3508,12 +3533,12 @@
 		(uuid "fcf08ab5-dee2-485b-bf4e-742e354e4267")
 	)
 	(no_connect
-		(at 332.74 124.46)
-		(uuid "1f471dc4-34a8-476c-9ec8-a3e6c563706a")
+		(at 240.03 241.3)
+		(uuid "087beeb8-d751-4e14-98b3-629d1bb85f80")
 	)
 	(no_connect
-		(at 332.74 127)
-		(uuid "23f1ad69-c072-4d86-a184-eb11f10bf519")
+		(at 332.74 124.46)
+		(uuid "1f471dc4-34a8-476c-9ec8-a3e6c563706a")
 	)
 	(no_connect
 		(at 203.2 228.6)
@@ -3532,12 +3557,28 @@
 		(uuid "4d8887ca-606d-4a21-a798-6ab856286a87")
 	)
 	(no_connect
+		(at 203.2 241.3)
+		(uuid "4e57fa58-9e9b-4a65-846a-1db666a181fa")
+	)
+	(no_connect
 		(at 332.74 129.54)
 		(uuid "58f2a37b-2133-46b9-a464-b06fe44bf9a4")
 	)
 	(no_connect
+		(at 369.57 243.84)
+		(uuid "59fc05ae-85c1-4830-b166-184e3eaf0d4c")
+	)
+	(no_connect
 		(at 240.03 142.24)
 		(uuid "6164a4cf-7442-4cb3-9366-e7ce8d0c6fdf")
+	)
+	(no_connect
+		(at 369.57 241.3)
+		(uuid "67e2c1a8-b82d-4445-8043-d72cc1518e78")
+	)
+	(no_connect
+		(at 332.74 142.24)
+		(uuid "726f5339-aa24-40bd-b926-0833d7d6ca0d")
 	)
 	(no_connect
 		(at 203.2 223.52)
@@ -3578,6 +3619,10 @@
 	(no_connect
 		(at 332.74 228.6)
 		(uuid "edc0fb58-30d4-4257-a0fb-a8211e21a93d")
+	)
+	(no_connect
+		(at 332.74 241.3)
+		(uuid "f52e9ad5-4e29-4f16-a8fc-557251be11f6")
 	)
 	(wire
 		(pts
@@ -3798,16 +3843,6 @@
 			(type default)
 		)
 		(uuid "0ca90aa8-2871-4ffd-91cb-e08d0d4ceffd")
-	)
-	(wire
-		(pts
-			(xy 318.77 226.06) (xy 332.74 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d023070-f08d-436a-9cda-d950bd864a5c")
 	)
 	(wire
 		(pts
@@ -4291,16 +4326,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 278.13) (xy 137.16 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d0eec3b-d885-48d1-ac7e-c9208cbcd1be")
-	)
-	(wire
-		(pts
 			(xy 337.82 189.23) (xy 337.82 194.31)
 		)
 		(stroke
@@ -4721,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.166 111.76) (xy 439.166 104.14)
+			(xy 439.42 111.76) (xy 439.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +4786,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 278.13) (xy 135.89 278.13)
+			(xy 130.81 278.13) (xy 134.62 278.13)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5226,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 129.54) (xy 240.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a2fb7f-ccaf-46f5-bea6-f1c9b99799eb")
+	)
+	(wire
+		(pts
 			(xy 372.11 144.78) (xy 369.57 144.78)
 		)
 		(stroke
@@ -5461,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.246 111.76) (xy 439.166 111.76)
+			(xy 444.5 111.76) (xy 439.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5471,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 285.75) (xy 143.51 285.75)
+			(xy 134.62 285.75) (xy 143.51 285.75)
 		)
 		(stroke
 			(width 0)
@@ -5631,7 +5666,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.166 104.14) (xy 432.816 104.14)
+			(xy 439.42 104.14) (xy 433.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5731,7 +5766,7 @@
 	)
 	(wire
 		(pts
-			(xy 456.946 104.14) (xy 455.676 104.14)
+			(xy 457.2 104.14) (xy 455.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +5916,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 285.75) (xy 135.89 278.13)
+			(xy 134.62 285.75) (xy 134.62 278.13)
 		)
 		(stroke
 			(width 0)
@@ -5971,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.026 101.6) (xy 455.676 101.6)
+			(xy 462.28 101.6) (xy 455.93 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 440.436 101.6) (xy 432.816 101.6)
+			(xy 440.69 101.6) (xy 433.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6138,6 +6173,16 @@
 			(type default)
 		)
 		(uuid "8ab793ca-e6a1-479b-b61d-720ce9e6d02a")
+	)
+	(wire
+		(pts
+			(xy 276.86 228.6) (xy 240.03 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acec60c-feba-415a-b663-c08af064aa1a")
 	)
 	(wire
 		(pts
@@ -6381,7 +6426,7 @@
 	)
 	(wire
 		(pts
-			(xy 456.946 111.76) (xy 456.946 104.14)
+			(xy 457.2 111.76) (xy 457.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6531,6 +6576,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 127) (xy 276.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1cd6af-ddf6-46d8-b28d-3c2201620272")
+	)
+	(wire
+		(pts
 			(xy 401.32 243.84) (xy 410.21 243.84)
 		)
 		(stroke
@@ -6538,6 +6593,16 @@
 			(type default)
 		)
 		(uuid "9d9f868a-7f04-494b-b1fe-fadb0e49dfae")
+	)
+	(wire
+		(pts
+			(xy 134.62 278.13) (xy 137.16 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db6b5da-cfb2-4709-a0ff-f658ac3fd01a")
 	)
 	(wire
 		(pts
@@ -6678,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "a75970bc-16b4-4305-a982-1de761d17251")
+	)
+	(wire
+		(pts
+			(xy 332.74 226.06) (xy 276.86 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a784295e-6f3a-4148-8b1d-b204f5139515")
 	)
 	(wire
 		(pts
@@ -7231,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.026 104.14) (xy 456.946 104.14)
+			(xy 462.28 104.14) (xy 457.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7461,7 +7536,7 @@
 	)
 	(wire
 		(pts
-			(xy 440.436 104.14) (xy 439.166 104.14)
+			(xy 440.69 104.14) (xy 439.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7568,6 +7643,16 @@
 			(type default)
 		)
 		(uuid "e00feaef-a8db-4211-a5b0-35cdb731fe58")
+	)
+	(wire
+		(pts
+			(xy 276.86 127) (xy 276.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ffe6f6-fe0f-48d7-a390-522082f3e598")
 	)
 	(wire
 		(pts
@@ -7751,7 +7836,7 @@
 	)
 	(wire
 		(pts
-			(xy 456.946 111.76) (xy 449.326 111.76)
+			(xy 457.2 111.76) (xy 449.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7768,6 +7853,16 @@
 			(type default)
 		)
 		(uuid "e874599d-9f73-4e21-8ced-d1a43c88239b")
+	)
+	(wire
+		(pts
+			(xy 276.86 226.06) (xy 276.86 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87c8b30-0f60-46cc-8d3c-65e5bbac97fe")
 	)
 	(wire
 		(pts
@@ -8111,16 +8206,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 243.84) (xy 372.11 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe24690-fbb2-4570-adf4-11007ec92dd9")
-	)
-	(wire
-		(pts
 			(xy 351.79 105.41) (xy 351.79 109.22)
 		)
 		(stroke
@@ -8290,7 +8375,7 @@
 		(uuid "24740b21-1320-4ea3-aed2-874d8b4f4ef3")
 	)
 	(label "1V2-0"
-		(at 462.026 101.6 180)
+		(at 462.28 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8339,7 +8424,7 @@
 		)
 		(uuid "34c57cd5-7bf1-4fdc-ac79-0f3eb43e5ad0")
 	)
-	(label "5V"
+	(label "5V_SWITCH"
 		(at 482.6 241.3 0)
 		(effects
 			(font
@@ -8369,7 +8454,7 @@
 		)
 		(uuid "38229ce0-b299-4f8e-bf85-443a346f4504")
 	)
-	(label "5V"
+	(label "5V_SWITCH"
 		(at 482.6 128.27 0)
 		(effects
 			(font
@@ -8490,7 +8575,7 @@
 		(uuid "5857de14-6cac-4e21-850a-cbafef5c04d1")
 	)
 	(label "1V2"
-		(at 432.816 104.14 0)
+		(at 433.07 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8559,7 +8644,7 @@
 		)
 		(uuid "6f10a8da-cf2f-4a60-8078-e4cbf53b705f")
 	)
-	(label "5V"
+	(label "5V_SWITCH"
 		(at 482.6 214.63 0)
 		(effects
 			(font
@@ -8599,7 +8684,7 @@
 		)
 		(uuid "84c7cdd9-8e19-4726-ad50-a61b8ec30143")
 	)
-	(label "1V2_0"
+	(label "1V2-0"
 		(at 414.02 167.64 0)
 		(effects
 			(font
@@ -8640,7 +8725,7 @@
 		(uuid "924b91ed-2790-48eb-be3b-7961d1dbb3f7")
 	)
 	(label "CLKI-0"
-		(at 434.086 101.6 0)
+		(at 434.34 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8658,16 +8743,6 @@
 			(justify left bottom)
 		)
 		(uuid "94494e34-b483-4d61-81e2-0d95ce4a1364")
-	)
-	(label "nRST_1V2"
-		(at 318.77 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96554ae8-9462-4a06-8637-3317124e716b")
 	)
 	(label "1V2"
 		(at 130.81 275.59 0)
@@ -8879,7 +8954,7 @@
 		)
 		(uuid "d7696b1a-fc14-4f0f-9e98-f3488823a711")
 	)
-	(label "5V"
+	(label "5V_SWITCH"
 		(at 482.6 101.6 0)
 		(effects
 			(font
@@ -8960,7 +9035,7 @@
 		(uuid "f358c0e2-99b4-4f51-9773-4b7bbbeaa8bb")
 	)
 	(label "GND"
-		(at 462.026 104.14 180)
+		(at 462.28 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,6 +9119,17 @@
 		)
 		(uuid "1a01fd2a-3388-409d-8765-8ee89c8d0dca")
 	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 208.28 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30ecae36-7ee3-414f-8eae-b6145a5b00ca")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 62.23 180.34 180)
@@ -9066,7 +9152,7 @@
 		)
 		(uuid "62eedcfc-b1bf-40d0-9289-1e30b27b562a")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "5V_SWITCH"
 		(shape input)
 		(at 482.6 101.6 180)
 		(effects
@@ -9188,6 +9274,39 @@
 		)
 		(property "Mouser" ""
 			(at 254 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 254 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 254 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9320,6 +9439,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 189.23 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d90ac22e-efff-4e16-a239-2f7ee56d80aa")
 		)
@@ -9412,6 +9564,39 @@
 		)
 		(property "PARTNO" "RC0402FR-071KL"
 			(at 114.3 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 114.3 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9545,6 +9730,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 262.89 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62db9d3b-3404-4bc3-9cfe-2eeb143c8979")
 		)
@@ -9668,6 +9886,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 383.54 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "772dfd36-a3f1-48ad-9d84-2608e60c86f0")
 		)
@@ -9739,6 +9990,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 222.25 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 222.25 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9928,6 +10212,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 93.98 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 93.98 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98129ae8-07fb-4228-bb73-459ddcb0710b")
 		)
@@ -10052,6 +10369,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 410.21 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 410.21 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 410.21 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71d52780-77aa-4618-b816-a41891b85e29")
 		)
@@ -10069,7 +10419,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 432.816 101.6 90)
+		(at 433.07 101.6 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10080,7 +10430,7 @@
 		(dnp no)
 		(uuid "1066fc62-ae05-48db-bc02-d67027d56b0a")
 		(property "Reference" "TP11"
-			(at 428.498 101.6 90)
+			(at 428.752 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10091,7 +10441,7 @@
 			)
 		)
 		(property "Value" "CLKI"
-			(at 428.498 103.886 90)
+			(at 428.752 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10101,8 +10451,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 432.816 106.68 0)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 433.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,7 +10463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 432.816 106.68 0)
+			(at 433.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10474,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 432.816 101.6 0)
+			(at 433.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10485,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 432.816 101.6 0)
+			(at 433.07 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10146,7 +10496,40 @@
 			)
 		)
 		(property "Power" ""
-			(at 432.816 101.6 0)
+			(at 433.07 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 433.07 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 433.07 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 433.07 101.6 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10268,6 +10651,39 @@
 		)
 		(property "Power" ""
 			(at 410.21 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 410.21 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 410.21 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 410.21 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10400,6 +10816,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 318.77 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 318.77 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 318.77 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c81b6e9b-69cb-4205-b74b-76df97e7878c")
 		)
@@ -10524,6 +10973,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ce7a2c5-0796-40b7-ae6c-f8c653f2f579")
 		)
@@ -10616,6 +11098,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 248.92 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 248.92 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 248.92 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 248.92 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -10737,6 +11252,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 509.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 509.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 509.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b0d8d887-650a-45d1-b18a-2054a0e0c8a8")
 		)
@@ -10825,7 +11373,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "TLV75512PDQNR"
+		(property "PARTNO" "TLV755075PDQNR"
 			(at 509.27 147.828 0)
 			(hide yes)
 			(show_name no)
@@ -10836,7 +11384,7 @@
 				)
 			)
 		)
-		(property "DK" "296-51785-1-ND"
+		(property "DK" "296-TLV755075PDQNRCT-ND"
 			(at 509.27 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10849,6 +11397,39 @@
 		)
 		(property "Power" ""
 			(at 509.27 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 509.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 509.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 509.27 129.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10958,6 +11539,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 254 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 254 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 254 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -11092,6 +11706,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 401.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 401.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 401.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ea1b68a-9da4-4edc-8684-f5e5655b75b4")
 		)
@@ -11208,6 +11855,39 @@
 		)
 		(property "Power" ""
 			(at 328.93 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 328.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 328.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 328.93 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11340,6 +12020,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 198.12 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 198.12 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 198.12 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea781557-c3c6-42a2-bec7-6003bc3b21bb")
 		)
@@ -11442,6 +12155,39 @@
 			)
 		)
 		(property "LCSC" "C5137262"
+			(at 144.78 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 144.78 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 144.78 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 144.78 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -11582,6 +12328,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 190.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff3b88ca-3688-452d-ae8a-f01507440524")
 		)
@@ -11698,6 +12477,39 @@
 		)
 		(property "Power" ""
 			(at 199.39 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11830,6 +12642,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 383.54 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43ccdc81-be55-436a-85a2-eac3678856c9")
 		)
@@ -11945,6 +12790,39 @@
 		)
 		(property "Mouser" ""
 			(at 262.89 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 262.89 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 204.47 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12077,6 +12955,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 130.81 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4cc153e0-c1f3-4af4-98e4-ce17e72d6bb5")
 		)
@@ -12193,6 +13104,39 @@
 		)
 		(property "Power" ""
 			(at 181.61 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12325,6 +13269,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 181.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 181.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a03f0e1-f0ff-4f0d-81c7-f316a92fbeae")
 		)
@@ -12449,6 +13426,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 207.01 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 207.01 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 207.01 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f3d465c-8c8c-403b-8c1e-32d0444e313d")
 		)
@@ -12520,6 +13530,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 351.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 351.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 351.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12732,6 +13775,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 309.88 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 309.88 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 309.88 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "330863e1-3e46-4d86-9879-1822992abd30")
 		)
@@ -12848,6 +13924,39 @@
 		)
 		(property "Power" ""
 			(at 311.15 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 311.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12980,6 +14089,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 327.66 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 327.66 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 327.66 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52aaf584-cc7c-4ee1-8c9c-5759d88dbe04")
 		)
@@ -13095,6 +14237,39 @@
 		)
 		(property "Mouser" ""
 			(at 392.43 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 392.43 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 392.43 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 392.43 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13228,6 +14403,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 525.78 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 525.78 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 525.78 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f7d1200-296d-40ec-bf12-db4b88f137ca")
 		)
@@ -13322,6 +14530,39 @@
 		)
 		(property "DK" "497-11991-1-ND"
 			(at 86.614 145.034 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 97.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13465,6 +14706,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc5670f6-b895-4de4-9040-be420c4de4a7")
 		)
@@ -13581,6 +14855,39 @@
 		)
 		(property "Power" ""
 			(at 254 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 254 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13713,6 +15020,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 320.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 320.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 320.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01afc0df-a87f-4250-8b74-612fb7f4203b")
 		)
@@ -13829,6 +15169,39 @@
 		)
 		(property "Mouser" ""
 			(at 336.55 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 336.55 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 336.55 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 336.55 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13961,6 +15334,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 318.77 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 318.77 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 318.77 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d797ea1-9042-45f7-b2ac-423e2a110a76")
 		)
@@ -14076,6 +15482,39 @@
 		)
 		(property "Mouser" ""
 			(at 245.11 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 245.11 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14208,6 +15647,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 491.49 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 491.49 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 491.49 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a2c4ae0-c058-4465-95fe-87d9c3d4ef8a")
 		)
@@ -14324,6 +15796,39 @@
 		)
 		(property "Mouser" ""
 			(at 336.55 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 336.55 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 336.55 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 336.55 204.47 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14457,6 +15962,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 525.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 525.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 525.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49f4e947-d4d7-4f37-a678-1f98991ccd54")
 		)
@@ -14573,6 +16111,39 @@
 		)
 		(property "Power" ""
 			(at 133.35 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 133.35 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14705,6 +16276,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aad9f3f2-a6e3-439f-8bdf-2e5d5fdd32cf")
 		)
@@ -14820,6 +16424,39 @@
 		)
 		(property "Mouser" ""
 			(at 383.54 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 383.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14952,6 +16589,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 198.12 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 198.12 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 198.12 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "987843b7-ac13-4854-9c6c-24658d1ec863")
 		)
@@ -15076,6 +16746,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 280.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 280.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 280.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d67f83ab-7679-4ca0-a04b-972e59c49a16")
 		)
@@ -15168,6 +16871,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 254 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 254 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 254 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -15302,6 +17038,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d312c73-9df2-45a0-8aa2-24ac5ae5a34d")
 		)
@@ -15404,6 +17173,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 383.54 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "706e988c-b4cf-455a-bac3-f857973666ad")
 		)
@@ -15475,6 +17277,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 351.79 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 351.79 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 351.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15688,6 +17523,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 525.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 525.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 525.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16f9d2e8-0e61-4dee-b855-a3e4179f30c4")
 		)
@@ -15780,6 +17648,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 378.46 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 378.46 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 378.46 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 378.46 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -15914,6 +17815,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 309.88 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 309.88 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 309.88 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83d8b039-9e2d-42b0-a951-66c60cd01042")
 		)
@@ -16030,6 +17964,39 @@
 		)
 		(property "Power" ""
 			(at 130.81 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16162,6 +18129,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 383.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c44a288-52ed-47cd-92ee-de11e178b87e")
 		)
@@ -16286,6 +18286,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1fca52f-3b25-4b5c-954f-6cb69d9966da")
 		)
@@ -16357,6 +18390,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 222.25 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 222.25 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 222.25 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16568,6 +18634,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 254 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 254 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81329077-a604-4ff2-821f-50e149cf918c")
 		)
@@ -16660,6 +18759,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 248.92 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 248.92 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 248.92 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 248.92 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -16794,6 +18926,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b056e62-498a-42e7-b7de-da23e1aaa277")
 		)
@@ -16810,7 +18975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxeBlock:SN74AVC2T45DCUR")
+		(lib_id "bitaxe:SN74AVC2T45DCUR")
 		(at 101.6 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -16841,7 +19006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxeBlock:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
+		(property "Footprint" "bitaxe:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
 			(at 101.6 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -16876,6 +19041,39 @@
 		)
 		(property "LCSC Part" "C140318"
 			(at 101.6 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 101.6 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16920,7 +19118,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 446.786 111.76 270)
+		(at 447.04 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16931,7 +19129,7 @@
 		(dnp no)
 		(uuid "9ca8859f-0735-4abc-a782-a7cd93bf8895")
 		(property "Reference" "C52"
-			(at 447.548 112.522 90)
+			(at 447.802 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16942,7 +19140,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 440.182 112.522 90)
+			(at 440.436 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16953,7 +19151,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16964,7 +19162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16975,7 +19173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16986,7 +19184,7 @@
 			)
 		)
 		(property "DK" "1276-1234-1-ND"
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16997,7 +19195,7 @@
 			)
 		)
 		(property "PARTNO" "CL05A104KO5NNNC"
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +19206,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17018,7 +19216,40 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 446.786 111.76 0)
+			(at 447.04 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 447.04 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 447.04 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 447.04 111.76 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17150,6 +19381,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 262.89 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94f0c76d-89d0-459f-8e49-980569e40018")
 		)
@@ -17273,6 +19537,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 374.65 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 374.65 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 374.65 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fef6532f-bbf7-43af-a4d2-0aa72e47bc15")
 		)
@@ -17388,6 +19685,39 @@
 		)
 		(property "Mouser" ""
 			(at 392.43 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 392.43 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 392.43 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 392.43 204.47 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17520,6 +19850,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 337.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 337.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 337.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42fe6a61-e0d0-49ff-ac06-708ecea1b8f9")
 		)
@@ -17636,6 +19999,39 @@
 		)
 		(property "Power" ""
 			(at 491.49 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 491.49 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 491.49 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 491.49 246.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17767,6 +20163,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 146.05 285.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 285.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 285.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92617977-b936-417a-bfff-08e1a9182ce1")
 		)
@@ -17860,6 +20289,39 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -17993,6 +20455,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 236.22 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 236.22 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17ec1dcb-d9bd-4408-804c-616b2c7a2dca")
 		)
@@ -18041,7 +20536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 532.13 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18087,6 +20582,39 @@
 		)
 		(property "Power" ""
 			(at 532.13 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 532.13 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 101.6 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18171,7 +20699,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "TLV75512PDQNR"
+		(property "PARTNO" "TLV755075PDQNR"
 			(at 509.27 260.858 0)
 			(hide yes)
 			(show_name no)
@@ -18182,7 +20710,7 @@
 				)
 			)
 		)
-		(property "DK" "296-51785-1-ND"
+		(property "DK" "296-TLV755075PDQNRCT-ND"
 			(at 509.27 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18195,6 +20723,39 @@
 		)
 		(property "Power" ""
 			(at 509.27 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 509.27 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 509.27 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 509.27 242.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18336,6 +20897,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 189.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "073d502d-c42e-4986-aeb9-a292bb7feb53")
 		)
@@ -18452,6 +21046,39 @@
 		)
 		(property "Power" ""
 			(at 392.43 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 392.43 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 392.43 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 392.43 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18584,6 +21211,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 199.39 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "377c3b4d-b65c-4a90-8d9e-d0221982c8b9")
 		)
@@ -18700,6 +21360,39 @@
 		)
 		(property "Power" ""
 			(at 392.43 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 392.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 392.43 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 392.43 237.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18832,6 +21525,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 208.28 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 208.28 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 208.28 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab2f00a1-48e9-433d-826a-5f7d5f98ec32")
 		)
@@ -18880,7 +21606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 532.13 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -18926,6 +21652,39 @@
 		)
 		(property "Power" ""
 			(at 532.13 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 532.13 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 241.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 241.3 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19047,6 +21806,39 @@
 		)
 		(property "Power" ""
 			(at 401.32 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 401.32 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 401.32 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 401.32 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19179,6 +21971,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 491.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 491.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 491.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31554fa7-4e5b-430d-92e8-022140e269ec")
 		)
@@ -19272,6 +22097,39 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
+			(at 147.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 147.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -19406,6 +22264,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 327.66 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 327.66 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 327.66 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd96a1ba-c193-4258-a5e2-ca2b27606be0")
 		)
@@ -19522,6 +22413,39 @@
 		)
 		(property "Mouser" ""
 			(at 207.01 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 207.01 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 207.01 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 207.01 204.47 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19653,6 +22577,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 236.22 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 236.22 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "003da9f4-c280-48f4-a45f-de28e191efe7")
 		)
@@ -19701,7 +22658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 532.13 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19747,6 +22704,39 @@
 		)
 		(property "Power" ""
 			(at 532.13 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 532.13 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 128.27 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19800,7 +22790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 532.13 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19846,6 +22836,39 @@
 		)
 		(property "Power" ""
 			(at 532.13 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 532.13 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 532.13 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 532.13 214.63 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19967,6 +22990,39 @@
 		)
 		(property "Power" ""
 			(at 337.82 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 337.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 337.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 337.82 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20098,6 +23154,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 245.11 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd2e63b9-b1d3-4fd7-9f42-6622e556e38e")
 		)
@@ -20221,6 +23310,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 365.76 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 365.76 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 365.76 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "592ab66f-2f3a-4fab-a65a-76695e4de327")
 		)
@@ -20313,6 +23435,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 378.46 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 378.46 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 378.46 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 378.46 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -20448,6 +23603,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 525.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 525.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 525.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26376039-3aa7-4e15-a43e-5563b9b45e94")
 		)
@@ -20496,7 +23684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 160.02 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -20542,6 +23730,39 @@
 		)
 		(property "Power" ""
 			(at 160.02 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 160.02 275.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 160.02 275.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 275.59 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20650,6 +23871,39 @@
 		)
 		(property "Power" ""
 			(at 509.27 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 509.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 509.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 509.27 215.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20790,6 +24044,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 365.76 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 365.76 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 365.76 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cc31bf0-b3c2-44ef-906a-b6a9e36c7c4a")
 		)
@@ -20906,6 +24193,39 @@
 		)
 		(property "Power" ""
 			(at 320.04 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 320.04 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 320.04 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 320.04 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21038,6 +24358,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0661ec8d-60e9-46d5-8cb6-8c2964c2dc4c")
 		)
@@ -21130,6 +24483,39 @@
 			)
 		)
 		(property "PARTNO" "BLM18BB750SN1D"
+			(at 383.54 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 383.54 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 383.54 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -21264,6 +24650,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 254 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 254 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 254 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b5bdc12-30bd-4779-a39c-a09b6db18a1a")
 		)
@@ -21281,7 +24700,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:oscillator")
-		(at 448.056 102.87 0)
+		(at 448.31 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21292,7 +24711,7 @@
 		(dnp no)
 		(uuid "edb251cc-f757-4f84-8202-3b5104412795")
 		(property "Reference" "U15"
-			(at 451.866 97.79 0)
+			(at 452.12 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21302,7 +24721,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 446.151 107.95 0)
+			(at 446.405 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21312,7 +24731,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:SMD3225-4P"
-			(at 449.326 104.14 0)
+			(at 449.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21323,7 +24742,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sctf-crystal.com/data/upload/admin/20240419/3CV-Series-2024-04-19.pdf"
-			(at 449.326 104.14 0)
+			(at 449.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21334,7 +24753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 448.056 102.87 0)
+			(at 448.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21345,7 +24764,7 @@
 			)
 		)
 		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
-			(at 448.056 102.87 0)
+			(at 448.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21356,7 +24775,7 @@
 			)
 		)
 		(property "PARTNO" "SX3M25.000E20F30THN"
-			(at 448.056 102.87 0)
+			(at 448.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21367,7 +24786,40 @@
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 448.056 102.87 0)
+			(at 448.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 448.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 448.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 448.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21507,6 +24959,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 180.34 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5272e447-fa72-42a9-b7d2-ea01f3236187")
 		)
@@ -21631,6 +25116,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 328.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 328.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 328.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1da5bc6-f0cf-4826-94f7-81a69e0a07f0")
 		)
@@ -21746,6 +25264,39 @@
 		)
 		(property "Mouser" ""
 			(at 374.65 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 374.65 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 374.65 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 374.65 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21878,6 +25429,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "723a6b87-42c6-405d-86f5-75d4e771b42f")
 		)
@@ -21994,6 +25578,39 @@
 		)
 		(property "Mouser" ""
 			(at 180.34 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 180.34 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.34 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 204.47 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22126,6 +25743,39 @@
 				)
 			)
 		)
+		(property "ALT1" ""
+			(at 491.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 491.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 491.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "829ba988-4613-4474-9c15-6d1a130eb52b")
 		)
@@ -22143,7 +25793,7 @@
 	)
 	(sheet
 		(at 417.83 176.53)
-		(size 26.67 22.86)
+		(size 18.542 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22157,7 +25807,7 @@
 		)
 		(uuid "63642d1f-2be8-4086-b0fd-62c788dcf98f")
 		(property "Sheetname" "Level Shifter"
-			(at 445.516 197.866 0)
+			(at 437.642 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22168,7 +25818,7 @@
 			)
 		)
 		(property "Sheetfile" "level_shifter.kicad_sch"
-			(at 445.262 198.882 0)
+			(at 437.388 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

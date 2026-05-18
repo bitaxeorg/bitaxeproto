@@ -8574,7 +8574,7 @@
 		)
 		(uuid "5857de14-6cac-4e21-850a-cbafef5c04d1")
 	)
-	(label "1V2"
+	(label "1V2-0"
 		(at 433.07 104.14 0)
 		(effects
 			(font

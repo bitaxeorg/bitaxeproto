@@ -3,10 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "U14"
 		(at 0 -4.75 0)
 		(layer "F.SilkS")
-		(uuid "c2e94cca-9db7-4ea5-88e5-2a520bac9df7")
+		(hide yes)
+		(uuid "fba82404-ee0c-4707-97e1-e60b4930c495")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
+	(property "Value" "SN74AVC2T45DCUR"
 		(at 0 4.75 0)
 		(layer "F.Fab")
-		(uuid "27d11622-405a-4464-b4df-c65a8ca97dac")
+		(uuid "8d46945d-570c-4253-86d9-abfca5baf294")
 		(effects
 			(font
 				(size 1 1)
@@ -25,11 +26,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74AVC2T45DCUR_SN74AVC2T45DCUR_C140318.html"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dd0ab18a-0784-46d7-a8ad-bc2d4e3de20c")
+		(uuid "bea48fda-0b5a-45b5-b09c-e2b766cdf285")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,13 +41,67 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4f3997b0-5be7-4193-bfbd-8e840ca4daa7")
+		(uuid "ec5dd478-a3c9-47a6-975d-39d00bb9e0b1")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "LCSC Part" "C140318"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83f2bea9-1e5c-424e-808a-f9c496cc4bc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALT1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfc77ec5-5bc6-4d2a-9856-fb4d9fd78ee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba81309e-65d2-4238-a005-169314c476fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "772b50e4-5841-4039-9b8d-f1878d5b9eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ASIC/")
+	(sheetfile "ASIC.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
@@ -58,7 +113,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "127a4d13-42be-4f50-a086-1844f52eea1b")
+		(uuid "73733111-dc5f-4e9d-ae17-ce3f7ec32eed")
 	)
 	(fp_poly
 		(pts
@@ -70,12 +125,12 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "111b40ef-8096-4945-b4fd-e7c0bedc7229")
+		(uuid "d81b937d-4a91-445e-b3b2-0f2fe5321d7f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "6c7f751a-0bfd-4812-aec3-9a60d5d25c67")
+		(uuid "bb0f24b3-0fe0-4c54-a805-f8e2f7101601")
 		(effects
 			(font
 				(size 1 1)
@@ -88,56 +143,56 @@
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a52c7be3-2c1e-4bc8-aabd-70b61dcb4fe7")
+		(uuid "3aaf44ab-2abf-4f39-94f0-38d821bb6f52")
 	)
 	(pad "2" smd roundrect
 		(at 1.55 0.25)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ce281a7d-3f0b-4c0f-bc72-c58a86cd8b96")
+		(uuid "84242a0c-b2d2-42d4-a7c1-0272bfa1daeb")
 	)
 	(pad "3" smd roundrect
 		(at 1.55 -0.25)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "b534432d-618c-4253-a26c-ebb5b341a8b0")
+		(uuid "8f7a3860-314b-42d5-be10-36d8f1daafb0")
 	)
 	(pad "4" smd roundrect
 		(at 1.55 -0.75)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "98e7669f-d647-440d-820a-8e2170496a89")
+		(uuid "935c1f95-37a9-4e64-8de8-e401238f4ef7")
 	)
 	(pad "5" smd roundrect
 		(at -1.55 -0.75)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "8bc2747a-3a38-4085-81e3-3152cf9f4836")
+		(uuid "f6c0f53c-89fb-4fb0-a1fe-0654854821b1")
 	)
 	(pad "6" smd roundrect
 		(at -1.55 -0.25)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "9ab1489e-d733-4193-9f45-d1b66e522b07")
+		(uuid "cd36f7d5-f8d3-4134-b83a-8eadef65240b")
 	)
 	(pad "7" smd roundrect
 		(at -1.55 0.25)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "13f733e8-6f26-43a2-b647-296f16010a31")
+		(uuid "96601bb5-f51e-47da-907e-d8ac38c3a6a2")
 	)
 	(pad "8" smd roundrect
 		(at -1.55 0.75)
 		(size 0.75 0.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "5c7de0a0-32e8-4b9a-b739-01f90c7f1042")
+		(uuid "a6285965-98ad-4d13-8546-bddc1ff7c5b3")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dshapes/VSSOP-8_L2.0-W2.3-H0.9-LS3.1-P0.50.step"
@@ -148,7 +203,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 180)
+			(xyz 0 0 180)
 		)
 	)
 )

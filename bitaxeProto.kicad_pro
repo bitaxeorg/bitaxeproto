@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -136,11 +136,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -536,9 +536,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "bitaxeProto-1102x"
+      "bitaxeProto-1102x",
+      "bitaxeProto"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "bitaxeProto"
+    ]
   },
   "meta": {
     "filename": "bitaxeProto.kicad_pro",
@@ -803,7 +806,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "L2-3,J8,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,TP2,TP4,TP6,TP9-13,TP20-21,U3-5,U8,U13-19,R12-16,R25-27,R55-60,R68-71",
+    "used_designators": "L2-3,J8,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,TP2,TP4,TP6,TP9-13,TP20-21,U1,U3-6,U8,U13-19,R12-16,R25-27,R55-60,R68-71",
     "variants": []
   },
   "sheets": [

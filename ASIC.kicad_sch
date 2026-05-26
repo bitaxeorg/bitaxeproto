@@ -291,173 +291,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2912,7 +2745,7 @@
 	)
 	(text "Direction Control\nHIGH= A -> B\nLOW = A <- B"
 		(exclude_from_sim no)
-		(at 101.854 194.818 0)
+		(at 114.554 229.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3245,7 +3078,7 @@
 		(uuid "6f7e3db2-9559-4cda-b258-1bec0754870e")
 	)
 	(junction
-		(at 134.62 278.13)
+		(at 104.14 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa5f3fd-65ba-46b0-bd8e-7727e6ab7ea1")
@@ -3287,7 +3120,7 @@
 		(uuid "80fa6200-698a-47b5-a26b-0aa9d9c801ac")
 	)
 	(junction
-		(at 153.67 278.13)
+		(at 123.19 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85282f80-51e5-4979-bd8f-1a07fa070544")
@@ -3359,7 +3192,7 @@
 		(uuid "a39cc30c-2f21-42cf-8da5-c0d37b902c80")
 	)
 	(junction
-		(at 83.82 199.39)
+		(at 96.52 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a492816e-482f-4e19-b59f-7c4042043cf2")
@@ -3626,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 275.59) (xy 160.02 275.59)
+			(xy 121.92 246.38) (xy 129.54 246.38)
 		)
 		(stroke
 			(width 0)
@@ -3936,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 187.96) (xy 83.82 187.96)
+			(xy 101.6 222.25) (xy 96.52 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 278.13) (xy 160.02 278.13)
+			(xy 123.19 248.92) (xy 129.54 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 180.34) (xy 133.35 190.5)
+			(xy 146.05 214.63) (xy 146.05 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4046,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 199.39) (xy 83.82 199.39)
+			(xy 146.05 233.68) (xy 96.52 233.68)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 185.42) (xy 78.74 185.42)
+			(xy 101.6 219.71) (xy 91.44 219.71)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4079,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.14 183.134) (xy 102.87 181.864)
+			(xy 116.84 217.424) (xy 115.57 216.154)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 233.68) (xy 246.38 233.68)
+			(xy 240.03 233.68) (xy 254 233.68)
 		)
 		(stroke
 			(width 0)
@@ -4274,19 +4107,9 @@
 		)
 		(uuid "28ccd50c-18a4-4afd-92af-8503c1943a2c")
 	)
-	(wire
-		(pts
-			(xy 256.54 231.14) (xy 271.78 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e21f2c-9bc4-4626-a1ef-05ef82238a82")
-	)
 	(polyline
 		(pts
-			(xy 104.14 185.674) (xy 102.87 184.404)
+			(xy 116.84 219.964) (xy 115.57 218.694)
 		)
 		(stroke
 			(width 0)
@@ -4606,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 187.96) (xy 124.46 187.96)
+			(xy 127 222.25) (xy 137.16 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 231.14) (xy 251.46 231.14)
+			(xy 240.03 231.14) (xy 271.78 231.14)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 278.13) (xy 134.62 278.13)
+			(xy 100.33 248.92) (xy 104.14 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 180.34) (xy 133.35 180.34)
+			(xy 127 214.63) (xy 146.05 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4996,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 180.34) (xy 62.23 190.5)
+			(xy 74.93 214.63) (xy 74.93 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +4939,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 195.58) (xy 133.35 199.39)
+			(xy 146.05 229.87) (xy 146.05 233.68)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +4999,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 182.88) (xy 114.3 182.88)
+			(xy 137.16 217.17) (xy 127 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 182.88) (xy 78.74 182.88)
+			(xy 101.6 217.17) (xy 91.44 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5466,16 +5289,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 233.68) (xy 383.54 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67710c57-d8b8-4cf0-b678-f614b7aa8c9c")
-	)
-	(wire
-		(pts
 			(xy 337.82 82.55) (xy 337.82 86.36)
 		)
 		(stroke
@@ -5506,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 285.75) (xy 143.51 285.75)
+			(xy 104.14 256.54) (xy 113.03 256.54)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +5359,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 185.42) (xy 114.3 185.42)
+			(xy 137.16 219.71) (xy 127 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 278.13) (xy 153.67 278.13)
+			(xy 121.92 248.92) (xy 123.19 248.92)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +5629,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 132.08) (xy 381 132.08)
+			(xy 369.57 132.08) (xy 401.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5826,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 187.96) (xy 83.82 199.39)
+			(xy 96.52 222.25) (xy 96.52 233.68)
 		)
 		(stroke
 			(width 0)
@@ -5853,16 +5666,6 @@
 			(type default)
 		)
 		(uuid "7b919e8a-f11f-4f27-bf47-833ecf0dc02b")
-	)
-	(wire
-		(pts
-			(xy 386.08 132.08) (xy 401.32 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5df8e1-571f-4db5-87e6-fb3d83e39fd4")
 	)
 	(wire
 		(pts
@@ -5916,7 +5719,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 285.75) (xy 134.62 278.13)
+			(xy 104.14 256.54) (xy 104.14 248.92)
 		)
 		(stroke
 			(width 0)
@@ -5936,7 +5739,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.14 185.674) (xy 99.06 185.674)
+			(xy 116.84 219.964) (xy 111.76 219.964)
 		)
 		(stroke
 			(width 0)
@@ -6136,16 +5939,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 271.78 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0c3e0c-bf19-403e-a3b6-76da90fa5fa8")
-	)
-	(wire
-		(pts
 			(xy 440.69 101.6) (xy 433.07 101.6)
 		)
 		(stroke
@@ -6316,7 +6109,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 233.68) (xy 375.92 233.68)
+			(xy 369.57 233.68) (xy 383.54 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6333,26 +6126,6 @@
 			(type default)
 		)
 		(uuid "925bddb5-69a1-49bd-8c9c-8f4f79ccf4cd")
-	)
-	(wire
-		(pts
-			(xy 386.08 231.14) (xy 401.32 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92eff1ea-d717-4d55-9d90-e76d9ca7753d")
-	)
-	(wire
-		(pts
-			(xy 381 134.62) (xy 383.54 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930f3f97-ed02-4770-bb4d-726c47013775")
 	)
 	(wire
 		(pts
@@ -6463,16 +6236,6 @@
 			(type default)
 		)
 		(uuid "97b2c669-f09d-4502-8f17-afbb255ca589")
-	)
-	(wire
-		(pts
-			(xy 251.46 233.68) (xy 254 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d7efc9-6b3f-4d6e-a410-d768eb754a2d")
 	)
 	(wire
 		(pts
@@ -6596,7 +6359,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 278.13) (xy 137.16 278.13)
+			(xy 104.14 248.92) (xy 106.68 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7146,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 199.39) (xy 62.23 195.58)
+			(xy 74.93 233.68) (xy 74.93 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7186,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 132.08) (xy 251.46 132.08)
+			(xy 240.03 132.08) (xy 271.78 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7266,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 180.34) (xy 62.23 180.34)
+			(xy 101.6 214.63) (xy 74.93 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7276,7 +7039,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 134.62) (xy 246.38 134.62)
+			(xy 240.03 134.62) (xy 254 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7406,7 +7169,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 231.14) (xy 381 231.14)
+			(xy 369.57 231.14) (xy 401.32 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7626,7 +7389,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 285.75) (xy 153.67 285.75)
+			(xy 118.11 256.54) (xy 123.19 256.54)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7509,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 134.62) (xy 375.92 134.62)
+			(xy 369.57 134.62) (xy 383.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7806,7 +7569,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 285.75) (xy 153.67 278.13)
+			(xy 123.19 256.54) (xy 123.19 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7886,7 +7649,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 275.59) (xy 137.16 275.59)
+			(xy 100.33 246.38) (xy 106.68 246.38)
 		)
 		(stroke
 			(width 0)
@@ -7903,16 +7666,6 @@
 			(type default)
 		)
 		(uuid "ea5d72e6-47e7-4f20-95b0-5a4e57ffa352")
-	)
-	(wire
-		(pts
-			(xy 251.46 134.62) (xy 254 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea602ce7-5681-4b8d-ab02-f5042bc50b1b")
 	)
 	(wire
 		(pts
@@ -7946,7 +7699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.14 183.134) (xy 99.06 183.134)
+			(xy 116.84 217.424) (xy 111.76 217.424)
 		)
 		(stroke
 			(width 0)
@@ -8006,7 +7759,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 199.39) (xy 62.23 199.39)
+			(xy 96.52 233.68) (xy 74.93 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8415,7 +8168,7 @@
 		(uuid "31975c9a-92d1-471b-b255-1d3d3bee7b38")
 	)
 	(label "CLKI"
-		(at 158.75 275.59 180)
+		(at 128.27 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8525,7 +8278,7 @@
 		(uuid "46562ed1-a64b-4c38-b990-935fc3c55b5f")
 	)
 	(label "RST_1V2"
-		(at 124.46 185.42 180)
+		(at 137.16 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,7 +8318,7 @@
 		(uuid "53cd6685-74c5-4581-9350-18f095450a28")
 	)
 	(label "1V2"
-		(at 124.46 187.96 180)
+		(at 137.16 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8605,7 +8358,7 @@
 		(uuid "63c090c2-04ce-4131-a956-088b20cd95fa")
 	)
 	(label "3V3"
-		(at 78.74 180.34 0)
+		(at 91.44 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8695,7 +8448,7 @@
 		(uuid "885aa3a2-5a27-4c19-91db-9437de69ba21")
 	)
 	(label "RX_1V2"
-		(at 124.46 182.88 180)
+		(at 137.16 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8745,7 +8498,7 @@
 		(uuid "94494e34-b483-4d61-81e2-0d95ce4a1364")
 	)
 	(label "1V2"
-		(at 130.81 275.59 0)
+		(at 100.33 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8775,7 +8528,7 @@
 		(uuid "9d55b263-cf66-49fc-b618-bf1a4805dbbf")
 	)
 	(label "1V2"
-		(at 130.81 180.34 180)
+		(at 143.51 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8805,7 +8558,7 @@
 		(uuid "a3c2c15c-4f3e-4af1-9fb1-90b1fdff14da")
 	)
 	(label "GND"
-		(at 130.81 278.13 0)
+		(at 100.33 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8895,7 +8648,7 @@
 		(uuid "c3b20a27-54e9-492f-8997-b761ceef7047")
 	)
 	(label "1V2"
-		(at 160.02 278.13 180)
+		(at 129.54 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9034,7 +8787,7 @@
 		)
 		(uuid "f358c0e2-99b4-4f51-9773-4b7bbbeaa8bb")
 	)
-	(label "GND"
+	(label "GND0"
 		(at 462.28 104.14 180)
 		(effects
 			(font
@@ -9132,7 +8885,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 62.23 180.34 180)
+		(at 74.93 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9143,7 +8896,7 @@
 	)
 	(hierarchical_label "RX_3V3"
 		(shape input)
-		(at 78.74 182.88 180)
+		(at 91.44 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9165,7 +8918,7 @@
 	)
 	(hierarchical_label "RST_3V3"
 		(shape input)
-		(at 78.74 185.42 180)
+		(at 91.44 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11022,141 +10775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 248.92 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c3d4c20-f0ba-46af-9491-98f52c049961")
-		(property "Reference" "FB9"
-			(at 246.126 133.604 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 248.8819 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 248.92 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 248.92 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 248.92 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 248.92 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 248.92 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 248.92 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 248.92 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40be5e5c-2141-48a2-bc2e-240cdabf17ff")
-		)
-		(pin "1"
-			(uuid "bea79250-eda4-417e-9d99-0378e3d8dd1b")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:TLV755P")
 		(at 509.27 102.87 0)
 		(unit 1)
@@ -11457,141 +11075,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 254 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28982538-9a2b-4112-ac1c-1293d551df63")
-		(property "Reference" "FB10"
-			(at 251.206 131.064 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 253.9619 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 254 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 254 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 254 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 254 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 254 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 254 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 254 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fe607ebd-38d5-4d8c-a506-bf6624ae0b2e")
-		)
-		(pin "1"
-			(uuid "d7179e2c-cadb-4201-ac6d-d6ef5abccbd5")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB10")
 					(unit 1)
 				)
 			)
@@ -12070,7 +11553,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:oscillator")
-		(at 144.78 276.86 0)
+		(at 114.3 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12080,7 +11563,7 @@
 		(dnp no)
 		(uuid "36168438-7325-4058-a893-0b9358694379")
 		(property "Reference" "U8"
-			(at 140.97 271.78 0)
+			(at 110.49 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12090,7 +11573,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 146.685 281.94 0)
+			(at 116.205 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12100,7 +11583,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:SMD3225-4P"
-			(at 143.51 278.13 0)
+			(at 113.03 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +11594,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sctf-crystal.com/data/upload/admin/20240419/3CV-Series-2024-04-19.pdf"
-			(at 143.51 278.13 0)
+			(at 113.03 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12122,7 +11605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +11616,7 @@
 			)
 		)
 		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12144,7 +11627,7 @@
 			)
 		)
 		(property "PARTNO" "SX3M25.000E20F30THN"
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12155,7 +11638,7 @@
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12166,7 +11649,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12177,7 +11660,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,7 +11671,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 144.78 276.86 0)
+			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14598,7 +14081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 62.23 193.04 0)
+		(at 74.93 227.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14609,7 +14092,7 @@
 		(dnp no)
 		(uuid "5918e83f-bab5-4810-a244-d6f0ac383c6c")
 		(property "Reference" "C61"
-			(at 56.134 192.278 0)
+			(at 68.834 226.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14620,7 +14103,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 54.61 194.564 0)
+			(at 67.31 228.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14631,7 +14114,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14642,7 +14125,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14653,7 +14136,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14664,7 +14147,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14675,7 +14158,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14686,7 +14169,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14697,7 +14180,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14707,7 +14190,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,7 +14201,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14212,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 62.23 193.04 0)
+			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16012,7 +15495,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 133.35 193.04 0)
+		(at 146.05 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16022,7 +15505,7 @@
 		(dnp no)
 		(uuid "702d299e-fe04-4835-b64f-345f4e5da4be")
 		(property "Reference" "C59"
-			(at 139.446 192.278 0)
+			(at 152.146 226.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16033,7 +15516,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 141.224 194.564 0)
+			(at 153.924 228.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16044,7 +15527,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16055,7 +15538,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16066,7 +15549,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,7 +15560,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16088,7 +15571,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16099,7 +15582,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16110,7 +15593,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16120,7 +15603,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16131,7 +15614,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16142,7 +15625,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 133.35 193.04 0)
+			(at 146.05 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,141 +16278,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 254 231.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7fd84544-df4f-4edb-8537-a00c420c71cd")
-		(property "Reference" "FB6"
-			(at 251.206 230.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 253.9619 227.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 254 232.918 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 254 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 254 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 254 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 254 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 254 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 254 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "33ba5ea8-7890-426e-a989-aca49478eefa")
-		)
-		(pin "1"
-			(uuid "5e8458da-03df-4e3d-a492-32665b61689c")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 190.5 88.9 0)
 		(unit 1)
@@ -17081,141 +16429,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 383.54 231.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86ba43cc-2520-4dfa-b71a-94ddf145ce8d")
-		(property "Reference" "FB4"
-			(at 380.746 230.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 383.5019 227.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 383.54 232.918 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 383.54 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 383.54 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 383.54 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 383.54 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 383.54 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 383.54 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "706e988c-b4cf-455a-bac3-f857973666ad")
-		)
-		(pin "1"
-			(uuid "f54f37b2-7986-4c6d-ac8a-d7f6a84233e6")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -17566,141 +16779,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 378.46 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8de86033-2262-468d-9ca4-ae356daa4a7d")
-		(property "Reference" "FB7"
-			(at 375.666 133.604 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 378.4219 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 378.46 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 378.46 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 378.46 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 378.46 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 378.46 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 378.46 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 378.46 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c1db27c-0866-4ecc-b2b9-e4b2c8b539fa")
-		)
-		(pin "1"
-			(uuid "d7200e98-eacc-4177-8f94-ee4b732b72ac")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB7")
 					(unit 1)
 				)
 			)
@@ -18683,141 +17761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 248.92 233.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a6f9b1c-83a3-4e18-9bb7-f2d0e517b71e")
-		(property "Reference" "FB5"
-			(at 246.126 232.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 248.8819 229.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 248.92 235.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 248.92 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 248.92 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 248.92 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 248.92 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 248.92 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 248.92 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9d94e9ab-3032-4235-a56d-cb74528f312f")
-		)
-		(pin "1"
-			(uuid "8e9a1ea7-ff90-4d58-82a5-051fd0446195")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 88.9 0)
 		(unit 1)
@@ -18976,7 +17919,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:SN74AVC2T45DCUR")
-		(at 101.6 184.15 0)
+		(at 114.3 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18987,7 +17930,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bf9c251-a8ec-496a-ab54-5829cc2bc44c")
 		(property "Reference" "U14"
-			(at 101.6 172.72 0)
+			(at 114.3 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18997,7 +17940,7 @@
 			)
 		)
 		(property "Value" "SN74AVC2T45DCUR"
-			(at 101.6 175.26 0)
+			(at 114.3 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19007,7 +17950,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BR"
-			(at 101.6 195.58 0)
+			(at 114.3 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19018,7 +17961,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74AVC2T45DCUR_SN74AVC2T45DCUR_C140318.html"
-			(at 101.6 198.12 0)
+			(at 114.3 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19029,7 +17972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 184.15 0)
+			(at 114.3 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19040,7 +17983,7 @@
 			)
 		)
 		(property "LCSC Part" "C140318"
-			(at 101.6 200.66 0)
+			(at 114.3 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19051,7 +17994,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 101.6 184.15 0)
+			(at 114.3 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19062,7 +18005,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 184.15 0)
+			(at 114.3 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +18016,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 184.15 0)
+			(at 114.3 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20057,7 +19000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 285.75 90)
+		(at 115.57 256.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20067,7 +19010,7 @@
 		(dnp no)
 		(uuid "a3d898b3-6fbe-4c39-b70c-75eed7283437")
 		(property "Reference" "C51"
-			(at 145.288 286.512 90)
+			(at 114.808 257.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20078,7 +19021,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 152.654 286.512 90)
+			(at 122.174 257.302 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20089,7 +19032,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20100,7 +19043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20111,7 +19054,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20122,7 +19065,7 @@
 			)
 		)
 		(property "DK" "1276-1234-1-ND"
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20133,7 +19076,7 @@
 			)
 		)
 		(property "PARTNO" "CL05A104KO5NNNC"
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20144,7 +19087,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20154,7 +19097,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 146.05 285.75 0)
+			(at 115.57 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20164,7 +19107,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 146.05 285.75 90)
+			(at 115.57 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20175,7 +19118,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 285.75 90)
+			(at 115.57 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20186,7 +19129,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 146.05 285.75 90)
+			(at 115.57 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23359,141 +22302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 378.46 233.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c823c0b4-18d4-4188-a71e-cb2b7824fa84")
-		(property "Reference" "FB3"
-			(at 375.666 232.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 378.4219 229.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 378.46 235.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 378.46 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 378.46 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 378.46 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 378.46 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 378.46 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 378.46 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab54e393-8afc-4fa7-98f2-73a5c8db98d4")
-		)
-		(pin "1"
-			(uuid "3db73b94-475c-402e-b0f2-c49f35bbbdb3")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 525.78 133.35 0)
 		(mirror x)
@@ -23653,7 +22461,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 275.59 270)
+		(at 129.54 246.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23663,7 +22471,7 @@
 		(dnp no)
 		(uuid "cf79eef0-9e01-4d0f-9462-e59d6aaf4933")
 		(property "Reference" "TP10"
-			(at 164.338 275.59 90)
+			(at 133.858 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23674,7 +22482,7 @@
 			)
 		)
 		(property "Value" "CLKI"
-			(at 164.338 277.876 90)
+			(at 133.858 248.666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23685,7 +22493,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 160.02 280.67 0)
+			(at 129.54 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23696,7 +22504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 280.67 0)
+			(at 129.54 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23707,7 +22515,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 275.59 0)
+			(at 129.54 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23718,7 +22526,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 160.02 275.59 0)
+			(at 129.54 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23729,7 +22537,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 160.02 275.59 0)
+			(at 129.54 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23739,7 +22547,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 160.02 275.59 90)
+			(at 129.54 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23750,7 +22558,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 160.02 275.59 90)
+			(at 129.54 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23761,7 +22569,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 160.02 275.59 90)
+			(at 129.54 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24401,141 +23209,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 383.54 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e669768f-8cd6-40f5-926e-0ffe4118bc7b")
-		(property "Reference" "FB8"
-			(at 380.746 131.064 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 383.5019 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 383.54 133.858 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 383.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "490-5209-1-ND"
-			(at 383.54 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BLM18BB750SN1D"
-			(at 383.54 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 383.54 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 383.54 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 383.54 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2c867c2e-0b9b-404f-8803-9f00f6b2403d")
-		)
-		(pin "1"
-			(uuid "8e9ec21f-eefb-404b-897c-a8f10c5e0398")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "FB8")
 					(unit 1)
 				)
 			)

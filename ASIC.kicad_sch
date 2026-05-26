@@ -8087,6 +8087,16 @@
 		)
 		(uuid "18b6faf4-a51d-497f-b8bf-ca7873e8f53c")
 	)
+	(label "GND"
+		(at 128.27 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f25dd1-0589-4af7-a46c-c44f99822d0e")
+	)
 	(label "1V2-0"
 		(at 532.13 128.27 180)
 		(effects

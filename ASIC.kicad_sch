@@ -1249,7 +1249,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -21.59 90)
 					(length 2.54)
 					(name "VSS"
@@ -1267,7 +1267,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 19.05 270)
 					(length 2.54)
 					(name "VDD"
@@ -1903,7 +1903,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -21.59 90)
 					(length 2.54)
 					(name "VSS"
@@ -1921,7 +1921,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 19.05 270)
 					(length 2.54)
 					(name "VDD"
@@ -1932,6 +1932,121 @@
 						)
 					)
 					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bitaxe:GND_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR03"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND0"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2024,7 +2139,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "SN74AVC2T45DCUR_1_1"
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VCCA"
@@ -2042,7 +2159,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "A1"
@@ -2060,7 +2177,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "A2"
@@ -2078,7 +2195,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -2096,7 +2213,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "DIR"
@@ -2114,7 +2231,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "B2"
@@ -2132,7 +2249,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "B1"
@@ -2150,7 +2267,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "VCCB"
@@ -2294,7 +2411,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "GND"
@@ -2312,7 +2429,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "EN"
@@ -2348,7 +2465,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "PAD"
@@ -2378,8 +2495,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U12"
-				(at 12.7 6.4202 0)
+			(property "Reference" "U13"
+				(at 5.842 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2389,7 +2506,7 @@
 				)
 			)
 			(property "Value" "TS3011"
-				(at 12.7 3.8802 0)
+				(at 4.064 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2657,7 +2774,7 @@
 				)
 			)
 			(symbol "oscillator_1_0"
-				(pin bidirectional line
+				(pin passive line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "EN"
@@ -2675,7 +2792,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -7.62 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -2693,7 +2810,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "OUT"
@@ -2711,7 +2828,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 7.62 -1.27 180)
 					(length 2.54)
 					(name "VIN"
@@ -2820,12 +2937,6 @@
 		(uuid "05f92ae1-00cf-49f2-aa91-2101928b5fe0")
 	)
 	(junction
-		(at 351.79 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b2d1212-bcdb-4647-8b6f-c781729e59ba")
-	)
-	(junction
 		(at 130.81 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2898,6 +3009,12 @@
 		(uuid "1b1f6db7-9de8-4a9c-b5eb-855e8d5f7654")
 	)
 	(junction
+		(at 191.77 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca1ecf5-55d6-4bf6-8154-f54688e7629d")
+	)
+	(junction
 		(at 496.57 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2932,6 +3049,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28feddfe-c7de-4b70-b67c-99e9de0f42ca")
+	)
+	(junction
+		(at 421.64 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292514ad-175c-4f59-9981-a43b63efab06")
+	)
+	(junction
+		(at 85.09 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2935326e-9a62-492b-b278-591469b6a306")
+	)
+	(junction
+		(at 148.59 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30e36ab5-7d26-4818-adbe-bde1dd905f85")
 	)
 	(junction
 		(at 392.43 144.78)
@@ -2988,6 +3123,12 @@
 		(uuid "3d2d47e2-e9a6-43a4-a8e9-2b1496a4dd8a")
 	)
 	(junction
+		(at 353.06 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de98c93-e2a5-45f3-b38c-433522afa85e")
+	)
+	(junction
 		(at 262.89 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2998,6 +3139,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40d427ac-0bbe-453d-9295-b38f91a6e7d0")
+	)
+	(junction
+		(at 223.52 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4347ba42-18c7-4382-8195-99dbe23d11b3")
+	)
+	(junction
+		(at 96.52 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43549ceb-7a2f-421d-bccd-df5646e6e169")
 	)
 	(junction
 		(at 370.84 105.41)
@@ -3016,6 +3169,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47cef2a3-f99b-4d2a-87d9-270493254213")
+	)
+	(junction
+		(at 295.91 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc82d81-653c-4e7f-b409-6a1eee0c60c8")
 	)
 	(junction
 		(at 496.57 101.6)
@@ -3042,16 +3201,16 @@
 		(uuid "5ca751b2-45bc-4d25-be4d-b2b445f2370c")
 	)
 	(junction
+		(at 297.18 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d8e4637-3d69-4323-81b3-645387c610ef")
+	)
+	(junction
 		(at 199.39 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e86c8bc-7c9b-4b16-8d73-a4c5f801a796")
-	)
-	(junction
-		(at 222.25 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eb0476d-952d-4345-a86c-23a466a32b87")
 	)
 	(junction
 		(at 271.78 231.14)
@@ -3072,6 +3231,12 @@
 		(uuid "626cc7f9-7bbf-4f1f-8ed4-ccc275b975a2")
 	)
 	(junction
+		(at 294.64 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b53af1-64d3-4b41-9804-74a67c575f4d")
+	)
+	(junction
 		(at 199.39 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3084,16 +3249,34 @@
 		(uuid "6fa5f3fd-65ba-46b0-bd8e-7727e6ab7ea1")
 	)
 	(junction
+		(at 351.79 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71a09676-322a-413d-8d0b-36e4a88ceaec")
+	)
+	(junction
 		(at 190.5 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7452fda9-a737-4005-a1ad-ecb2d48e6e3e")
 	)
 	(junction
+		(at 410.21 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77219ceb-671b-4eab-a540-55ee8e35d419")
+	)
+	(junction
 		(at 392.43 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77381fb2-31d8-4cfd-b64f-b028c8a5b3bf")
+	)
+	(junction
+		(at 295.91 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78bcdd2c-3fc0-4b0f-843a-f8ec981b2562")
 	)
 	(junction
 		(at 491.49 214.63)
@@ -3120,6 +3303,12 @@
 		(uuid "80fa6200-698a-47b5-a26b-0aa9d9c801ac")
 	)
 	(junction
+		(at 421.64 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8162f2ee-bca2-433d-9dfb-c42575fdeb17")
+	)
+	(junction
 		(at 123.19 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3144,6 +3333,18 @@
 		(uuid "88a2999e-cc41-4916-8431-002bdead745e")
 	)
 	(junction
+		(at 97.79 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf30668-dcd9-4a54-bfc3-9debffe488d6")
+	)
+	(junction
+		(at 421.64 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8a163d-9582-4b97-8d4e-07410c436369")
+	)
+	(junction
 		(at 147.32 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3160,6 +3361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9559eaab-bd8a-4ad6-b096-e79f0dc6cca7")
+	)
+	(junction
+		(at 421.64 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a6af02-bc5f-48ac-abd2-879d3cd1cb23")
 	)
 	(junction
 		(at 521.97 115.57)
@@ -3192,10 +3399,10 @@
 		(uuid "a39cc30c-2f21-42cf-8da5-c0d37b902c80")
 	)
 	(junction
-		(at 96.52 233.68)
+		(at 295.91 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a492816e-482f-4e19-b59f-7c4042043cf2")
+		(uuid "a52afc27-3d9c-4669-a64e-c3ddc616a71b")
 	)
 	(junction
 		(at 521.97 228.6)
@@ -3264,6 +3471,12 @@
 		(uuid "cc108df5-cae2-4c86-b66b-f5a06b9186b7")
 	)
 	(junction
+		(at 140.97 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd8a34e9-aa05-4736-adad-9caa674e19d8")
+	)
+	(junction
 		(at 254 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3306,6 +3519,12 @@
 		(uuid "dcf3b354-c39b-42d4-bfa1-0acf79c6a0e6")
 	)
 	(junction
+		(at 297.18 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1cffc1-e682-49ba-b432-f4ee60042077")
+	)
+	(junction
 		(at 328.93 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3330,10 +3549,28 @@
 		(uuid "e5fc4950-a3e5-4b5c-b6d7-6ebcd7e2b4c0")
 	)
 	(junction
+		(at 223.52 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8172019-9e74-46ac-9caf-8bde106e4b22")
+	)
+	(junction
 		(at 190.5 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8280e28-f626-4296-81aa-5a6663c77d2d")
+	)
+	(junction
+		(at 299.72 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34bdf2c-e2cb-436e-b3c6-f9ec63f4ddcc")
+	)
+	(junction
+		(at 295.91 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3c22f86-a157-4aeb-8e3e-2723897806c5")
 	)
 	(junction
 		(at 320.04 180.34)
@@ -3358,6 +3595,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7f81d9c-a1f0-402b-8e88-57744d8bce63")
+	)
+	(junction
+		(at 353.06 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f944667c-e759-428c-ba8d-b1667a8038ac")
+	)
+	(junction
+		(at 93.98 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa262001-7eb9-4d64-a1d4-db4b7a3592e3")
 	)
 	(junction
 		(at 401.32 231.14)
@@ -3529,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 187.96) (xy 351.79 187.96)
+			(xy 417.83 187.96) (xy 410.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3829,6 +4078,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 255.27) (xy 431.8 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187e4eea-3d50-44d1-a7ad-6eac1c03be7c")
+	)
+	(wire
+		(pts
 			(xy 386.08 105.41) (xy 387.35 105.41)
 		)
 		(stroke
@@ -3846,6 +4105,16 @@
 			(type default)
 		)
 		(uuid "19bd4d16-a8b5-4399-96d8-62fe9f6e663a")
+	)
+	(wire
+		(pts
+			(xy 353.06 187.96) (xy 351.79 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a595b1d-562a-4a34-8458-ae91f70c9577")
 	)
 	(wire
 		(pts
@@ -3869,7 +4138,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 214.63) (xy 146.05 224.79)
+			(xy 148.59 214.63) (xy 148.59 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3879,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 233.68) (xy 96.52 233.68)
+			(xy 148.59 233.68) (xy 96.52 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3889,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 250.19) (xy 248.92 250.19)
+			(xy 326.39 250.19) (xy 297.18 250.19)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 219.71) (xy 91.44 219.71)
+			(xy 101.6 219.71) (xy 93.98 219.71)
 		)
 		(stroke
 			(width 0)
@@ -4009,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 151.13) (xy 377.19 151.13)
+			(xy 429.26 151.13) (xy 421.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4069,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 226.06) (xy 276.86 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dc2d0b-b02b-4fa0-bd53-fb0c1b614219")
+	)
+	(wire
+		(pts
 			(xy 190.5 82.55) (xy 181.61 82.55)
 		)
 		(stroke
@@ -4076,6 +4355,16 @@
 			(type default)
 		)
 		(uuid "27221ddc-db4b-4603-b925-4998c703c8f4")
+	)
+	(wire
+		(pts
+			(xy 140.97 138.43) (xy 130.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281301bc-88f1-4d09-949b-1cd0ebed44a7")
 	)
 	(polyline
 		(pts
@@ -4156,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "2d184675-338d-43ea-9f22-1638c0f311e1")
+	)
+	(wire
+		(pts
+			(xy 297.18 250.19) (xy 248.92 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df97487-bd18-4c76-936f-9e8089e37227")
 	)
 	(wire
 		(pts
@@ -4339,7 +4638,17 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 255.27) (xy 431.8 255.27)
+			(xy 421.64 228.6) (xy 369.57 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36721fa9-dff8-4a58-bbe7-2b9e9e45b4b8")
+	)
+	(wire
+		(pts
+			(xy 377.19 255.27) (xy 421.64 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4728,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 228.6) (xy 369.57 228.6)
+			(xy 429.26 228.6) (xy 421.64 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4529,6 +4838,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 172.72) (xy 222.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408df0b2-5c0e-4487-a4fd-72898d7b09c0")
+	)
+	(wire
+		(pts
 			(xy 396.24 204.47) (xy 396.24 223.52)
 		)
 		(stroke
@@ -4619,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 214.63) (xy 146.05 214.63)
+			(xy 127 214.63) (xy 148.59 214.63)
 		)
 		(stroke
 			(width 0)
@@ -4859,6 +5178,26 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 151.13) (xy 377.19 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3f141d-4a74-4093-97f9-8498925e046b")
+	)
+	(wire
+		(pts
+			(xy 97.79 217.17) (xy 91.44 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e550138-e7ab-4eb6-89a6-352cc995e032")
+	)
+	(wire
+		(pts
 			(xy 247.65 139.7) (xy 247.65 151.13)
 		)
 		(stroke
@@ -4899,16 +5238,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 204.47) (xy 233.68 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f494306-ebad-43c0-bc20-c7a7b8eb68f9")
-	)
-	(wire
-		(pts
 			(xy 328.93 252.73) (xy 328.93 243.84)
 		)
 		(stroke
@@ -4929,6 +5258,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 172.72) (xy 351.79 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c18a0d-866f-4d5d-938e-bf075566c9e9")
+	)
+	(wire
+		(pts
 			(xy 199.39 180.34) (xy 199.39 184.15)
 		)
 		(stroke
@@ -4939,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 229.87) (xy 146.05 233.68)
+			(xy 148.59 229.87) (xy 148.59 233.68)
 		)
 		(stroke
 			(width 0)
@@ -5229,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 217.17) (xy 91.44 217.17)
+			(xy 101.6 217.17) (xy 97.79 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5369,7 +5708,17 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 204.47) (xy 363.22 204.47)
+			(xy 223.52 204.47) (xy 222.25 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d101442-ad37-4d79-9d7e-b091a5496374")
+	)
+	(wire
+		(pts
+			(xy 351.79 204.47) (xy 353.06 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6049,6 +6398,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 233.68) (xy 74.93 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee492b7-98e6-4d24-98a2-38ea4ad505d3")
+	)
+	(wire
+		(pts
 			(xy 190.5 96.52) (xy 199.39 96.52)
 		)
 		(stroke
@@ -6199,6 +6558,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 204.47) (xy 233.68 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96200725-6931-48b7-b8f8-b023c1be3539")
+	)
+	(wire
+		(pts
 			(xy 457.2 111.76) (xy 457.2 104.14)
 		)
 		(stroke
@@ -6339,7 +6708,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 276.86 127)
+			(xy 332.74 127) (xy 295.91 127)
 		)
 		(stroke
 			(width 0)
@@ -6439,6 +6808,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 172.72) (xy 294.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25c4428-957e-4a40-af09-c75536033392")
+	)
+	(wire
+		(pts
 			(xy 521.97 104.14) (xy 521.97 106.68)
 		)
 		(stroke
@@ -6509,7 +6888,17 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 226.06) (xy 276.86 226.06)
+			(xy 295.91 151.13) (xy 247.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7675b7e-a9ed-4552-b6fd-59a0005b39ca")
+	)
+	(wire
+		(pts
+			(xy 332.74 226.06) (xy 295.91 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6749,6 +7138,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 254) (xy 351.79 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b6bb08-225e-4ba8-8ac7-f6530c66cb3d")
+	)
+	(wire
+		(pts
 			(xy 499.11 130.81) (xy 496.57 130.81)
 		)
 		(stroke
@@ -6839,7 +7238,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 153.67) (xy 328.93 153.67)
+			(xy 245.11 153.67) (xy 295.91 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6899,13 +7298,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 203.2 139.7)
+			(xy 189.23 139.7) (xy 191.77 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be2fd937-44d4-4c23-88dd-0952ec3130ba")
+	)
+	(wire
+		(pts
+			(xy 294.64 172.72) (xy 299.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be467811-8ae6-4603-936e-0957f99078ad")
 	)
 	(wire
 		(pts
@@ -6916,6 +7325,16 @@
 			(type default)
 		)
 		(uuid "be7bd088-1f06-46a3-a1f1-2cb848239d31")
+	)
+	(wire
+		(pts
+			(xy 295.91 127) (xy 276.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8925cb-99f2-4333-81e4-ca0ac007dc62")
 	)
 	(wire
 		(pts
@@ -7109,17 +7528,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 172.72) (xy 351.79 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4e9bc2-0eae-46f2-bed9-8cfd078d7196")
-	)
-	(wire
-		(pts
-			(xy 351.79 248.92) (xy 351.79 259.08)
+			(xy 351.79 248.92) (xy 351.79 254)
 		)
 		(stroke
 			(width 0)
@@ -7166,6 +7575,16 @@
 			(type default)
 		)
 		(uuid "d0c170b4-cf7d-4960-bad3-4a601ba46ed5")
+	)
+	(wire
+		(pts
+			(xy 297.18 252.73) (xy 328.93 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f80c1b-0733-4823-aafe-e2ee7b459dfb")
 	)
 	(wire
 		(pts
@@ -7309,6 +7728,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 153.67) (xy 328.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94ccf6d-2382-453a-baca-50ba05135086")
+	)
+	(wire
+		(pts
 			(xy 328.93 180.34) (xy 328.93 184.15)
 		)
 		(stroke
@@ -7336,6 +7765,26 @@
 			(type default)
 		)
 		(uuid "da98127e-7074-4e35-a7ab-267719b02750")
+	)
+	(wire
+		(pts
+			(xy 191.77 139.7) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbca9a63-d02f-4912-9a9a-43023ca728fa")
+	)
+	(wire
+		(pts
+			(xy 353.06 204.47) (xy 363.22 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1538f0-3dec-4fb1-bcc5-9b0c0173fdd9")
 	)
 	(wire
 		(pts
@@ -7376,6 +7825,16 @@
 			(type default)
 		)
 		(uuid "ddd92666-318b-4550-9c53-877a04fcc378")
+	)
+	(wire
+		(pts
+			(xy 421.64 129.54) (xy 431.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de61d020-d380-4acf-aad5-a5bcaccd1d0c")
 	)
 	(wire
 		(pts
@@ -7549,7 +8008,17 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 129.54) (xy 431.8 129.54)
+			(xy 410.21 187.96) (xy 353.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6476e09-de23-4088-b090-b2c6ba651b0c")
+	)
+	(wire
+		(pts
+			(xy 369.57 129.54) (xy 421.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7589,7 +8058,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 130.81 138.43)
+			(xy 147.32 138.43) (xy 140.97 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7656,6 +8125,16 @@
 			(type default)
 		)
 		(uuid "e9fbe472-dfc4-486d-b3f7-266fbd4751fc")
+	)
+	(wire
+		(pts
+			(xy 93.98 219.71) (xy 91.44 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1b9793-a102-46dd-ba27-a56fa1a2cc51")
 	)
 	(wire
 		(pts
@@ -7759,7 +8238,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 233.68) (xy 74.93 233.68)
+			(xy 96.52 233.68) (xy 85.09 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7769,7 +8248,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 151.13) (xy 247.65 151.13)
+			(xy 326.39 151.13) (xy 295.91 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7789,7 +8268,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 187.96) (xy 351.79 204.47)
+			(xy 353.06 187.96) (xy 353.06 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7839,7 +8318,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 172.72) (xy 222.25 204.47)
+			(xy 223.52 172.72) (xy 223.52 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7879,7 +8358,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 252.73) (xy 328.93 252.73)
+			(xy 246.38 252.73) (xy 297.18 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8088,7 +8567,7 @@
 		(uuid "18b6faf4-a51d-497f-b8bf-ca7873e8f53c")
 	)
 	(label "GND"
-		(at 128.27 233.68 0)
+		(at 130.81 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8488,7 +8967,7 @@
 		(uuid "924b91ed-2790-48eb-be3b-7961d1dbb3f7")
 	)
 	(label "CLKI-0"
-		(at 434.34 101.6 0)
+		(at 433.07 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8538,7 +9017,7 @@
 		(uuid "9d55b263-cf66-49fc-b618-bf1a4805dbbf")
 	)
 	(label "1V2"
-		(at 143.51 214.63 180)
+		(at 146.05 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9890,6 +10369,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 351.79 254 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d1f9587-b14c-4942-a467-b0dc7bde605f")
+		(property "Reference" "TP53"
+			(at 344.932 254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.075 252.7301 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 351.79 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 351.79 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 351.79 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 351.79 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 351.79 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 351.79 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "322b628c-3500-42ff-a4fa-aeaed7bd80d4")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 111.76 270)
 		(unit 1)
@@ -10628,6 +11229,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 414.02 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18c6df12-6091-45c5-b3cc-8af5b3d33ca4")
+		(property "Reference" "TP54"
+			(at 407.162 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 408.305 210.8201 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 414.02 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 414.02 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 414.02 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 414.02 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 414.02 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 414.02 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65abdd58-9f28-44df-9166-5f4a01e3539a")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 262.89 237.49 180)
 		(unit 1)
@@ -10779,6 +11502,128 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 299.72 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d227d0b-3eac-41bd-b58a-7388f4b5022f")
+		(property "Reference" "TP52"
+			(at 299.72 165.862 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 300.9899 167.005 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 304.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 299.72 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.72 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 299.72 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 299.72 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 299.72 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d9ac1e7-f879-41ad-bec7-c8f4f5793717")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -11242,6 +12087,128 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 421.64 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33a72e6c-1030-4600-b0ff-79b58344de98")
+		(property "Reference" "TP42"
+			(at 421.64 248.412 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 422.9099 249.555 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 426.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 421.64 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 421.64 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 421.64 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 421.64 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 421.64 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5120bb77-f394-4fa9-b1d9-d1caf84a315e")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -12184,6 +13151,260 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d363744-8a01-41e8-87bb-4401ea82a621")
+		(property "Reference" "TP14"
+			(at 93.98 224.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 91.694 224.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 88.9 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 93.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 93.98 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 93.98 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 93.98 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1025179d-74a2-484a-9130-115b39137ef6")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 421.64 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3eaca7d5-94e8-490b-b641-9690d191d30c")
+		(property "Reference" "TP43"
+			(at 421.64 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 422.9099 145.415 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 426.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 421.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 421.64 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 421.64 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 421.64 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 421.64 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c881656-f6a3-4445-ac24-ba09e699e86c")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 262.89 204.47 90)
 		(unit 1)
@@ -12805,6 +14026,128 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43706192-ffff-433a-8067-636e41e75a65")
+		(property "Reference" "TP59"
+			(at 155.448 233.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.305 234.9499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 148.59 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 148.59 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 148.59 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8f686d2-a243-4c7b-81d0-f36aa1e66a25")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP59")
 					(unit 1)
 				)
 			)
@@ -15505,7 +16848,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 227.33 0)
+		(at 148.59 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15515,7 +16858,7 @@
 		(dnp no)
 		(uuid "702d299e-fe04-4835-b64f-345f4e5da4be")
 		(property "Reference" "C59"
-			(at 152.146 226.568 0)
+			(at 154.686 226.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15526,7 +16869,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 153.924 228.854 0)
+			(at 156.464 228.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15537,7 +16880,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15548,7 +16891,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15559,7 +16902,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15570,7 +16913,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15581,7 +16924,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15592,7 +16935,7 @@
 			)
 		)
 		(property "partnum" ""
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15603,7 +16946,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15613,7 +16956,7 @@
 			)
 		)
 		(property "ALT1" ""
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15624,7 +16967,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15635,7 +16978,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 146.05 227.33 0)
+			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,6 +18138,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8934a97f-cb2d-4790-b85b-d74955c314a8")
+		(property "Reference" "TP49"
+			(at 191.77 146.558 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 190.5001 145.415 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 186.69 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 191.77 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 191.77 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 191.77 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b537c596-8b47-4d83-a0eb-8f80ae6cbd77")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 138.43 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a7768ab-6972-4312-9e90-1b85a08abc61")
+		(property "Reference" "TP58"
+			(at 140.97 145.288 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7001 144.145 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 135.89 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 140.97 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 140.97 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 140.97 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a7f3ac3-4be0-4a4b-bdd9-23da3a1daa27")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 309.88 105.41 270)
 		(mirror x)
@@ -17609,6 +19196,138 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 85.09 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98bcd533-501b-4ebd-8dc1-fca871534f21")
+		(property "Reference" "TP16"
+			(at 85.09 229.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.376 229.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 90.17 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 85.09 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 85.09 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 85.09 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 85.09 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dac35b80-d27b-4e30-9c0e-c1fc3e9f986f")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -18539,6 +20258,84 @@
 		)
 	)
 	(symbol
+		(lib_id "bitaxe:GND_FLAG")
+		(at 294.64 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b56fad-6264-45b6-a9a1-bfb086155cd7")
+		(property "Reference" "#PWR03"
+			(at 294.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND0"
+			(at 294.64 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbef5634-86a3-40c3-8d66-f62e01427b1c")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 392.43 204.47 90)
 		(unit 1)
@@ -18689,6 +20486,128 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 297.18 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2c38d80-1fea-4243-b9be-e06e7448f3ce")
+		(property "Reference" "TP47"
+			(at 297.18 243.332 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 298.4499 244.475 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 302.26 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 297.18 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 297.18 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 297.18 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 297.18 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 297.18 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be3dfe4b-7049-4cb4-bb8d-072b6fa18694")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP47")
 					(unit 1)
 				)
 			)
@@ -21580,6 +23499,128 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 421.64 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bee596a3-d030-4399-bb91-5786113399df")
+		(property "Reference" "TP44"
+			(at 421.64 122.682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 422.9099 123.825 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 426.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 421.64 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 421.64 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 421.64 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 421.64 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 421.64 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc6fc3a0-0318-4350-9331-5c13f21a5d66")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 532.13 128.27 270)
 		(unit 1)
 		(body_style 1)
@@ -22312,6 +24353,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 421.64 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7776fa5-0635-4288-8463-6a8b761f86cd")
+		(property "Reference" "TP41"
+			(at 421.64 221.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 422.9099 222.885 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 426.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 421.64 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 421.64 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 421.64 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 421.64 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 421.64 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c93d14f6-b2ed-4b82-81ba-6adfa1a9cc1f")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 217.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c839ff71-6e4a-4e04-9a35-72b1bdafabf2")
+		(property "Reference" "TP50"
+			(at 144.018 217.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 142.875 218.4399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 137.16 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 137.16 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 137.16 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 137.16 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21acee11-bcc2-4db7-b66c-940aa5ac3e50")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 525.78 133.35 0)
 		(mirror x)
@@ -22755,6 +25040,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 219.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1c5a5b1-6b22-48a5-9b15-e31629dff392")
+		(property "Reference" "TP51"
+			(at 144.018 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 142.875 220.9799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 137.16 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 137.16 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 137.16 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 137.16 219.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8b8b9f1-22ec-4429-a9cb-e3564b46f44d")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 365.76 204.47 90)
 		(unit 1)
@@ -23068,6 +25475,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de83911d-7441-4e26-ab12-bcaf4276e1f5")
+		(property "Reference" "TP56"
+			(at 295.91 120.142 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 297.1799 121.285 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 300.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 295.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 295.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbe42039-2374-415a-ade2-a1112fdf01f8")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 271.78 237.49 180)
 		(unit 1)
@@ -23219,6 +25748,382 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1d3cf3b-6682-4921-a408-fa0c10817bb1")
+		(property "Reference" "TP15"
+			(at 97.79 212.852 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RX"
+			(at 100.076 212.852 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 102.87 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "partnum" ""
+			(at 97.79 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 97.79 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT1" ""
+			(at 97.79 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 97.79 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "922a3390-890c-4608-8dbb-81fc0f7f52d6")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 297.18 252.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6b19c0c-00ce-488b-8974-aa1ffddd5b70")
+		(property "Reference" "TP48"
+			(at 297.18 259.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK"
+			(at 295.9101 258.445 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 292.1 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 297.18 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 297.18 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 297.18 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 297.18 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 297.18 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05e0674e-1ac5-4d95-890e-67d2da30a4b8")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb206451-faa1-4623-b6e3-e3a069a744b4")
+		(property "Reference" "TP57"
+			(at 295.91 219.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RST"
+			(at 297.1799 220.345 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 300.99 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 295.91 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 295.91 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d7e77a2-18bd-4f34-aeb1-e654db4d3b59")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -23848,6 +26753,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f021d4b8-f1ee-4b41-8ade-516c4f8cf97b")
+		(property "Reference" "TP46"
+			(at 295.91 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK"
+			(at 294.6401 159.385 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 290.83 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 295.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 295.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49b2ce82-9379-40c6-815d-5c4d470a1c8d")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 410.21 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5034f88-7e44-42de-854c-9b06c8b42933")
+		(property "Reference" "TP55"
+			(at 410.21 181.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 411.4799 182.245 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 415.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 410.21 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 410.21 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 410.21 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 410.21 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 410.21 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d95b2b03-1f07-48dc-bbb0-8a641f401643")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 374.65 105.41 90)
 		(unit 1)
@@ -23998,6 +27147,128 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f868480c-c003-46d2-91af-f3c0ff8baf1c")
+		(property "Reference" "TP45"
+			(at 295.91 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 297.1799 145.415 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 300.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 295.91 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 295.91 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 295.91 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64ed73ea-3736-4c66-96e7-80f414467a14")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP45")
 					(unit 1)
 				)
 			)

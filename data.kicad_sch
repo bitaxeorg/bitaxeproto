@@ -2831,7 +2831,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:USB_C_Receptacle_USB2.0"
+		(symbol "bitaxeProto:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2840,19 +2840,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -10.16 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Reference" "J6"
+				(at 3.81 21.844 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2862,7 +2851,18 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "USB_C_Receptacle_USB2.0"
+				(at 9.652 19.558 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2885,7 +2885,73 @@
 				)
 			)
 			(property "Description" "USB 2.0-only Type-C Receptacle connector"
-				(at 0 25.654 0)
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "2073-USB4105-GF-ACT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "USB4105-GF-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ALT1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3020560"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3602,14 +3668,6 @@
 		(uuid "0ae08717-d1cc-43f5-bb28-d1ce02c0e215")
 	)
 	(no_connect
-		(at 144.78 74.93)
-		(uuid "1509ce0c-b5c7-4fa3-8267-b7479d94352c")
-	)
-	(no_connect
-		(at 259.08 77.47)
-		(uuid "2e63a5ee-aae1-442c-955f-f924dd692160")
-	)
-	(no_connect
 		(at 144.78 97.79)
 		(uuid "322dc93c-0e34-4b9a-acf6-5e66264ce364")
 	)
@@ -3624,6 +3682,10 @@
 	(no_connect
 		(at 259.08 110.49)
 		(uuid "6a97eb10-7e0a-418f-a66f-21b37009094b")
+	)
+	(no_connect
+		(at 144.78 74.93)
+		(uuid "6eb75d0e-e308-4c28-9808-61a334bd66c5")
 	)
 	(no_connect
 		(at 259.08 102.87)
@@ -4367,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 77.47) (xy 259.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f932f-7561-473f-829c-750ff3d5b580")
+	)
+	(wire
+		(pts
 			(xy 125.73 53.34) (xy 125.73 54.61)
 		)
 		(stroke
@@ -4874,6 +4946,16 @@
 			(justify left bottom)
 		)
 		(uuid "33baa44b-fb5e-4131-aaf5-18f9d2db270d")
+	)
+	(label "5V_EN"
+		(at 271.78 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3546f5a9-deb2-4165-8f0a-cf726de06676")
 	)
 	(label "3V3"
 		(at 71.12 30.48 180)
@@ -6103,7 +6185,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:USB_C_Receptacle_USB2.0")
+		(lib_id "bitaxeProto:USB_C_Receptacle_USB2.0")
 		(at 317.5 59.69 0)
 		(mirror y)
 		(unit 1)

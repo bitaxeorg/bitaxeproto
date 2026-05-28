@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -67,6 +67,22 @@
         ],
         [
           "hole_clearance|132588109|85762904|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
+          ""
+        ],
+        [
+          "silk_edge_clearance|93000000|114897000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|c7753abf-7aeb-47f4-96a4-85a9979de9d8",
+          ""
+        ],
+        [
+          "silk_edge_clearance|93000000|117897000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|d0d07f33-f792-4a01-ae0d-27f47cd6adfb",
+          ""
+        ],
+        [
+          "silk_edge_clearance|93000000|125290000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|949bef06-d11f-462d-ad0f-0bb72ba78ddd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|93000000|128290000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|ea93f42c-ba1d-4201-bf5b-8eb4417b04c3",
           ""
         ]
       ],
@@ -810,7 +826,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "L2-3,J8,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,TP2,TP4,TP6,TP9-13,TP20-21,U1,U3-6,U8,U13-19,R12-16,R25-27,R55-60,R68-71",
+    "used_designators": "L2-3,J8,#PWR1-5,A1-4,C1-3,C7-8,C12,C19,C22,C24-25,C29-30,C35-38,C41-42,C49-57,C59,C61,C66-75,C78-131,C206-209,FB3-10,TP2,TP4,TP6,TP9-16,TP20-21,TP41-59,U1,U3-6,U8,U13-19,R12-16,R25-27,R55-60,R68-71",
     "variants": []
   },
   "sheets": [

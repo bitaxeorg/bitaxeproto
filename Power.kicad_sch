@@ -2647,12 +2647,6 @@
 		(uuid "5559c384-58d4-4869-9e29-eb3056721b33")
 	)
 	(junction
-		(at 133.35 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b1bfe8-72bc-41c6-aded-0bfe9d7c3f34")
-	)
-	(junction
 		(at 63.5 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8711,161 +8705,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 133.35 196.85 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d291a8e-aff7-4987-be53-d860cc30a301")
-		(property "Reference" "TP20"
-			(at 137.668 196.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.668 198.882 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 133.35 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 133.35 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 133.35 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 133.35 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C138021"
-			(at 289.56 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ME" ""
-			(at 133.35 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 133.35 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 133.35 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 133.35 196.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e003674-4e65-4204-baca-959efcf9324a")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 133.35 238.76 270)
 		(mirror x)
 		(unit 1)
@@ -10257,7 +10096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
 			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10290,7 +10129,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "UUD1V680MCL1GS"
+		(property "PARTNO" "UCM1E680MCL1GS"
 			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10301,7 +10140,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "25V"
 			(at 117.094 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,7 +11893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12087,7 +11926,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "UUD1V680MCL1GS"
+		(property "PARTNO" "UCM1E680MCL1GS"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12098,7 +11937,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "25V"
 			(at 124.714 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13006,7 +12845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.4"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13039,7 +12878,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "UUD1V680MCL1GS"
+		(property "PARTNO" "UCM1E680MCL1GS"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13050,7 +12889,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "25V"
 			(at 109.474 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)

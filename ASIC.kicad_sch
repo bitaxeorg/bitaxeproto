@@ -9504,37 +9504,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 254 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 254 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 254 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 254 105.41 90)
 			(hide yes)
@@ -9547,6 +9516,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 254 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9661,37 +9641,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 189.23 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 189.23 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 189.23 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 189.23 105.41 90)
 			(hide yes)
@@ -9704,6 +9653,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 189.23 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 189.23 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9806,17 +9766,6 @@
 		)
 		(property "PARTNO" "RC0402FR-071KL"
 			(at 114.3 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 114.3 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,7 +9878,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 262.89 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -9940,39 +9889,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 262.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 262.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 262.89 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 262.89 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10108,37 +10025,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 383.54 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 383.54 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 383.54 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 383.54 204.47 90)
 			(hide yes)
@@ -10151,6 +10037,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 383.54 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 383.54 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -10232,17 +10129,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 222.25 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10434,40 +10320,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 351.79 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 351.79 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 351.79 254 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 351.79 254 90)
 			(hide yes)
 			(show_name no)
@@ -10554,7 +10407,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-220KLRCT-ND"
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10565,19 +10418,8 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-07220KL"
 			(at 93.98 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 93.98 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,7 +10532,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 410.21 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -10701,39 +10543,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 410.21 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 410.21 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 410.21 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 410.21 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -10848,38 +10658,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 433.07 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 433.07 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 433.07 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 433.07 101.6 90)
 			(hide yes)
@@ -10980,7 +10758,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 410.21 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -10991,39 +10769,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 410.21 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 410.21 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 410.21 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 410.21 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11160,37 +10906,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 318.77 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 318.77 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 318.77 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 318.77 204.47 90)
 			(hide yes)
@@ -11203,6 +10918,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 318.77 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 318.77 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -11294,40 +11020,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 414.02 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 414.02 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 414.02 212.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 414.02 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11109,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 262.89 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -11427,39 +11120,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 262.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 262.89 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 262.89 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 262.89 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -11573,40 +11234,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 299.72 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 299.72 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 299.72 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 299.72 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -11705,27 +11333,6 @@
 			)
 		)
 		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 509.27 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 509.27 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11868,27 +11475,6 @@
 				)
 			)
 		)
-		(property "Power" ""
-			(at 509.27 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 509.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 509.27 129.54 0)
 			(hide yes)
@@ -12001,7 +11587,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 401.32 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -12012,39 +11598,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 401.32 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 401.32 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 401.32 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 401.32 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12067,6 +11621,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 401.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 401.32 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 401.32 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12158,40 +11734,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 421.64 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 421.64 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 421.64 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 421.64 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -12302,38 +11845,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 328.93 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 328.93 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 328.93 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 328.93 88.9 0)
 			(hide yes)
@@ -12346,6 +11857,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 328.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 328.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12460,37 +11982,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 198.12 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 198.12 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 198.12 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 198.12 105.41 90)
 			(hide yes)
@@ -12503,6 +11994,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 198.12 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 198.12 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -12615,17 +12117,6 @@
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 114.3 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 114.3 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -12767,38 +12258,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 190.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 190.5 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 190.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 190.5 186.69 0)
 			(hide yes)
@@ -12811,6 +12270,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 190.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 190.5 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12924,38 +12394,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 199.39 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 199.39 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 199.39 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 199.39 88.9 0)
 			(hide yes)
@@ -12968,6 +12406,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 199.39 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13059,7 +12508,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 383.54 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -13070,39 +12519,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 383.54 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 383.54 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 383.54 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 383.54 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13125,6 +12542,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 383.54 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 383.54 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 383.54 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13207,38 +12646,6 @@
 		)
 		(property "Description" "test point"
 			(at 93.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 93.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 93.98 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 93.98 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,40 +12755,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 421.64 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 421.64 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 421.64 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 421.64 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -13492,37 +12866,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 262.89 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 262.89 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 262.89 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 262.89 204.47 90)
 			(hide yes)
@@ -13535,6 +12878,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 262.89 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 262.89 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -13626,7 +12980,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402JR-0710KL"
 			(at 130.81 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13637,39 +12991,7 @@
 				)
 			)
 		)
-		(property "DK" ""
-			(at 130.81 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 130.81 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 130.81 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "DK" "311-10KJRCT-ND"
 			(at 130.81 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13692,6 +13014,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 130.81 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 130.81 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13805,38 +13138,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 181.61 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 181.61 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 181.61 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 181.61 88.9 0)
 			(hide yes)
@@ -13849,6 +13150,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 181.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 181.61 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13962,38 +13274,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 181.61 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 181.61 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 181.61 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 181.61 186.69 0)
 			(hide yes)
@@ -14006,6 +13286,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 181.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 181.61 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14097,40 +13388,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 148.59 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 148.59 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 148.59 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 148.59 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -14242,37 +13500,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 207.01 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 207.01 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 207.01 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 207.01 105.41 90)
 			(hide yes)
@@ -14285,6 +13512,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 207.01 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 207.01 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -14366,17 +13604,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 351.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14591,37 +13818,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 309.88 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 309.88 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 309.88 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 309.88 204.47 90)
 			(hide yes)
@@ -14634,6 +13830,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 309.88 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 309.88 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -14747,38 +13954,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 311.15 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 311.15 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 311.15 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 311.15 186.69 0)
 			(hide yes)
@@ -14791,6 +13966,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 311.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 311.15 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14905,37 +14091,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 327.66 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 327.66 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 327.66 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 327.66 204.47 90)
 			(hide yes)
@@ -14948,6 +14103,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 327.66 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 327.66 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -15061,37 +14227,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 392.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 392.43 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 392.43 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 392.43 105.41 90)
 			(hide yes)
@@ -15104,6 +14239,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 392.43 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 392.43 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -15207,39 +14353,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 525.78 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 525.78 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 525.78 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15262,6 +14376,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 525.78 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 525.78 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15366,17 +14491,6 @@
 		)
 		(property "DK" "497-11991-1-ND"
 			(at 86.614 145.034 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 97.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15499,7 +14613,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15510,39 +14624,7 @@
 				)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 74.93 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 74.93 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 74.93 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "DK" "490-10700-1-ND"
 			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15565,6 +14647,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 74.93 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 74.93 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 74.93 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15656,7 +14760,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 254 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -15667,39 +14771,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 254 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 254 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 254 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 254 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15722,6 +14794,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 254 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 254 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15835,38 +14929,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 320.04 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 320.04 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 320.04 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 320.04 88.9 0)
 			(hide yes)
@@ -15879,6 +14941,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 320.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 320.04 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15993,37 +15066,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 336.55 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 336.55 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 336.55 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 336.55 105.41 90)
 			(hide yes)
@@ -16036,6 +15078,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 336.55 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 336.55 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -16150,37 +15203,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 318.77 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 318.77 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 318.77 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 318.77 105.41 90)
 			(hide yes)
@@ -16193,6 +15215,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 318.77 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 318.77 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -16306,37 +15339,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 245.11 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 245.11 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 245.11 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 245.11 105.41 90)
 			(hide yes)
@@ -16349,6 +15351,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 245.11 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 245.11 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -16451,39 +15464,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 491.49 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 491.49 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 491.49 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 491.49 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -16506,6 +15487,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 491.49 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 491.49 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -16620,37 +15612,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 336.55 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 336.55 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 336.55 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 336.55 204.47 90)
 			(hide yes)
@@ -16663,6 +15624,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 336.55 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 336.55 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -16766,39 +15738,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 525.78 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 525.78 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 525.78 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -16821,6 +15761,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 525.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 525.78 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -16912,7 +15863,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16923,39 +15874,7 @@
 				)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 148.59 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 148.59 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 148.59 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "DK" "490-10700-1-ND"
 			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16978,6 +15897,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 148.59 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 148.59 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 148.59 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -17069,7 +16010,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 271.78 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -17080,39 +16021,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 271.78 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 271.78 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 271.78 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 271.78 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17135,6 +16044,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 271.78 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17248,37 +16179,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 383.54 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 383.54 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 383.54 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 383.54 105.41 90)
 			(hide yes)
@@ -17291,6 +16191,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 383.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 383.54 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -17405,37 +16316,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 198.12 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 198.12 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 198.12 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 198.12 204.47 90)
 			(hide yes)
@@ -17448,6 +16328,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 198.12 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 198.12 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -17539,7 +16430,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 280.67 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -17550,39 +16441,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 280.67 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 280.67 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 280.67 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 280.67 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17718,38 +16577,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 190.5 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 190.5 88.9 0)
 			(hide yes)
@@ -17762,6 +16589,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17843,17 +16681,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 351.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -18057,39 +16884,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 525.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 525.78 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 525.78 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18112,6 +16907,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 525.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 525.78 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18203,40 +17009,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 191.77 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 191.77 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 191.77 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 191.77 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -18325,40 +17098,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 140.97 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -18470,37 +17210,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 309.88 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 309.88 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 309.88 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 309.88 105.41 90)
 			(hide yes)
@@ -18513,6 +17222,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 309.88 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 309.88 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -18604,7 +17324,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0712KL"
 			(at 130.81 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18615,39 +17335,7 @@
 				)
 			)
 		)
-		(property "DK" ""
-			(at 130.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 130.81 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 130.81 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "DK" "311-12.0KLRCT-ND"
 			(at 130.81 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18761,7 +17449,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 383.54 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -18772,39 +17460,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 383.54 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 383.54 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 383.54 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 383.54 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18827,6 +17483,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 383.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 383.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 383.54 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18940,38 +17618,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 311.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 311.15 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 311.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 311.15 88.9 0)
 			(hide yes)
@@ -18984,6 +17630,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 311.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19065,17 +17722,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 222.25 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -19267,38 +17913,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 85.09 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 85.09 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 85.09 233.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 85.09 233.68 90)
 			(hide yes)
@@ -19421,37 +18035,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 254 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 254 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 254 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 254 204.47 90)
 			(hide yes)
@@ -19464,6 +18047,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 254 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -19577,38 +18171,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 208.28 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 208.28 88.9 0)
 			(hide yes)
@@ -19621,6 +18183,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 208.28 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19711,28 +18284,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C140318"
-			(at 114.3 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 114.3 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 114.3 218.44 0)
 			(hide yes)
@@ -19745,6 +18296,39 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "296-17993-1-ND"
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C140318"
+			(at 114.3 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "SN74AVC2T45DCUR"
 			(at 114.3 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -19855,7 +18439,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "490-10700-1-ND"
 			(at 447.04 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19866,39 +18450,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 447.04 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 447.04 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 447.04 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 447.04 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19920,6 +18473,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 447.04 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 447.04 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 447.04 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -20033,37 +18608,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 262.89 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 262.89 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 262.89 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 262.89 105.41 90)
 			(hide yes)
@@ -20076,6 +18620,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 262.89 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 262.89 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -20189,37 +18744,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 374.65 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 374.65 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 374.65 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 374.65 204.47 90)
 			(hide yes)
@@ -20232,6 +18756,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 374.65 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 374.65 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -20423,37 +18958,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 392.43 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 392.43 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 392.43 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 392.43 204.47 90)
 			(hide yes)
@@ -20466,6 +18970,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 392.43 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 392.43 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -20557,40 +19072,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 297.18 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 297.18 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 297.18 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 297.18 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -20701,38 +19183,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 337.82 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 337.82 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 337.82 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 337.82 186.69 0)
 			(hide yes)
@@ -20745,6 +19195,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 337.82 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 337.82 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20847,39 +19308,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 491.49 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 491.49 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 491.49 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 491.49 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -20902,6 +19331,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 491.49 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 491.49 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -20993,7 +19433,7 @@
 				)
 			)
 		)
-		(property "DK" "1276-1234-1-ND"
+		(property "DK" "490-10700-1-ND"
 			(at 115.57 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -21004,39 +19444,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "CL05A104KO5NNNC"
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 115.57 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HEIGHT" ""
-			(at 115.57 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 115.57 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 115.57 256.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21058,6 +19467,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 115.57 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 115.57 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 115.57 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -21171,17 +19602,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 153.67 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 153.67 125.73 0)
 			(hide yes)
@@ -21194,6 +19614,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 153.67 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 153.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -21307,37 +19738,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 236.22 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 236.22 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 236.22 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 236.22 105.41 90)
 			(hide yes)
@@ -21350,6 +19750,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 236.22 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 236.22 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -21432,38 +19843,6 @@
 		)
 		(property "Description" "test point"
 			(at 532.13 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 532.13 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 532.13 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 532.13 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21583,27 +19962,6 @@
 			)
 		)
 		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 509.27 242.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 509.27 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -21749,37 +20107,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 189.23 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 189.23 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 189.23 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 189.23 204.47 90)
 			(hide yes)
@@ -21792,6 +20119,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 189.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 189.23 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -21883,7 +20221,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 392.43 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -21894,39 +20232,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 392.43 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 392.43 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 392.43 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 392.43 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -22062,38 +20368,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 199.39 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 199.39 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 199.39 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 199.39 186.69 0)
 			(hide yes)
@@ -22106,6 +20380,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 199.39 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -22197,7 +20482,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 392.43 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -22208,39 +20493,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 392.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 392.43 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 392.43 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 392.43 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22376,38 +20629,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 208.28 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 208.28 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 208.28 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 208.28 186.69 0)
 			(hide yes)
@@ -22420,6 +20641,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 208.28 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 208.28 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -22502,38 +20734,6 @@
 		)
 		(property "Description" "test point"
 			(at 532.13 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 532.13 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 532.13 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 532.13 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22643,7 +20843,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 401.32 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -22654,39 +20854,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 401.32 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 401.32 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 401.32 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 401.32 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -22709,6 +20877,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 401.32 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 401.32 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 401.32 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -22811,39 +21001,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 491.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 491.49 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 491.49 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 491.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -22866,6 +21024,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 491.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 491.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -22957,7 +21126,7 @@
 				)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "490-10700-1-ND"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -22968,18 +21137,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
-			(at 147.32 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -23002,6 +21160,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 147.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 147.32 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -23116,37 +21296,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 327.66 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 327.66 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 327.66 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 327.66 105.41 90)
 			(hide yes)
@@ -23159,6 +21308,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 327.66 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 327.66 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -23273,37 +21433,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 207.01 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 207.01 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 207.01 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 207.01 204.47 90)
 			(hide yes)
@@ -23316,6 +21445,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 207.01 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 207.01 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -23429,37 +21569,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 236.22 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 236.22 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 236.22 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 236.22 204.47 90)
 			(hide yes)
@@ -23472,6 +21581,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 236.22 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 236.22 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -23563,40 +21683,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 421.64 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 421.64 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 421.64 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 421.64 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -23676,38 +21763,6 @@
 		)
 		(property "Description" "test point"
 			(at 532.13 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 532.13 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 532.13 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 532.13 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23808,38 +21863,6 @@
 		)
 		(property "Description" "test point"
 			(at 532.13 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 532.13 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 532.13 214.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 532.13 214.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23971,38 +21994,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 337.82 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 337.82 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 337.82 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 337.82 88.9 0)
 			(hide yes)
@@ -24015,6 +22006,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 337.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 337.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -24128,37 +22130,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 245.11 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 245.11 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 245.11 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 245.11 204.47 90)
 			(hide yes)
@@ -24171,6 +22142,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 245.11 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 245.11 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -24284,37 +22266,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 365.76 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 365.76 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 365.76 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 365.76 105.41 90)
 			(hide yes)
@@ -24327,6 +22278,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 365.76 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 365.76 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -24418,40 +22380,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 421.64 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 421.64 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 421.64 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 421.64 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -24540,40 +22469,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 137.16 217.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 137.16 217.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 137.16 217.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 137.16 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -24674,39 +22570,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 525.78 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 525.78 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 525.78 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24729,6 +22593,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 525.78 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 525.78 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -24811,38 +22686,6 @@
 		)
 		(property "Description" "test point"
 			(at 129.54 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 129.54 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 129.54 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 129.54 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24972,27 +22815,6 @@
 				)
 			)
 		)
-		(property "Power" ""
-			(at 509.27 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 509.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 509.27 215.9 0)
 			(hide yes)
@@ -25105,40 +22927,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 137.16 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 137.16 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 137.16 219.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 137.16 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -25249,37 +23038,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 365.76 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 365.76 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 365.76 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 365.76 204.47 90)
 			(hide yes)
@@ -25292,6 +23050,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 365.76 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 365.76 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -25405,38 +23174,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 320.04 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 320.04 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 320.04 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 320.04 186.69 0)
 			(hide yes)
@@ -25449,6 +23186,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 320.04 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 320.04 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -25540,40 +23288,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 295.91 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 295.91 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 295.91 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 295.91 127 90)
 			(hide yes)
 			(show_name no)
@@ -25662,7 +23377,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 271.78 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -25673,39 +23388,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 271.78 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 271.78 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 271.78 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 271.78 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -25728,6 +23411,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 271.78 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -25810,38 +23515,6 @@
 		)
 		(property "Description" "test point"
 			(at 97.79 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 97.79 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 97.79 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 97.79 217.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25951,40 +23624,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 297.18 252.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 297.18 252.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 297.18 252.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 297.18 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -26073,40 +23713,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 295.91 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 295.91 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 295.91 226.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 295.91 226.06 90)
 			(hide yes)
 			(show_name no)
@@ -26195,7 +23802,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-10700-1-ND"
 			(at 254 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -26206,39 +23813,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 254 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 254 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 254 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R71H104KE14D"
 			(at 254 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -26261,6 +23836,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 254 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77020"
+			(at 254 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 254 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -26374,17 +23971,6 @@
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 448.31 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 448.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26527,37 +24113,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 180.34 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 180.34 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 180.34 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 180.34 105.41 90)
 			(hide yes)
@@ -26570,6 +24125,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 180.34 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 180.34 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -26683,38 +24249,6 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 328.93 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 328.93 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 328.93 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 328.93 186.69 0)
 			(hide yes)
@@ -26727,6 +24261,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 328.93 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 328.93 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -26818,40 +24363,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 295.91 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 295.91 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 295.91 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 295.91 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -26940,40 +24452,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 410.21 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 410.21 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 410.21 187.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 410.21 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -27084,37 +24563,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 374.65 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 374.65 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 374.65 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 374.65 105.41 90)
 			(hide yes)
@@ -27127,6 +24575,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 374.65 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 374.65 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -27218,40 +24677,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 295.91 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 295.91 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 295.91 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
 			(at 295.91 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -27340,7 +24766,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "490-14306-1-ND"
 			(at 280.67 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -27351,39 +24777,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 280.67 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" ""
-			(at 280.67 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 280.67 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
+		(property "PARTNO" "GRM155R61A475MEAAD"
 			(at 280.67 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -27520,37 +24914,6 @@
 				)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 180.34 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 180.34 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 180.34 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 180.34 204.47 90)
 			(hide yes)
@@ -27563,6 +24926,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 180.34 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 180.34 204.47 90)
 			(hide yes)
 			(show_name no)
@@ -27665,39 +25039,7 @@
 				)
 			)
 		)
-		(property "partnum" ""
-			(at 491.49 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 491.49 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 491.49 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 491.49 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -27720,6 +25062,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 491.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 491.49 133.35 0)
 			(hide yes)
 			(show_name no)

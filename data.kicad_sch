@@ -5598,17 +5598,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 201.93 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 201.93 31.75 0)
 			(hide yes)
@@ -5769,17 +5758,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 147.32 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 147.32 53.34 0)
 			(hide yes)
@@ -5889,17 +5867,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 303.53 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 303.53 110.49 0)
 			(hide yes)
@@ -5933,29 +5900,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 303.53 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 303.53 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 303.53 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6091,40 +6036,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 325.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 325.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 325.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 325.12 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6263,17 +6175,6 @@
 			)
 		)
 		(property "PARTNO" "USB4105-GF-A"
-			(at 317.5 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 317.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6462,17 +6363,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 294.64 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 294.64 52.07 90)
 			(hide yes)
@@ -6608,17 +6498,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 135.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 135.89 127 0)
 			(hide yes)
@@ -6711,38 +6590,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "partnum" ""
-			(at 205.74 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 205.74 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 205.74 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6879,17 +6726,6 @@
 			)
 		)
 		(property "PARTNO" "ESP32-S3-WROOM-1-N16R8"
-			(at 200.66 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 200.66 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7132,17 +6968,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 339.09 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "RC0402FR-071KL"
 			(at 339.09 106.68 0)
 			(hide yes)
@@ -7165,29 +6990,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 339.09 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 339.09 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 339.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7333,17 +7136,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 116.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 116.84 50.8 0)
 			(hide yes)
@@ -7445,28 +7237,6 @@
 		)
 		(property "Description" ""
 			(at 66.04 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 66.04 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 66.04 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,17 +7369,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 125.73 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 125.73 46.99 0)
 			(hide yes)
@@ -7622,6 +7381,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 125.73 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 125.73 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7736,28 +7506,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 66.04 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 66.04 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 66.04 85.09 0)
 			(hide yes)
@@ -7853,28 +7601,6 @@
 		)
 		(property "Description" ""
 			(at 72.39 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 72.39 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 72.39 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8016,17 +7742,6 @@
 				)
 			)
 		)
-		(property "ALT1" ""
-			(at 125.73 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 125.73 57.15 0)
 			(hide yes)
@@ -8152,40 +7867,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 88.9 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 88.9 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 88.9 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8322,28 +8004,6 @@
 				)
 			)
 		)
-		(property "Field6" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 93.98 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 93.98 85.09 0)
 			(hide yes)
@@ -8460,28 +8120,6 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-074K7L"
-			(at 72.39 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 72.39 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8617,17 +8255,6 @@
 		)
 		(property "LCSC" "C25905"
 			(at 283.21 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
-			(at 283.21 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

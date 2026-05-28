@@ -1459,29 +1459,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 81.28 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 81.28 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 81.28 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -1592,29 +1570,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 31.75 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 31.75 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 31.75 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -1738,29 +1694,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 81.28 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 81.28 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 81.28 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -1872,29 +1806,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 81.28 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 81.28 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 81.28 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -2037,29 +1949,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 50.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 50.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 50.8 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2180,29 +2070,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 52.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 52.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -2311,29 +2179,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 81.28 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 81.28 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 81.28 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -2445,29 +2291,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 52.07 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 52.07 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 52.07 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -2576,29 +2400,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 52.07 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 52.07 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 52.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -2707,29 +2509,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
-			(at 52.07 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
-			(at 52.07 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT1" ""
 			(at 52.07 168.91 0)
 			(hide yes)
 			(show_name no)

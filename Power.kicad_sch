@@ -2568,6 +2568,17 @@
 		)
 		(uuid "42b5ba51-a73d-4fed-9c61-3b111d950f63")
 	)
+	(text "VR Thermal Busbar"
+		(exclude_from_sim no)
+		(at 228.854 162.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "560c10ba-213e-4ce2-8e5c-0ff0916aa8c4")
+	)
 	(text "5V Regulator"
 		(exclude_from_sim no)
 		(at 104.648 211.074 0)
@@ -2578,6 +2589,17 @@
 			(justify right bottom)
 		)
 		(uuid "6a19b66b-08f9-4fc1-b3ed-e2e90a39d9a3")
+	)
+	(text "Output voltage feedback -- connect close to load"
+		(exclude_from_sim no)
+		(at 310.134 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0ced9a4-b9e1-4be6-857a-22c010b92be6")
 	)
 	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=164DFA9F631358EB"
 		(exclude_from_sim no)
@@ -2836,12 +2858,6 @@
 		(uuid "7da7fc05-0007-4c59-b529-e288755b6c8a")
 	)
 	(junction
-		(at 238.76 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aa9006b-0f6c-4e02-b193-e6b32888bf5f")
-	)
-	(junction
 		(at 165.1 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2980,6 +2996,12 @@
 		(uuid "d668b42e-243f-4034-bb97-3e0841a3cdaa")
 	)
 	(junction
+		(at 238.76 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6cf17fc-6110-4cfe-b2aa-4fd93c34dae0")
+	)
+	(junction
 		(at 107.95 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2990,6 +3012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0bf6ea7-3198-45ca-aeb6-78afec5dd5da")
+	)
+	(junction
+		(at 238.76 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f23b7e-468a-48da-827c-e6e7f738becd")
 	)
 	(junction
 		(at 110.49 55.88)
@@ -3044,12 +3072,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a11afc-ca4b-4dc3-a120-bc1f3e2c8dfb")
-	)
-	(junction
-		(at 238.76 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8510ea0-61af-4e19-92ef-927ce9618a62")
 	)
 	(junction
 		(at 156.21 55.88)
@@ -3561,7 +3583,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 110.49) (xy 248.92 110.49)
+			(xy 238.76 109.22) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4091,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 115.57) (xy 234.95 115.57)
+			(xy 209.55 115.57) (xy 231.14 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4341,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 110.49) (xy 238.76 110.49)
+			(xy 231.14 109.22) (xy 238.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4381,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 73.66) (xy 306.07 110.49)
+			(xy 306.07 73.66) (xy 306.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4651,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 115.57) (xy 234.95 110.49)
+			(xy 231.14 115.57) (xy 231.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4971,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 119.38) (xy 238.76 118.11)
+			(xy 238.76 119.38) (xy 238.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5311,16 +5333,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 110.49) (xy 238.76 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4182571-54c7-44bb-8ebe-b3283deaeecc")
-	)
-	(wire
-		(pts
 			(xy 177.8 55.88) (xy 177.8 77.47)
 		)
 		(stroke
@@ -5368,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "f7692426-466b-4260-9114-43bc7d564f88")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 238.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa22283c-9454-4fda-97aa-2a69e907f081")
 	)
 	(wire
 		(pts
@@ -5421,7 +5443,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 110.49) (xy 306.07 110.49)
+			(xy 254 109.22) (xy 306.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6736,7 +6758,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 238.76 115.57 0)
+		(at 238.76 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6746,7 +6768,7 @@
 		(dnp no)
 		(uuid "1e78efc2-b774-4828-816e-c44987330547")
 		(property "Reference" "C18"
-			(at 244.602 114.046 0)
+			(at 244.602 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6757,7 +6779,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 246.634 116.332 0)
+			(at 246.634 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6768,7 +6790,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,7 +6801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6790,7 +6812,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6823,7 @@
 			)
 		)
 		(property "PARTNO" "CC0402JRNPO9BN101"
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6812,7 +6834,7 @@
 			)
 		)
 		(property "DK" "311-1024-1-ND"
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6845,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 242.57 112.014 0)
+			(at 242.57 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6833,7 +6855,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +6866,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +6877,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 238.76 115.57 0)
+			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8946,7 +8968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 251.46 110.49 270)
+		(at 251.46 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8956,7 +8978,7 @@
 		(dnp no)
 		(uuid "6b8a6423-cddf-4adf-b204-699c61f06c0a")
 		(property "Reference" "R7"
-			(at 249.174 105.918 90)
+			(at 249.174 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8967,7 +8989,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 249.174 107.95 90)
+			(at 249.174 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8978,7 +9000,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 251.46 110.49 0)
+			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,7 +9011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 110.49 0)
+			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9000,7 +9022,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 251.46 110.49 0)
+			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9011,7 +9033,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-0749R9L"
-			(at 251.46 110.49 0)
+			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +9044,7 @@
 			)
 		)
 		(property "DK" "311-49.9LRCT-ND"
-			(at 251.46 110.49 0)
+			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +9055,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 251.46 110.49 90)
+			(at 251.46 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +9066,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 251.46 110.49 90)
+			(at 251.46 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +9077,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 251.46 110.49 90)
+			(at 251.46 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

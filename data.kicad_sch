@@ -5736,7 +5736,7 @@
 				)
 			)
 		)
-		(property "DK" "EG4388CT-ND"
+		(property "DK" ""
 			(at 146.558 69.596 0)
 			(hide yes)
 			(show_name no)
@@ -6714,7 +6714,7 @@
 				)
 			)
 		)
-		(property "DK" "1965-ESP32-S3-WROOM-1-N16R8CT-ND"
+		(property "DK" "5407-ESP32-S3-WROOM-1-N16R8TR-ND"
 			(at 200.66 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7114,7 +7114,7 @@
 				)
 			)
 		)
-		(property "DK" "EG4388CT-ND"
+		(property "DK" ""
 			(at 117.602 67.056 0)
 			(hide yes)
 			(show_name no)

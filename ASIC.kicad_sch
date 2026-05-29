@@ -634,6 +634,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV73312PDBV"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV73312PDBV"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "300mA LDO Regulator Fixed Positive Capacitor-Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV73312PDBV_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV73312PDBV_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bitaxe:BlockMC3_mode0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2288,204 +2482,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:TLV755P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U3"
-				(at -0.508 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV755075PDQNR"
-				(at -0.508 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:DQN0004A"
-				(at -0.254 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-				(at 0 -9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTNO" "TLV755075PDQNR"
-				(at 0 -18.288 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DK" "296-TLV755075PDQNRCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV755P_0_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV755P_1_0"
-				(pin power_out line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bitaxe:TS3011"
 			(pin_names
 				(offset 0.127)
@@ -2852,7 +2848,7 @@
 	)
 	(text "1.2V LDO"
 		(exclude_from_sim no)
-		(at 509.27 137.668 0)
+		(at 506.984 119.888 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2870,9 +2866,9 @@
 		)
 		(uuid "a10e9c3a-97d9-461b-87d2-234b82ba3841")
 	)
-	(text "0.75V LDO"
+	(text "0.8V LDO"
 		(exclude_from_sim no)
-		(at 509.524 224.028 0)
+		(at 506.984 205.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2882,7 +2878,7 @@
 	)
 	(text "1.2V LDO"
 		(exclude_from_sim no)
-		(at 509.27 250.698 0)
+		(at 506.984 232.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2890,9 +2886,9 @@
 		)
 		(uuid "c77ed47a-2dfa-4c86-b615-b20151d20072")
 	)
-	(text "0.75V LDO"
+	(text "0.8V LDO"
 		(exclude_from_sim no)
-		(at 509.524 110.998 0)
+		(at 506.984 92.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2931,7 +2927,7 @@
 		(uuid "0405f0a8-d4ea-4f13-9b3e-ea38e1470e2d")
 	)
 	(junction
-		(at 525.78 101.6)
+		(at 520.7 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05f92ae1-00cf-49f2-aa91-2101928b5fe0")
@@ -2961,7 +2957,7 @@
 		(uuid "15d6bac8-12cc-4568-b74f-5941d6d050f6")
 	)
 	(junction
-		(at 525.78 128.27)
+		(at 520.7 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17d0db31-2cd4-4137-82e8-7a2562d9af7f")
@@ -3045,6 +3041,12 @@
 		(uuid "25bac31a-5a93-4a22-8291-0fd774d615c1")
 	)
 	(junction
+		(at 520.7 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280c8b18-8571-489a-a7ba-2f949a630f9b")
+	)
+	(junction
 		(at 199.39 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,25 +3101,19 @@
 		(uuid "38d9919c-3888-4ec6-a99d-8877cca64fdb")
 	)
 	(junction
-		(at 521.97 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39eeaa86-10ae-4bf8-9f33-9b00cb22f08c")
-	)
-	(junction
 		(at 331.47 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3aea8328-68bb-4a4d-8f56-1970c11f8717")
 	)
 	(junction
-		(at 525.78 241.3)
+		(at 520.7 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4fa686-3542-4047-b847-e08d85fc7bed")
 	)
 	(junction
-		(at 525.78 214.63)
+		(at 520.7 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2d47e2-e9a6-43a4-a8e9-2b1496a4dd8a")
@@ -3279,6 +3275,12 @@
 		(uuid "78bcdd2c-3fc0-4b0f-843a-f8ec981b2562")
 	)
 	(junction
+		(at 506.73 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790a3fd4-67a4-4965-8930-5cb25cbdac6a")
+	)
+	(junction
 		(at 491.49 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3309,22 +3311,16 @@
 		(uuid "8162f2ee-bca2-433d-9dfb-c42575fdeb17")
 	)
 	(junction
+		(at 506.73 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fc6514-a802-4014-bf13-eac0cf020252")
+	)
+	(junction
 		(at 123.19 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85282f80-51e5-4979-bd8f-1a07fa070544")
-	)
-	(junction
-		(at 521.97 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "864c9c29-c9b2-44bf-a094-026cde19a43e")
-	)
-	(junction
-		(at 521.97 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87b1af1c-c94c-471b-a2eb-574ba05b2c16")
 	)
 	(junction
 		(at 254 134.62)
@@ -3357,34 +3353,16 @@
 		(uuid "93e799c1-d19f-4e1c-a76e-b2757c94042a")
 	)
 	(junction
-		(at 521.97 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9559eaab-bd8a-4ad6-b096-e79f0dc6cca7")
-	)
-	(junction
 		(at 421.64 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a6af02-bc5f-48ac-abd2-879d3cd1cb23")
 	)
 	(junction
-		(at 521.97 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be45ef9-aa43-4a95-a9cd-ef1372f68d84")
-	)
-	(junction
 		(at 491.49 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f98dccb-8f34-4561-8862-a054978deffa")
-	)
-	(junction
-		(at 521.97 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1dbc44d-28f8-41bc-938b-8cc9aae0f19b")
 	)
 	(junction
 		(at 331.47 204.47)
@@ -3403,12 +3381,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a52afc27-3d9c-4669-a64e-c3ddc616a71b")
-	)
-	(junction
-		(at 521.97 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2db91b-eac1-4120-9ad3-6c3f965adac6")
 	)
 	(junction
 		(at 387.35 204.47)
@@ -3439,6 +3411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7ce6dcf-e347-4a4e-841c-e9ac67d53d9e")
+	)
+	(junction
+		(at 520.7 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90aa99a-d8ad-4989-8ffc-944a2f3819cc")
 	)
 	(junction
 		(at 328.93 194.31)
@@ -3507,16 +3485,16 @@
 		(uuid "d9e30ef1-6e73-4251-881b-0eb4966c28e1")
 	)
 	(junction
+		(at 506.73 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9eb09c4-eedf-43a7-9fb1-989d471177a8")
+	)
+	(junction
 		(at 222.25 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc588a5f-7725-4137-a9a9-c0124297f5f3")
-	)
-	(junction
-		(at 521.97 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcf3b354-c39b-42d4-bfa1-0acf79c6a0e6")
 	)
 	(junction
 		(at 297.18 252.73)
@@ -3529,6 +3507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de4c8b5f-22b3-4305-99ce-a794330c042f")
+	)
+	(junction
+		(at 506.73 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1cc639b-4147-4ef0-a29a-6ca23e92fc37")
 	)
 	(junction
 		(at 130.81 115.57)
@@ -3818,16 +3802,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 142.24) (xy 521.97 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075cf1a8-1969-4633-a3e3-c4693e115a50")
-	)
-	(wire
-		(pts
 			(xy 181.61 189.23) (xy 181.61 194.31)
 		)
 		(stroke
@@ -3878,16 +3852,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 241.3) (xy 525.78 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6caae4-7e04-47c6-afc7-be64018cc8d4")
-	)
-	(wire
-		(pts
 			(xy 190.5 180.34) (xy 181.61 180.34)
 		)
 		(stroke
@@ -3918,16 +3882,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 217.17) (xy 521.97 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca90aa8-2871-4ffd-91cb-e08d0d4ceffd")
-	)
-	(wire
-		(pts
 			(xy 491.49 142.24) (xy 491.49 135.89)
 		)
 		(stroke
@@ -3935,6 +3889,16 @@
 			(type default)
 		)
 		(uuid "0e7402be-9fd8-4311-85a5-f459ee8ff572")
+	)
+	(wire
+		(pts
+			(xy 506.73 255.27) (xy 520.7 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef7a690-d202-4500-8a60-6e8cc1b36514")
 	)
 	(wire
 		(pts
@@ -3955,16 +3919,6 @@
 			(type default)
 		)
 		(uuid "112a8b21-eef4-4ea9-a919-4eaf9124c5a4")
-	)
-	(wire
-		(pts
-			(xy 519.43 214.63) (xy 525.78 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114f1f15-474d-46bd-8cd9-7fd9821e606d")
 	)
 	(wire
 		(pts
@@ -4098,16 +4052,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 243.84) (xy 521.97 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19bd4d16-a8b5-4399-96d8-62fe9f6e663a")
-	)
-	(wire
-		(pts
 			(xy 353.06 187.96) (xy 351.79 187.96)
 		)
 		(stroke
@@ -4118,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 241.3) (xy 532.13 241.3)
+			(xy 520.7 241.3) (xy 527.05 241.3)
 		)
 		(stroke
 			(width 0)
@@ -4248,23 +4192,13 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 241.3) (xy 525.78 243.84)
+			(xy 520.7 241.3) (xy 520.7 243.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20612342-62c4-4aee-bda6-4753e3422aa2")
-	)
-	(wire
-		(pts
-			(xy 519.43 128.27) (xy 525.78 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218f7a61-0d82-4711-bb42-8a2a3ab9380d")
 	)
 	(wire
 		(pts
@@ -4408,6 +4342,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 251.46) (xy 506.73 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4c5788-ec10-477a-a247-b62aea6773c1")
+	)
+	(wire
+		(pts
 			(xy 254 240.03) (xy 254 243.84)
 		)
 		(stroke
@@ -4418,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 248.92) (xy 525.78 255.27)
+			(xy 520.7 248.92) (xy 520.7 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 115.57) (xy 521.97 115.57)
+			(xy 491.49 115.57) (xy 506.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4545,6 +4489,16 @@
 			(type default)
 		)
 		(uuid "30cf5fce-b145-4f27-8382-5a32a27e61ad")
+	)
+	(wire
+		(pts
+			(xy 514.35 101.6) (xy 520.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e15214-9696-41e0-9c2f-1fdd3315fa66")
 	)
 	(wire
 		(pts
@@ -4585,16 +4539,6 @@
 			(type default)
 		)
 		(uuid "32f420ad-1add-4007-96c8-cfa2f259ea4c")
-	)
-	(wire
-		(pts
-			(xy 521.97 246.38) (xy 521.97 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3459b6a4-eec5-4e78-8fef-e8bdad975b3f")
 	)
 	(wire
 		(pts
@@ -4658,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 101.6) (xy 532.13 101.6)
+			(xy 520.7 101.6) (xy 527.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4688,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 255.27) (xy 521.97 255.27)
+			(xy 491.49 255.27) (xy 506.73 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4768,13 +4712,13 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 133.35) (xy 521.97 142.24)
+			(xy 506.73 224.79) (xy 506.73 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ee3c035-6f5a-4b9e-af16-20de5c667d08")
+		(uuid "3e5699a9-6906-4f8d-9085-12b9280ccf3d")
 	)
 	(wire
 		(pts
@@ -4918,16 +4862,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 219.71) (xy 521.97 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4480e5ca-8527-46b3-be95-f31f035a5863")
-	)
-	(wire
-		(pts
 			(xy 100.33 248.92) (xy 104.14 248.92)
 		)
 		(stroke
@@ -4988,16 +4922,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 106.68) (xy 521.97 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477a4523-6aac-4cb9-bcfc-5f5eb6843d6f")
-	)
-	(wire
-		(pts
 			(xy 262.89 135.89) (xy 262.89 134.62)
 		)
 		(stroke
@@ -5028,17 +4952,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 219.71) (xy 521.97 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b6a1fa-3de7-4acf-ad26-ac46fafabc17")
-	)
-	(wire
-		(pts
-			(xy 525.78 109.22) (xy 525.78 115.57)
+			(xy 520.7 109.22) (xy 520.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5048,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 128.27) (xy 532.13 128.27)
+			(xy 520.7 128.27) (xy 527.05 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5065,16 +4979,6 @@
 			(type default)
 		)
 		(uuid "48b9a122-fc2d-40d8-818e-082062076652")
-	)
-	(wire
-		(pts
-			(xy 519.43 246.38) (xy 521.97 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f0b16a-9c6f-4f81-90e2-3853f683daac")
 	)
 	(wire
 		(pts
@@ -5328,7 +5232,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 228.6) (xy 521.97 228.6)
+			(xy 506.73 228.6) (xy 520.7 228.6)
 		)
 		(stroke
 			(width 0)
@@ -5375,6 +5279,16 @@
 			(type default)
 		)
 		(uuid "58929fde-61bb-41e3-a32e-62aa2ee35fa5")
+	)
+	(wire
+		(pts
+			(xy 514.35 241.3) (xy 520.7 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5900ca81-5823-4737-af2b-fe3166a2d0c5")
 	)
 	(wire
 		(pts
@@ -5458,7 +5372,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 135.89) (xy 525.78 142.24)
+			(xy 520.7 135.89) (xy 520.7 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5475,16 +5389,6 @@
 			(type default)
 		)
 		(uuid "5d7e2f00-d507-45e6-9e34-95c0918bd213")
-	)
-	(wire
-		(pts
-			(xy 519.43 133.35) (xy 521.97 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e8cebd8-3dd5-4a12-96be-82d285272336")
 	)
 	(wire
 		(pts
@@ -5538,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 101.6) (xy 525.78 104.14)
+			(xy 520.7 101.6) (xy 520.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5725,6 +5629,16 @@
 			(type default)
 		)
 		(uuid "6ea7f47e-e9e2-4e10-bae5-262a70df5aa4")
+	)
+	(wire
+		(pts
+			(xy 514.35 128.27) (xy 520.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70062ae8-3b70-46ba-aefe-b51304cb3060")
 	)
 	(wire
 		(pts
@@ -5948,16 +5862,6 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 101.6) (xy 525.78 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f0b20d-075a-4bbb-8e87-7b05c3e2f1ff")
-	)
-	(wire
-		(pts
 			(xy 186.69 105.41) (xy 185.42 105.41)
 		)
 		(stroke
@@ -6005,16 +5909,6 @@
 			(type default)
 		)
 		(uuid "7b65cda8-6f85-40a3-be73-f8d1b76e3502")
-	)
-	(wire
-		(pts
-			(xy 519.43 130.81) (xy 521.97 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b919e8a-f11f-4f27-bf47-833ecf0dc02b")
 	)
 	(wire
 		(pts
@@ -6115,16 +6009,6 @@
 			(type default)
 		)
 		(uuid "7fb3e523-a384-4236-93d2-3f210203656f")
-	)
-	(wire
-		(pts
-			(xy 491.49 115.57) (xy 521.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802d9102-9334-4214-8adf-52e488119425")
 	)
 	(wire
 		(pts
@@ -6248,13 +6132,23 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 214.63) (xy 525.78 217.17)
+			(xy 520.7 214.63) (xy 520.7 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8774d796-ab52-434b-9922-89277198a73b")
+	)
+	(wire
+		(pts
+			(xy 506.73 142.24) (xy 520.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883f8a6a-1da1-48e5-b760-a9fa3eb0071c")
 	)
 	(wire
 		(pts
@@ -6305,16 +6199,6 @@
 			(type default)
 		)
 		(uuid "8ab78a53-43e2-4b5c-affa-12cab50f693b")
-	)
-	(wire
-		(pts
-			(xy 519.43 104.14) (xy 521.97 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab793ca-e6a1-479b-b61d-720ce9e6d02a")
 	)
 	(wire
 		(pts
@@ -6508,6 +6392,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 111.76) (xy 506.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ed93c1-8fb5-466f-990d-50f405544c61")
+	)
+	(wire
+		(pts
 			(xy 421.64 176.53) (xy 421.64 167.64)
 		)
 		(stroke
@@ -6668,23 +6562,13 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 222.25) (xy 525.78 228.6)
+			(xy 520.7 222.25) (xy 520.7 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9af3d97c-c4f5-4965-9f77-c7bc07c901ca")
-	)
-	(wire
-		(pts
-			(xy 525.78 255.27) (xy 521.97 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b896bf2-ad90-4eae-b26f-2082be48201d")
 	)
 	(wire
 		(pts
@@ -6778,16 +6662,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 130.81) (xy 521.97 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12219b9-2ff7-4cb6-9979-2ab41f9d4601")
-	)
-	(wire
-		(pts
 			(xy 496.57 101.6) (xy 491.49 101.6)
 		)
 		(stroke
@@ -6818,16 +6692,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 104.14) (xy 521.97 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a321094e-38f7-4889-9c8c-ebb9486cd212")
-	)
-	(wire
-		(pts
 			(xy 189.23 137.16) (xy 203.2 137.16)
 		)
 		(stroke
@@ -6848,7 +6712,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 128.27) (xy 525.78 130.81)
+			(xy 520.7 128.27) (xy 520.7 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7478,13 +7342,23 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 142.24) (xy 521.97 142.24)
+			(xy 491.49 142.24) (xy 506.73 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc8e88f0-e774-429d-9b0f-b8f2e1b16f3e")
+	)
+	(wire
+		(pts
+			(xy 506.73 138.43) (xy 506.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9144dd-f37d-49ae-a6a9-f99d71bb3dcf")
 	)
 	(wire
 		(pts
@@ -7568,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 228.6) (xy 521.97 228.6)
+			(xy 491.49 228.6) (xy 506.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7635,16 +7509,6 @@
 			(type default)
 		)
 		(uuid "d5835567-cd58-41c1-bdd8-ea53696a13ac")
-	)
-	(wire
-		(pts
-			(xy 521.97 217.17) (xy 521.97 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61f8c4f-42c1-42e4-b792-95aeddf534d8")
 	)
 	(wire
 		(pts
@@ -7888,16 +7752,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 106.68) (xy 521.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e269a1cf-00b6-4aaf-8da5-1baca4fcc479")
-	)
-	(wire
-		(pts
 			(xy 130.81 138.43) (xy 100.33 138.43)
 		)
 		(stroke
@@ -7985,16 +7839,6 @@
 			(type default)
 		)
 		(uuid "e5516369-ce2d-47a1-bf55-03b56baf6540")
-	)
-	(wire
-		(pts
-			(xy 521.97 243.84) (xy 521.97 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e613a529-e7b2-4184-99ac-d23ef25cfd6b")
 	)
 	(wire
 		(pts
@@ -8268,6 +8112,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 115.57) (xy 520.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee18b2d9-1dc1-493e-bb60-3e1f57b001ce")
+	)
+	(wire
+		(pts
 			(xy 353.06 187.96) (xy 353.06 204.47)
 		)
 		(stroke
@@ -8295,6 +8149,16 @@
 			(type default)
 		)
 		(uuid "ef93c221-61a0-4be3-b011-dd26a66177c0")
+	)
+	(wire
+		(pts
+			(xy 514.35 214.63) (xy 520.7 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f120922e-55a5-4838-a71f-321444008d32")
 	)
 	(wire
 		(pts
@@ -8468,7 +8332,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 214.63) (xy 532.13 214.63)
+			(xy 520.7 214.63) (xy 527.05 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8507,7 +8371,7 @@
 		(uuid "02f43529-8f55-40c6-8057-761cee68e9f6")
 	)
 	(label "0V75"
-		(at 532.13 214.63 180)
+		(at 527.05 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8557,7 +8421,7 @@
 		(uuid "0b2e2d57-ba5a-4bd2-85b2-6c9160709456")
 	)
 	(label "GND0"
-		(at 506.73 115.57 0)
+		(at 509.27 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8577,7 +8441,7 @@
 		(uuid "18f25dd1-0589-4af7-a46c-c44f99822d0e")
 	)
 	(label "1V2-0"
-		(at 532.13 128.27 180)
+		(at 527.05 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8707,7 +8571,7 @@
 		(uuid "38c47269-ef28-47ac-90f1-68eb5f5d6e70")
 	)
 	(label "1V2"
-		(at 532.13 241.3 180)
+		(at 527.05 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8757,7 +8621,7 @@
 		(uuid "4578bbe9-a0e3-4037-a0ca-c49011886e61")
 	)
 	(label "GND"
-		(at 506.73 255.27 0)
+		(at 509.27 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8947,7 +8811,7 @@
 		(uuid "89140a1b-0a08-49e1-8668-8b5f94f3c09a")
 	)
 	(label "GND"
-		(at 506.73 228.6 0)
+		(at 509.27 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9207,7 +9071,7 @@
 		(uuid "d91f4547-c30e-4353-b578-c254e9dceb32")
 	)
 	(label "0V75-0"
-		(at 532.13 101.6 180)
+		(at 527.05 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9247,7 +9111,7 @@
 		(uuid "e51c596c-e305-4963-a843-697bf3391d17")
 	)
 	(label "GND0"
-		(at 506.73 142.24 0)
+		(at 509.27 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10467,6 +10331,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV73312PDBV")
+		(at 506.73 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4068da-7f73-49a6-9c39-4a95ed73e285")
+		(property "Reference" "U11"
+			(at 506.73 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV77312PDBVR"
+			(at 506.73 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 506.73 235.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(at 506.73 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+			(at 506.73 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "296-TLV77312PDBVRCT-ND"
+			(at 506.73 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TLV77312PDBVR"
+			(at 506.73 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86d356fe-f483-4089-b565-fef9400dda17")
+		)
+		(pin "5"
+			(uuid "e360c3cf-4ebb-493c-b868-ed52d6e0ab51")
+		)
+		(pin "2"
+			(uuid "1c877740-a212-40f3-b5d0-8bcb9977d522")
+		)
+		(pin "4"
+			(uuid "6901515d-a7a8-4e57-bc6d-bf3af172e234")
+		)
+		(pin "3"
+			(uuid "9240b17b-9fa8-42e7-b4c9-99f2f8277ed9")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 410.21 237.49 180)
 		(unit 1)
@@ -11258,38 +11234,40 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:TLV755P")
-		(at 509.27 102.87 0)
+		(lib_id "Connector:TestPoint")
+		(at 520.7 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e89f817-c617-4602-8fc1-341a7aade3d3")
-		(property "Reference" "U3"
-			(at 508.762 95.25 0)
+		(uuid "2e9cb182-c40f-4d48-a772-c85ba3d91dc0")
+		(property "Reference" "TP3"
+			(at 525.018 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TLV755075PDQNR"
-			(at 508.762 97.79 0)
+		(property "Value" "GND0"
+			(at 525.018 117.856 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 509.016 118.364 0)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 520.7 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,8 +11277,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 509.27 112.776 0)
+		(property "Datasheet" ""
+			(at 520.7 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11310,30 +11288,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 509.27 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "TLV755075PDQNR"
-			(at 509.27 121.158 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 102.87 0)
+		(property "Description" "test point"
+			(at 520.7 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11300,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 509.27 102.87 0)
+			(at 520.7 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,7 +11311,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 509.27 102.87 0)
+			(at 520.7 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,157 +11321,13 @@
 				)
 			)
 		)
-		(pin "5"
-			(uuid "b0d8d887-650a-45d1-b18a-2054a0e0c8a8")
-		)
 		(pin "1"
-			(uuid "e1ed590a-268c-4d33-bb13-0424ed4498d7")
-		)
-		(pin "4"
-			(uuid "b9f61ef3-86ff-463d-95ac-edd3116a0301")
-		)
-		(pin "2"
-			(uuid "241fb939-9cb9-466e-9855-f56b8643a85b")
-		)
-		(pin "3"
-			(uuid "f3c06076-1615-4ead-8a91-a24e09cee833")
+			(uuid "7c37146e-8aff-4bc6-9eb4-a4338e1e609c")
 		)
 		(instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:TLV755P")
-		(at 509.27 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ebcdee4-3136-4486-b7b7-4c86998b16b5")
-		(property "Reference" "U16"
-			(at 508.762 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 508.762 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 509.016 145.034 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 509.27 139.446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 509.27 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "TLV755075PDQNR"
-			(at 509.27 147.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 509.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 509.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "abd5279c-12ca-4d7a-8155-ce5fa3c985ba")
-		)
-		(pin "1"
-			(uuid "44ebbd43-68a9-4631-928c-03dd0330b33b")
-		)
-		(pin "4"
-			(uuid "acbecd6d-3818-42a8-98f7-6a590568cb84")
-		)
-		(pin "2"
-			(uuid "ee297a08-9bf8-4a34-81a5-e35a7b23a8d7")
-		)
-		(pin "3"
-			(uuid "eac0ee3d-1e7e-48d2-b98d-509066372afc")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U16")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12165,6 +11977,118 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV73312PDBV")
+		(at 506.73 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384af1f7-a8a6-479e-8344-90f8dab43814")
+		(property "Reference" "U6"
+			(at 506.73 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV77312PDBVR"
+			(at 506.73 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 506.73 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(at 506.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+			(at 506.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "296-TLV77312PDBVRCT-ND"
+			(at 506.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TLV77312PDBVR"
+			(at 506.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8690806d-c18a-4a55-9310-1693128b3d02")
+		)
+		(pin "5"
+			(uuid "9d6871fa-d4a2-4f22-95c7-2f3af66142dc")
+		)
+		(pin "2"
+			(uuid "2f72ad67-2178-478c-9616-aa634f0c326c")
+		)
+		(pin "4"
+			(uuid "d5bf6e86-c2ac-4930-980d-8b82c09074ce")
+		)
+		(pin "3"
+			(uuid "936139f9-1ffb-473e-81ca-478cab944139")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12909,6 +12833,118 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV73312PDBV")
+		(at 506.73 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40ab1a9d-4010-4b65-a285-f9822b3d1643")
+		(property "Reference" "U7"
+			(at 506.73 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV77308PDBVR"
+			(at 506.73 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 506.73 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(at 506.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+			(at 506.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "296-TLV77308PDBVRCT-ND"
+			(at 506.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TLV77308PDBVR"
+			(at 506.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b246117b-1621-473e-83aa-07618d61df00")
+		)
+		(pin "5"
+			(uuid "3ed3b31e-14af-40e6-af93-71098fa622a5")
+		)
+		(pin "2"
+			(uuid "46ef5835-ec3b-4bbf-9c14-6fd7589e2512")
+		)
+		(pin "4"
+			(uuid "bfdbc166-e0c3-43cc-a0d9-26682a39551d")
+		)
+		(pin "3"
+			(uuid "badd4725-2a9d-4b72-8785-c3333ccf7537")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14313,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 525.78 219.71 0)
+		(at 520.7 219.71 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14288,7 +14324,7 @@
 		(dnp no)
 		(uuid "53a70bbf-58f1-4aeb-afe2-fdc1e9cd96aa")
 		(property "Reference" "C56"
-			(at 532.13 218.948 0)
+			(at 527.05 218.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14299,7 +14335,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 531.876 220.98 0)
+			(at 526.796 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14310,7 +14346,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14321,7 +14357,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14332,7 +14368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14343,7 +14379,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 525.78 219.71 90)
+			(at 520.7 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14354,7 +14390,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14365,7 +14401,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14376,7 +14412,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14423,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 525.78 219.71 0)
+			(at 520.7 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15662,7 +15698,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 525.78 246.38 0)
+		(at 520.7 246.38 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15673,7 +15709,7 @@
 		(dnp no)
 		(uuid "6fff5d6f-a1ee-441f-a4c9-7ba8d8da8555")
 		(property "Reference" "C57"
-			(at 532.13 245.618 0)
+			(at 527.05 245.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15684,7 +15720,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 531.876 247.65 0)
+			(at 526.796 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15695,7 +15731,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15706,7 +15742,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15717,7 +15753,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,7 +15764,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 525.78 246.38 90)
+			(at 520.7 246.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,7 +15775,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15750,7 +15786,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15761,7 +15797,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15772,7 +15808,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 525.78 246.38 0)
+			(at 520.7 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16626,6 +16662,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 520.7 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83aa8fd2-5c05-4cf2-8911-7f1694a55bdd")
+		(property "Reference" "TP17"
+			(at 525.018 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 525.018 257.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
+			(at 520.7 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 520.7 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 520.7 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 520.7 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 520.7 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0999d98-53f1-4d02-9f71-d7ed0cbd9a6d")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:BlockMC3_mode0")
 		(at 351.79 227.33 0)
 		(unit 1)
@@ -16808,7 +16944,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 525.78 106.68 0)
+		(at 520.7 106.68 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16819,7 +16955,7 @@
 		(dnp no)
 		(uuid "883f1336-42d1-4107-bcfd-686a12e0a495")
 		(property "Reference" "C50"
-			(at 532.13 105.918 0)
+			(at 527.05 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16830,7 +16966,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 531.876 107.95 0)
+			(at 526.796 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16841,7 +16977,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +16988,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16863,7 +16999,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16874,7 +17010,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 525.78 106.68 90)
+			(at 520.7 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16885,7 +17021,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16896,7 +17032,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16907,7 +17043,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16918,7 +17054,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 525.78 106.68 0)
+			(at 520.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17661,6 +17797,118 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV73312PDBV")
+		(at 506.73 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93379502-85e3-4409-ab44-9871038ef6b2")
+		(property "Reference" "U10"
+			(at 506.73 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV77308PDBVR"
+			(at 506.73 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 506.73 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(at 506.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+			(at 506.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "296-TLV77308PDBVRCT-ND"
+			(at 506.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TLV77308PDBVR"
+			(at 506.73 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4e0473b-2c44-4042-b125-cea1cc22c56b")
+		)
+		(pin "5"
+			(uuid "3c74a79f-ba5d-4dc7-a9e5-01b973d8ff38")
+		)
+		(pin "2"
+			(uuid "ead536ce-0bb6-4ba2-8c2c-7aa55d9f395e")
+		)
+		(pin "4"
+			(uuid "a636dbde-0229-4e28-94e8-825658fa8328")
+		)
+		(pin "3"
+			(uuid "e6ffe1dd-83e0-4448-9d8f-37bef7e0fd9b")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -19788,7 +20036,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 532.13 101.6 270)
+		(at 527.05 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19798,7 +20046,7 @@
 		(dnp no)
 		(uuid "a5b1a990-6a8e-4525-b145-50fe0be09b00")
 		(property "Reference" "TP2"
-			(at 536.448 101.6 90)
+			(at 531.368 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19809,7 +20057,7 @@
 			)
 		)
 		(property "Value" "0V75-0"
-			(at 536.448 103.886 90)
+			(at 531.368 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19820,7 +20068,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 532.13 106.68 0)
+			(at 527.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19831,7 +20079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 106.68 0)
+			(at 527.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19842,7 +20090,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 532.13 101.6 0)
+			(at 527.05 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19853,7 +20101,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 532.13 101.6 90)
+			(at 527.05 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19864,7 +20112,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 532.13 101.6 90)
+			(at 527.05 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19881,138 +20129,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:TLV755P")
-		(at 509.27 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a99db51e-71bd-4031-b97c-00cdabb40cd5")
-		(property "Reference" "U18"
-			(at 508.762 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75512PDQNR"
-			(at 508.762 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 509.016 258.064 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 509.27 252.476 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 509.27 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "TLV755075PDQNR"
-			(at 509.27 260.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 509.27 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 509.27 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "afc9f812-0e6b-4c87-95c8-c1a13c29e815")
-		)
-		(pin "1"
-			(uuid "4d594f2b-fc06-4500-a620-80db8614b2a2")
-		)
-		(pin "4"
-			(uuid "f14346a8-377f-4d18-bb10-cdb24c767f24")
-		)
-		(pin "2"
-			(uuid "b7e5bea8-3e2e-4f10-a2b9-0e389700a363")
-		)
-		(pin "3"
-			(uuid "be8d8fcb-510b-42dd-85d0-376401562212")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -20679,7 +20795,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 532.13 241.3 270)
+		(at 527.05 241.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20689,7 +20805,7 @@
 		(dnp no)
 		(uuid "b6d7fbbb-0535-4cc7-919f-eabc8a8b107b")
 		(property "Reference" "TP12"
-			(at 536.448 241.3 90)
+			(at 531.368 241.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20700,7 +20816,7 @@
 			)
 		)
 		(property "Value" "1V2"
-			(at 536.448 243.586 90)
+			(at 531.368 243.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20711,7 +20827,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 532.13 246.38 0)
+			(at 527.05 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20722,7 +20838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 246.38 0)
+			(at 527.05 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20733,7 +20849,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 532.13 241.3 0)
+			(at 527.05 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20744,7 +20860,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 532.13 241.3 90)
+			(at 527.05 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20755,7 +20871,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 532.13 241.3 90)
+			(at 527.05 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21708,7 +21824,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 532.13 128.27 270)
+		(at 527.05 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21718,7 +21834,7 @@
 		(dnp no)
 		(uuid "bf8b5d78-828a-4a38-9146-d8c16ca49467")
 		(property "Reference" "TP4"
-			(at 536.448 128.27 90)
+			(at 531.368 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21729,7 +21845,7 @@
 			)
 		)
 		(property "Value" "1V2-0"
-			(at 536.448 130.556 90)
+			(at 531.368 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21740,7 +21856,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 532.13 133.35 0)
+			(at 527.05 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21751,7 +21867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 133.35 0)
+			(at 527.05 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21762,7 +21878,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 532.13 128.27 0)
+			(at 527.05 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21773,7 +21889,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 532.13 128.27 90)
+			(at 527.05 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21784,7 +21900,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 532.13 128.27 90)
+			(at 527.05 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21808,7 +21924,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 532.13 214.63 270)
+		(at 527.05 214.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21818,7 +21934,7 @@
 		(dnp no)
 		(uuid "c13a4bd1-6905-474c-a750-284f957b8efc")
 		(property "Reference" "TP6"
-			(at 536.448 214.63 90)
+			(at 531.368 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21829,7 +21945,7 @@
 			)
 		)
 		(property "Value" "0V75"
-			(at 536.448 216.916 90)
+			(at 531.368 216.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21840,7 +21956,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
-			(at 532.13 219.71 0)
+			(at 527.05 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21851,7 +21967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 219.71 0)
+			(at 527.05 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21862,7 +21978,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 532.13 214.63 0)
+			(at 527.05 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21873,7 +21989,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 532.13 214.63 90)
+			(at 527.05 214.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21884,7 +22000,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 532.13 214.63 90)
+			(at 527.05 214.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22494,7 +22610,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 525.78 133.35 0)
+		(at 520.7 133.35 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -22505,7 +22621,7 @@
 		(dnp no)
 		(uuid "ca0d2835-bdb8-4d32-9bf8-b18f426416e9")
 		(property "Reference" "C55"
-			(at 532.13 132.588 0)
+			(at 527.05 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22516,7 +22632,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 531.876 134.62 0)
+			(at 526.796 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22527,7 +22643,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22538,7 +22654,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22549,7 +22665,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22560,7 +22676,7 @@
 			)
 		)
 		(property "DK" "587-5514-1-ND"
-			(at 525.78 133.35 90)
+			(at 520.7 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22571,7 +22687,7 @@
 			)
 		)
 		(property "PARTNO" "EMK105BJ105MV-F"
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22582,7 +22698,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22593,7 +22709,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22604,7 +22720,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 525.78 133.35 0)
+			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22724,138 +22840,6 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:TLV755P")
-		(at 509.27 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0f1afc6-a22a-480c-b1ad-392cb28716ae")
-		(property "Reference" "U17"
-			(at 508.762 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV755075PDQNR"
-			(at 508.762 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:DQN0004A"
-			(at 509.016 231.394 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv755p.pdf"
-			(at 509.27 225.806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 509.27 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "TLV755075PDQNR"
-			(at 509.27 234.188 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "296-TLV755075PDQNRCT-ND"
-			(at 509.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 509.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 509.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "9ebf47fc-a3a2-4219-9201-873e9670eb64")
-		)
-		(pin "1"
-			(uuid "698c2b1c-dc7f-40f1-8441-f949dec3120b")
-		)
-		(pin "4"
-			(uuid "03bb2ff3-ac86-40ef-b6b5-31736f62cd96")
-		)
-		(pin "2"
-			(uuid "368adb8b-9865-4915-a256-bc7648f39280")
-		)
-		(pin "3"
-			(uuid "0d46c939-152a-43fa-8a7b-d54ca8dc1592")
-		)
-		(instances
-			(project "bitaxeProto"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U17")
 					(unit 1)
 				)
 			)

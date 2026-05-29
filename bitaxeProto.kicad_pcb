@@ -4082,7 +4082,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/GT heatsink.step"
-			(hide yes)
 			(offset
 				(xyz 0 -29 32.5)
 			)
@@ -4094,7 +4093,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/3d/Fan 60x60x25mm.stp"
-			(hide yes)
 			(offset
 				(xyz -5.5 41 33.5)
 			)

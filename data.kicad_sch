@@ -2831,7 +2831,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxeProto:USB_C_Receptacle_USB2.0"
+		(symbol "bitaxe:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2907,17 +2907,6 @@
 				)
 			)
 			(property "PARTNO" "USB4105-GF-A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ALT1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6097,7 +6086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxeProto:USB_C_Receptacle_USB2.0")
+		(lib_id "bitaxe:USB_C_Receptacle_USB2.0")
 		(at 317.5 59.69 0)
 		(mirror y)
 		(unit 1)

@@ -62,10 +62,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|130415206|143457057|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
           "hole_clearance|132588109|85762904|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ],
@@ -689,7 +685,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

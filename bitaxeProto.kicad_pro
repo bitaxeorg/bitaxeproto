@@ -790,7 +790,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "U3,U16,C4,C20,C22,C26-28,C31",
+    "used_designators": "U3,U16,R28-30,C4,C20,C22,C26-28,C31,C39-40",
     "variants": []
   },
   "sheets": [

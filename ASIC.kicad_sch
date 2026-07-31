@@ -3173,6 +3173,12 @@
 		(uuid "4cc82d81-653c-4e7f-b409-6a1eee0c60c8")
 	)
 	(junction
+		(at 222.25 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56020feb-7a23-444d-bd36-9291b78ccac5")
+	)
+	(junction
 		(at 496.57 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4499,6 +4505,16 @@
 			(type default)
 		)
 		(uuid "30e15214-9696-41e0-9c2f-1fdd3315fa66")
+	)
+	(wire
+		(pts
+			(xy 222.25 165.1) (xy 222.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e5d62a-039d-4d2b-a129-4868be3c8919")
 	)
 	(wire
 		(pts
@@ -6572,6 +6588,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 165.1) (xy 222.25 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba81eec-e7d9-472c-8942-c29960203e9a")
+	)
+	(wire
+		(pts
 			(xy 351.79 172.72) (xy 351.79 187.96)
 		)
 		(stroke
@@ -8072,7 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 149.86) (xy 222.25 172.72)
+			(xy 222.25 149.86) (xy 222.25 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9257,6 +9283,17 @@
 			(justify right)
 		)
 		(uuid "62eedcfc-b1bf-40d0-9289-1e30b27b562a")
+	)
+	(hierarchical_label "DOMAIN_V"
+		(shape output)
+		(at 218.44 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abdf4f98-298a-4c9d-9767-f01efbc46ed9")
 	)
 	(hierarchical_label "5V_SWITCH"
 		(shape input)

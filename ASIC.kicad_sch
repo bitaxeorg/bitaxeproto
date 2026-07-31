@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeProto")
 		(date "2026-05-12")
-		(rev "1102xx")
+		(rev "1103xx")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -8670,16 +8670,6 @@
 		)
 		(uuid "53cd6685-74c5-4581-9350-18f095450a28")
 	)
-	(label "1V2"
-		(at 137.16 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5857de14-6cac-4e21-850a-cbafef5c04d1")
-	)
 	(label "1V2-0"
 		(at 433.07 104.14 0)
 		(effects
@@ -9029,6 +9019,16 @@
 			(justify right bottom)
 		)
 		(uuid "c7a51464-7318-4256-934f-5cdbb7eac164")
+	)
+	(label "3V3"
+		(at 137.16 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1f17543-14b5-489e-8f9c-d2c988902184")
 	)
 	(label "GND"
 		(at 394.97 243.84 0)

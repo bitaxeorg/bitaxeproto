@@ -10,7 +10,7 @@
 	(title_block
 		(title "bitaxeProto")
 		(date "2026-05-12")
-		(rev "1102xx")
+		(rev "1103x")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -69200,7 +69200,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1102xx"
+	(gr_text "1103x"
 		(at 139.27 148.38 0)
 		(layer "F.SilkS")
 		(uuid "d74a5db9-fea5-497b-a610-214502c56eab")

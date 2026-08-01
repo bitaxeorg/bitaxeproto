@@ -5152,6 +5152,16 @@
 		)
 		(uuid "4344530c-c539-4cb0-b720-d1e00dbfcb51")
 	)
+	(label "DOMAIN_V_SHFT"
+		(at 123.19 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4813dbc8-0be5-44ed-9c88-c29cefedcfa8")
+	)
 	(label "SCL"
 		(at 306.07 125.73 180)
 		(effects
@@ -5381,6 +5391,16 @@
 			(justify right bottom)
 		)
 		(uuid "cd97a7a7-18ea-40a3-84e2-591ba7038fef")
+	)
+	(label "VDD_V_SHFT"
+		(at 123.19 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf20f609-98c6-4c8b-9c58-a635ceb933ea")
 	)
 	(label "GND"
 		(at 350.52 163.83 180)

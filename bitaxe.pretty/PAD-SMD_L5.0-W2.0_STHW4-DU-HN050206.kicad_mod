@@ -7,7 +7,7 @@
 		(at 0 -4 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f3f274f6-3b87-49ad-859a-d16179003360")
+		(uuid "ca51645b-b20d-4870-8d87-d765c38803e2")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "STHW4-DU-HN050206"
 		(at 0 4 0)
 		(layer "F.Fab")
-		(uuid "48e8eb54-bf06-4b3e-982c-045dc22bb15a")
+		(uuid "b9becafb-f349-4977-ac5b-200658c31211")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57c8763d-014b-458e-8f63-e32791a9921e")
+		(uuid "68ee3b2c-0644-47e3-bdc5-5194e85f73cf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a1dae78c-36b6-477c-b245-5cf3f4ad265f")
+		(uuid "fbf14548-8fe3-4b84-a53e-ee2496f0cf4b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f7a5c14b-76e6-4e52-b63b-4ee52f14f4ca")
+		(uuid "940c399b-1d42-4230-9f05-7f61045f0510")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3bd04780-33d8-41e9-acbb-79488b1512da")
+		(uuid "9a48a4e9-5b79-4021-ad30-c9c1be8ba243")
 		(effects
 			(font
 				(size 1 1)
@@ -78,56 +78,38 @@
 	(sheetfile "Power.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -3.05 -1.52)
-		(end 3.17 -1.52)
+	(fp_rect
+		(start -2.75 -1.15)
+		(end 2.75 1.15)
 		(stroke
-			(width 0.25)
+			(width 0.01)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "d0ed0a39-fb39-4642-ab3b-dc31260fd94a")
-	)
-	(fp_line
-		(start -3.05 1.52)
-		(end -3.05 -1.52)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e391d60e-ab45-4ca7-9727-d6abb9f5d5af")
-	)
-	(fp_line
-		(start 3.17 -1.52)
-		(end 3.17 1.52)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8b8f3d7d-56f8-4580-8e63-1ee1506a219a")
-	)
-	(fp_line
-		(start 3.17 1.52)
-		(end -3.05 1.52)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5cd8f7cc-0de3-4986-b611-b9ce13d76ec3")
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "92d62eb3-884c-4688-8de0-7ac1d2b3e5c9")
 	)
 	(fp_rect
-		(start -3.268 -1.708)
-		(end 3.383 1.717)
+		(start -2.75 -1.15)
+		(end 2.75 1.15)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "cd504ddf-12b9-44c2-ab51-e6357f62939d")
+	)
+	(fp_rect
+		(start -2.791 -1.196)
+		(end 2.792 1.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b31c8a8d-2f79-400d-b6ae-c401ada0c71c")
+		(uuid "b0e48bdf-fc8b-4a48-98ea-f7f10e4c8c7e")
 	)
 	(fp_circle
 		(center 2.5 -1)
@@ -138,12 +120,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "0465c7b4-e512-4abd-a69e-ed511b932ef3")
+		(uuid "7971b832-f3f3-4555-831a-235fc06a8c08")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d0898f52-69b8-4e92-b256-4dae4f577723")
+		(uuid "4313a71f-109f-4eb7-a50d-762432702373")
 		(effects
 			(font
 				(size 1 1)
@@ -153,9 +135,9 @@
 	)
 	(pad "1" smd rect
 		(at 0 0)
-		(size 5.5 2.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "195148e2-916b-4145-b165-54454edcfeba")
+		(size 5.5 3.3)
+		(layers "F.Cu")
+		(uuid "8750618e-22bb-4a1b-999b-fd95b346adfc")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dshapes/PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206.step"

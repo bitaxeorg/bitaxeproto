@@ -6533,7 +6533,11 @@
 		(pin "2"
 			(uuid "fbf07607-5282-464a-9eba-ab1f3d592c1a")
 		)
-		(instances
+		    (property "LCSC" "C703115"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "FB1")
@@ -6765,7 +6769,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C185428"
+		(property "LCSC" "C25792"
 			(at 123.19 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7338,7 +7342,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106862"
+		(property "LCSC" "C21117"
 			(at 77.47 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -8064,7 +8068,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C274888"
+		(property "LCSC" "C25756"
 			(at 82.55 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -8211,7 +8215,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25756"
 			(at 123.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9187,7 +9191,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106862"
+		(property "LCSC" "C21117"
 			(at 77.47 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9629,11 @@
 		(pin "9"
 			(uuid "deb6769d-67b3-4221-a910-25adc22fc1ec")
 		)
-		(instances
+		    (property "LCSC" "C20345977"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "U2")
@@ -10446,7 +10454,11 @@
 		(pin "1"
 			(uuid "beed7141-35a9-4773-ae14-a7347a15d558")
 		)
-		(instances
+		    (property "LCSC" "C25771"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R16")
@@ -10762,7 +10774,11 @@
 		(pin "2"
 			(uuid "2e83510d-dae6-41e8-aac1-42b5f8500dcc")
 		)
-		(instances
+		    (property "LCSC" "C703115"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "FB2")
@@ -11056,7 +11072,11 @@
 		(pin "1"
 			(uuid "2e746189-1203-4705-a691-2d9bce4782d3")
 		)
-		(instances
+		    (property "LCSC" "C253344"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R6")
@@ -12370,7 +12390,11 @@
 		(pin "2"
 			(uuid "e998a9c3-890b-45dd-a376-73ca93dfcce4")
 		)
-		(instances
+		    (property "LCSC" "C2162042"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C3")
@@ -13297,7 +13321,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25905"
 			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)

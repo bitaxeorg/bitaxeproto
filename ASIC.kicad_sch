@@ -10435,7 +10435,11 @@
 		(pin "2"
 			(uuid "12b705c0-bb98-4a47-86e4-24690a5a1a87")
 		)
-		(instances
+		    (property "LCSC" "C138030"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "R70")
@@ -10547,7 +10551,11 @@
 		(pin "3"
 			(uuid "9240b17b-9fa8-42e7-b4c9-99f2f8277ed9")
 		)
-		(instances
+		    (property "LCSC" "C30806341"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U11")
@@ -12320,7 +12328,11 @@
 		(pin "3"
 			(uuid "936139f9-1ffb-473e-81ca-478cab944139")
 		)
-		(instances
+		    (property "LCSC" "C30806341"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U6")
@@ -13242,7 +13254,11 @@
 		(pin "3"
 			(uuid "badd4725-2a9d-4b72-8785-c3333ccf7537")
 		)
-		(instances
+		    (property "LCSC" "C51953196"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U7")
@@ -15006,7 +15022,11 @@
 		(pin "2"
 			(uuid "ec04de7f-cba1-4346-b353-247948c2027f")
 		)
-		(instances
+		    (property "LCSC" "C20882980"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U13")
@@ -18613,7 +18633,11 @@
 		(pin "3"
 			(uuid "e6ffe1dd-83e0-4448-9d8f-37bef7e0fd9b")
 		)
-		(instances
+		    (property "LCSC" "C51953196"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "U10")

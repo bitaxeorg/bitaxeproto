@@ -1731,7 +1731,11 @@
 		(pin "2"
 			(uuid "cdc564a5-4ce2-497d-9cb8-799741eea397")
 		)
-		(instances
+		    (property "LCSC" "C7420339"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "Q1")
@@ -2164,7 +2168,11 @@
 		(pin "2"
 			(uuid "a4b781b5-4f4c-4d7f-adfb-b4990514ee47")
 		)
-		(instances
+		    (property "LCSC" "C24672"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "D13")

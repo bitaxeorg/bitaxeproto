@@ -1785,7 +1785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 168.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1807,7 +1807,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 168.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1818,7 +1818,7 @@
 				)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
+		(property "DK" ""
 			(at 168.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1829,7 +1829,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 168.91 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -1933,7 +1933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 229.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1955,7 +1955,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "PARTNO" "0402WGF1002TCE"
 			(at 229.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
+		(property "DK" ""
 			(at 229.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1977,7 +1977,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 229.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2362,7 +2362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5601TCE_C25908.pdf"
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2384,7 +2384,7 @@
 				)
 			)
 		)
-		(property "DK" "311-5.6KLRCT-ND"
+		(property "LCSC" "C25908"
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2395,7 +2395,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-075K6L"
+		(property "DK" ""
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2406,7 +2406,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "PARTNO" "0402WGF5601TCE"
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 209.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2499,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2521,7 +2532,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-071KL"
+		(property "LCSC" "C11702"
 			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +2543,7 @@
 				)
 			)
 		)
-		(property "DK" "311-1.00KLRCT-ND"
+		(property "PARTNO" "0402WGF1001TCE"
 			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2543,7 +2554,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "DK" ""
+			(at 111.76 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 111.76 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2636,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2658,7 +2680,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM155R71H104KE14D"
+		(property "PARTNO" "CL05B104KB54PNC"
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2669,7 +2691,7 @@
 				)
 			)
 		)
-		(property "DK" "490-10700-1-ND"
+		(property "DK" ""
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2680,7 +2702,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2691,7 +2713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77020"
+		(property "LCSC" "C307331"
 			(at 220.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2783,7 +2805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2794,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL32B106KBJNNN.do"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2805,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF 50V X7R ±10% 1210 MLCC"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2816,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 222.504 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +2848,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM188R61E106KA73D"
+		(property "PARTNO" "CL32B106KBJNNNE"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2837,7 +2859,7 @@
 				)
 			)
 		)
-		(property "DK" "490-18214-1-ND"
+		(property "DK" ""
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2848,7 +2870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 218.44 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -2872,6 +2894,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 218.44 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138687"
+			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

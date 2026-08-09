@@ -80,22 +80,6 @@
         [
           "hole_clearance|132588109|85762904|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
-        ],
-        [
-          "silk_edge_clearance|93000000|114897000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|c7753abf-7aeb-47f4-96a4-85a9979de9d8",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93000000|117897000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|d0d07f33-f792-4a01-ae0d-27f47cd6adfb",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93000000|125290000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|949bef06-d11f-462d-ad0f-0bb72ba78ddd",
-          ""
-        ],
-        [
-          "silk_edge_clearance|93000000|128290000|f1b4d5b3-4d75-46c6-b999-fe083ea32010|ea93f42c-ba1d-4201-bf5b-8eb4417b04c3",
-          ""
         ]
       ],
       "meta": {
@@ -790,7 +774,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "FB1-2,U3,U16,R28-30,C4,C12,C20,C22,C26-28,C31,C39-40",
+    "used_designators": "H5-8,FB1-2,U3,U16,R28-30,C4,C12,C20,C22,C26-28,C31,C39-40",
     "variants": []
   },
   "sheets": [

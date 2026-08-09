@@ -636,6 +636,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Case Mounts"
+		(exclude_from_sim no)
+		(at 113.03 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14b73da2-610c-4666-a1c7-faf3a208a914")
+	)
+	(text "PCB Mounts"
+		(exclude_from_sim no)
+		(at 86.36 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb2e7c7e-f309-4f06-bd76-76e623f5e1c6")
+	)
 	(junction
 		(at 143.51 41.91)
 		(diameter 0)
@@ -1284,7 +1304,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 81.28 160.02 270)
+		(at 77.47 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1295,7 +1315,7 @@
 		(fields_autoplaced yes)
 		(uuid "1626d1cb-ff0c-41e7-ad29-494f89fc2632")
 		(property "Reference" "H2"
-			(at 83.82 158.7499 90)
+			(at 80.01 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1306,7 +1326,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 83.82 161.2899 90)
+			(at 80.01 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1316,8 +1336,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 81.28 160.02 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 77.47 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,7 +1348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 160.02 0)
+			(at 77.47 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1339,7 +1359,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 81.28 160.02 0)
+			(at 77.47 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1350,7 +1370,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 160.02 90)
+			(at 77.47 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1361,7 +1381,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 160.02 90)
+			(at 77.47 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1372,7 +1392,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 160.02 90)
+			(at 77.47 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 81.28 175.26 270)
+		(at 77.47 186.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1527,7 +1547,7 @@
 		(fields_autoplaced yes)
 		(uuid "24054009-b6b2-4eb2-9a19-7fb2369996dd")
 		(property "Reference" "H4"
-			(at 83.82 173.9899 90)
+			(at 80.01 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1538,7 +1558,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 83.82 176.5299 90)
+			(at 80.01 187.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1548,8 +1568,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 81.28 175.26 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 77.47 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1560,7 +1580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 175.26 0)
+			(at 77.47 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,7 +1591,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 81.28 175.26 0)
+			(at 77.47 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1582,7 +1602,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 175.26 90)
+			(at 77.47 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1613,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 175.26 90)
+			(at 77.47 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1624,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 175.26 90)
+			(at 77.47 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,7 +1645,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 81.28 167.64 270)
+		(at 102.87 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1634,9 +1654,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
-		(property "Reference" "H3"
-			(at 83.82 166.3699 90)
+		(uuid "4f821d8d-f761-4b14-a578-4a65db285ea2")
+		(property "Reference" "H5"
+			(at 105.41 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1647,7 +1667,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 83.82 168.9099 90)
+			(at 105.41 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1657,8 +1677,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 81.28 167.64 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 102.87 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,7 +1689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 167.64 0)
+			(at 102.87 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,7 +1700,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 81.28 167.64 0)
+			(at 102.87 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1711,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 167.64 90)
+			(at 102.87 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1722,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 167.64 90)
+			(at 102.87 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,7 +1733,225 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 167.64 90)
+			(at 102.87 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "518ed44b-f369-466c-a3b9-2d8e3ab59cd1")
+		(property "Reference" "H8"
+			(at 105.41 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 105.41 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 102.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
+		(property "Reference" "H3"
+			(at 80.01 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 77.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1885,6 +2123,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67fcd2a4-d528-4cf1-889d-0c5db54e2ab3")
+		(property "Reference" "H7"
+			(at 105.41 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 105.41 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 102.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 52.07 162.56 0)
 		(unit 1)
@@ -1995,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 81.28 152.4 270)
+		(at 102.87 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2004,9 +2351,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
-		(property "Reference" "H1"
-			(at 83.82 151.1299 90)
+		(uuid "a2dcc382-6d6a-46c7-9b27-852ae0318221")
+		(property "Reference" "H6"
+			(at 105.41 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,7 +2364,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 83.82 153.6699 90)
+			(at 105.41 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2027,8 +2374,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 81.28 152.4 0)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 102.87 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 152.4 0)
+			(at 102.87 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2397,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 81.28 152.4 0)
+			(at 102.87 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2061,7 +2408,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 81.28 152.4 90)
+			(at 102.87 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2072,7 +2419,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 81.28 152.4 90)
+			(at 102.87 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2083,7 +2430,116 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 81.28 152.4 90)
+			(at 102.87 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
+		(property "Reference" "H1"
+			(at 80.01 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 80.01 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:MountingHole_3.2mm_M3"
+			(at 77.47 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

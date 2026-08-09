@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6210,7 @@
 				)
 			)
 		)
-		(property "DK" "587-5514-1-ND"
+		(property "DK" ""
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6232,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "EMK105BJ105MV-F"
+		(property "PARTNO" "CL05A105KA5NQNC"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6243,7 +6243,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 328.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 320.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6673,7 +6673,7 @@
 				)
 			)
 		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 320.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6684,7 +6684,18 @@
 				)
 			)
 		)
-		(property "PARTNO" "RMCF0402JT5K10"
+		(property "DK" ""
+			(at 320.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 320.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6809,7 +6820,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6831,7 +6842,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77020"
+		(property "LCSC" "C307331"
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6842,7 +6853,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM155R71H104KE14D"
+		(property "PARTNO" "CL05B104KB54PNC"
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6875,7 +6886,7 @@
 				)
 			)
 		)
-		(property "DK" "490-10700-1-ND"
+		(property "DK" ""
 			(at 67.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6945,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106MA8NRN.do"
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +6967,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF 25V X5R ±20% 0603 MLCC"
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6967,7 +6978,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM188R61E106KA73D"
+		(property "PARTNO" "CL10A106MA8NRNC"
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6978,7 +6989,7 @@
 				)
 			)
 		)
-		(property "DK" "490-18214-1-ND"
+		(property "DK" ""
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7011,6 +7022,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 161.29 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 161.29 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7195,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7217,7 +7250,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7228,7 +7261,18 @@
 				)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
+		(property "PARTNO" "0402WGF1002TCE"
+			(at 101.6 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
 			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7329,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7351,7 +7395,7 @@
 				)
 			)
 		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7362,7 +7406,18 @@
 				)
 			)
 		)
-		(property "PARTNO" "RMCF0402JT5K10"
+		(property "DK" ""
+			(at 85.09 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 364.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7729,7 +7784,7 @@
 				)
 			)
 		)
-		(property "DK" "311-1.00KLRCT-ND"
+		(property "DK" ""
 			(at 364.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7740,7 +7795,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-071KL"
+		(property "PARTNO" "0402WGF1001TCE"
 			(at 364.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7751,7 +7806,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C11702"
 			(at 364.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7762,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 364.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8174,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8130,7 +8185,18 @@
 				)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
+		(property "PARTNO" "0402WGF1002TCE"
+			(at 151.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8231,7 +8297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 59.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8253,7 +8319,7 @@
 				)
 			)
 		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 59.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8264,7 +8330,18 @@
 				)
 			)
 		)
-		(property "PARTNO" "RMCF0402JT5K10"
+		(property "DK" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 59.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 92.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8389,7 +8466,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 92.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8488,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77020"
+		(property "LCSC" "C307331"
 			(at 92.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8422,7 +8499,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM155R71H104KE14D"
+		(property "PARTNO" "CL05B104KB54PNC"
 			(at 92.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8455,7 +8532,7 @@
 				)
 			)
 		)
-		(property "DK" "490-10700-1-ND"
+		(property "DK" ""
 			(at 92.71 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8548,7 +8625,7 @@
 				)
 			)
 		)
-		(property "DK" "311-4.7KLRCT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8559,7 +8636,29 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-074K7L"
+		(property "LCSC" "C25900"
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF4701TCE"
 			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8752,7 +8851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf"
 			(at 151.13 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8774,7 +8873,7 @@
 				)
 			)
 		)
-		(property "DK" "311-1016-1-ND"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 151.13 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8785,7 +8884,29 @@
 				)
 			)
 		)
-		(property "PARTNO" "CC0402JRNPO9BN120"
+		(property "LCSC" "C1547"
+			(at 151.13 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 151.13 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402CG120J500NT"
 			(at 151.13 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +9008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8909,7 +9030,7 @@
 				)
 			)
 		)
-		(property "DK" "311-4.7KLRCT-ND"
+		(property "LCSC" "C25900"
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8920,7 +9041,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-074K7L"
+		(property "DK" ""
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8931,7 +9052,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "PARTNO" "0402WGF4701TCE"
+			(at 133.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9024,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9178,7 @@
 				)
 			)
 		)
-		(property "DK" "311-4.7KLRCT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9057,7 +9189,29 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-074K7L"
+		(property "LCSC" "C25900"
+			(at 138.43 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 138.43 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF4701TCE"
 			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9150,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9172,7 +9326,7 @@
 				)
 			)
 		)
-		(property "DK" "311-4.7KLRCT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9183,7 +9337,29 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-074K7L"
+		(property "LCSC" "C25900"
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 120.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF4701TCE"
 			(at 120.65 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9273,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
 			(at 308.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9295,7 +9471,7 @@
 				)
 			)
 		)
-		(property "DK" "RMCF0402JT5K10CT-ND"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 308.61 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9306,7 +9482,18 @@
 				)
 			)
 		)
-		(property "PARTNO" "RMCF0402JT5K10"
+		(property "DK" ""
+			(at 308.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 308.61 90.17 0)
 			(hide yes)
 			(show_name no)

@@ -1722,6 +1722,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7420339"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a556ae8a-0fff-4c6a-932e-4a6c84c833d9")
 		)
@@ -1731,11 +1742,7 @@
 		(pin "2"
 			(uuid "cdc564a5-4ce2-497d-9cb8-799741eea397")
 		)
-		    (property "LCSC" "C7420339"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "Q1")
@@ -2162,17 +2169,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C24672"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ef57da1-0cdd-45b3-bb5c-dd5bf9070e8f")
 		)
 		(pin "2"
 			(uuid "a4b781b5-4f4c-4d7f-adfb-b4990514ee47")
 		)
-		    (property "LCSC" "C24672"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "D13")
@@ -2216,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:470531000"
+		(property "Footprint" "bitaxe:fan_connector"
 			(at 250.19 92.71 0)
 			(hide yes)
 			(show_name no)

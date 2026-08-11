@@ -78,7 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|132588109|85762904|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
+          "clearance|134880000|90610000|a5cdb3e4-3107-42f9-aa82-cbaf15146418|f45fbb0d-097d-4fce-b07f-20a6c5b87738",
+          ""
+        ],
+        [
+          "hole_clearance|132628109|89142904|b191049a-baba-4712-8d2f-9dcc6eaa4321|c77e4623-d693-4ad2-9f37-c25b8fb315ca",
           ""
         ]
       ],
@@ -679,10 +683,10 @@
           "group_by": false,
           "label": "DK",
           "name": "DK",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true

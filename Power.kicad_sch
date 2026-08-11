@@ -2801,6 +2801,12 @@
 		(uuid "09c9e886-6a48-41ea-8844-f5dd266b0243")
 	)
 	(junction
+		(at 71.12 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09ff55d5-9968-4f86-8d86-e795b25cfffc")
+	)
+	(junction
 		(at 212.09 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3153,6 +3159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2f23b7e-468a-48da-827c-e6e7f738becd")
+	)
+	(junction
+		(at 72.39 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3635a0d-23c9-4a8e-ba95-3c09fecbbd6d")
 	)
 	(junction
 		(at 156.21 74.93)
@@ -3774,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 220.98) (xy 63.5 220.98)
+			(xy 87.63 220.98) (xy 72.39 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4504,6 +4516,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 220.98) (xy 63.5 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9250e84d-69d6-44f5-b077-08413d027617")
+	)
+	(wire
+		(pts
 			(xy 306.07 73.66) (xy 306.07 109.22)
 		)
 		(stroke
@@ -4721,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "a737a1bc-6554-410c-934e-1626be750268")
+	)
+	(wire
+		(pts
+			(xy 71.12 179.07) (xy 63.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a948d6c2-34c2-46c6-b5d2-8eedc53a235a")
 	)
 	(wire
 		(pts
@@ -5234,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 179.07) (xy 63.5 179.07)
+			(xy 87.63 179.07) (xy 71.12 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8428,6 +8460,84 @@
 		)
 	)
 	(symbol
+		(lib_id "bitaxe:PWR_FLAG")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47aeb9a7-1203-4d4c-b9d5-2c55ad152eb7")
+		(property "Reference" "#PWR05"
+			(at 71.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V_FILT1"
+			(at 71.12 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21101a02-0065-4d05-bb53-419fe2f7b058")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 63.5 186.69 0)
 		(unit 1)
@@ -10216,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:IND_SLC1480_COC"
+		(property "Footprint" "bitaxeProto:IND-SMD_L13.8-W12.6"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10799,6 +10909,84 @@
 			(project "bitaxeProto"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:PWR_FLAG")
+		(at 72.39 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "942dda06-478b-419b-abe7-fe846ed3bb3f")
+		(property "Reference" "#PWR06"
+			(at 72.39 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V_FILT2"
+			(at 72.39 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 72.39 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f44d00f4-2935-42c7-a0ab-34cb5f540a17")
+		)
+		(instances
+			(project "bitaxeProto"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

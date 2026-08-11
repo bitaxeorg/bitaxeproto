@@ -11457,7 +11457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/PXFRA-e.PDF"
 			(at 281.94 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11479,7 +11479,18 @@
 				)
 			)
 		)
-		(property "PARTNO" "APXE6R3ARA331MF80G"
+		(property "PARTNO" "APXF6R3ARA331MF61G"
+			(at 281.94 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C133476"
 			(at 281.94 85.09 0)
 			(hide yes)
 			(show_name no)

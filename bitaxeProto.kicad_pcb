@@ -3705,7 +3705,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/GT heatsink.step"
-			(hide yes)
 			(offset
 				(xyz 0 -29 32.5)
 			)
@@ -3717,7 +3716,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/3d/Fan 60x60x25mm.stp"
-			(hide yes)
 			(offset
 				(xyz -5.5 41 33.5)
 			)
@@ -71109,8 +71107,8 @@
 		)
 	)
 	(gr_circle
-		(center 97.131985 73.58)
-		(end 96.161985 72.86)
+		(center 94.81 73.71)
+		(end 93.84 72.99)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -71120,8 +71118,8 @@
 		(uuid "4f42aa06-aad5-45fd-9b00-7e2e76598f94")
 	)
 	(gr_circle
-		(center 97.131985 79.38)
-		(end 96.161985 78.66)
+		(center 94.83 79.398015)
+		(end 94.11 80.368015)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -71315,10 +71313,22 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RESET"
-		(at 97.05 105.3 90)
+	(gr_text "FAN"
+		(at 163.61 70.75 0)
 		(layer "F.SilkS")
-		(uuid "08647ed5-8793-4a25-a519-7e6c4768cbca")
+		(uuid "58cb6fce-c596-41b9-ad4e-6d2c02679feb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DISP"
+		(at 164.12 117.6 0)
+		(layer "F.SilkS")
+		(uuid "8283969f-f553-41e9-ab77-318a56de4059")
 		(effects
 			(font
 				(size 1 1)
@@ -71328,7 +71338,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 97.09 94.64 90)
+		(at 95.75 90.72 270)
 		(layer "F.SilkS")
 		(uuid "25ab0643-99b9-44ce-a594-e507aa536dbb")
 		(effects
@@ -71339,20 +71349,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "-"
-		(at 98.51397 78.34 180)
+	(gr_text "RESET"
+		(at 95.75 100.78 270)
 		(layer "F.SilkS")
-		(uuid "1e6c6593-00d6-4437-b5b5-92cb679cab25")
+		(uuid "08647ed5-8793-4a25-a519-7e6c4768cbca")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "+"
-		(at 98.521985 72.5665 180)
+		(at 96.2 72.6965 180)
 		(layer "F.SilkS")
 		(uuid "23bfed7a-ac97-4a46-a5f5-be4068f1b2a5")
 		(effects
@@ -71363,8 +71373,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 93.79 78.01603 270)
+		(layer "F.SilkS")
+		(uuid "1e6c6593-00d6-4437-b5b5-92cb679cab25")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "12VDC"
-		(at 99.561985 71.74 270)
+		(at 96.38 71.57 270)
 		(layer "F.SilkS")
 		(uuid "d96f28bc-b5fd-4218-b22b-3d0a3a72712f")
 		(effects

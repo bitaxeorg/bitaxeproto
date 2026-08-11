@@ -6731,7 +6731,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30.9k"
+		(property "Value" "47k"
 			(at 124.46 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6775,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0730K9L"
+		(property "PARTNO" "0402WGF4702TCE"
 			(at 123.19 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7315,7 +7315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -8030,7 +8030,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13.7k"
+		(property "Value" "15k"
 			(at 83.82 192.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8074,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0713K7L"
+		(property "PARTNO" "0402WGF1502TCE"
 			(at 82.55 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -8177,7 +8177,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 124.968 193.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8221,7 +8221,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "0402WGF1002TCE"
+		(property "PARTNO" "0402WGF1502TCE"
 			(at 123.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9242,7 +9242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10316,7 +10316,7 @@
 				)
 			)
 		)
-		(property "Value" "320nH"
+		(property "Value" "360nH"
 			(at 237.0564 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +10359,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "SLC1480-321MLB"
+		(property "PARTNO" "MS1350-R36M"
 			(at 237.49 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10392,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C380062"
 			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10462,7 +10462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "52.3k"
+		(property "Value" "27k"
 			(at 124.46 228.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10506,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0752K3L"
+		(property "PARTNO" "0402WGF2702TCE"
 			(at 123.19 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +13474,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 124.968 235.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13518,7 +13518,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "0402WGF1002TCE"
+		(property "PARTNO" "0402WGF5101TCE"
 			(at 123.19 234.95 0)
 			(hide yes)
 			(show_name no)

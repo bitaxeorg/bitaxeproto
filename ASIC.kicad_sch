@@ -13093,7 +13093,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV77308PDBVR"
+		(property "Value" "LW8108A23E"
 			(at 506.73 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14846,7 +14846,7 @@
 				)
 			)
 		)
-		(property "Value" "TS3011"
+		(property "Value" "MX7219T"
 			(at 93.726 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18486,7 +18486,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV77308PDBVR"
+		(property "Value" "LW8108A23E"
 			(at 506.73 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)

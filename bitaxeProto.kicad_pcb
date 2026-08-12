@@ -174,7 +174,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Manufacturing Files/gerbers/")
+			(outputdirectory "Manufacturing Files/${TITLE}-${REVISION}-gerbers")
 		)
 	)
 	(footprint "bitaxe:TestPoint_Pad_1.0x0.4mm"
@@ -24130,7 +24130,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TLV77308PDBVR"
+		(property "Value" "LW8108A23E"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "6e43d608-22a2-4e76-a9ff-acd7eb12007a")
@@ -29699,7 +29699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TLV77308PDBVR"
+		(property "Value" "LW8108A23E"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "3f1e8426-b163-4f80-b6e2-c7f257d0ca0f")
@@ -37838,9 +37838,45 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5f52bf4-e199-48ba-8793-541c5eefebb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "TYPE-C-31-M-12"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13501080-8c38-4c35-9d78-5d0de1e73735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/0703810a-9d38-4b42-b83c-c94ab6e668a1/50852d2b-0358-4203-a725-9fc46b6b538b")
 		(sheetname "/Data/")
 		(sheetfile "data.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A4B9" "B4A9" "A5" "B5" "A6" "B6" "A7" "B7" "A8" "B8" "B1A12" "A1B12"
+					"1" "2" "3" "4"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -46531,7 +46567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TS3011"
+		(property "Value" "MX7219T"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "331762d6-6ae0-46ff-a599-82a742862da2")

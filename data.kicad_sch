@@ -6694,8 +6694,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C165948"
+		(property "LCSC" "C165948"
 			(at 336.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TYPE-C-31-M-12"
+			(at 336.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

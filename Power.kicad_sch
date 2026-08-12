@@ -1578,6 +1578,17 @@
 					)
 				)
 			)
+			(property "PARTNO" "STHW4-DU-HN050206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "STHW4-DU-HN050206_0_1"
 				(rectangle
 					(start -2.54 2.54)
@@ -6786,7 +6797,7 @@
 				)
 			)
 		)
-		(property "DK" "YAG3110CT-ND"
+		(property "DK" ""
 			(at 123.19 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7348,7 +7359,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CC0402KRX7R9BB333"
+		(property "PARTNO" "CL10B333KB8NNNC"
 			(at 77.47 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -7359,7 +7370,7 @@
 				)
 			)
 		)
-		(property "DK" "13-CC0402KRX7R9BB333CT-ND"
+		(property "DK" ""
 			(at 77.47 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -7996,6 +8007,17 @@
 				)
 			)
 		)
+		(property "PARTNO" "STHW4-DU-HN050206"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "415bee25-37b5-4c45-8977-93e05617b3cc")
 		)
@@ -8085,7 +8107,7 @@
 				)
 			)
 		)
-		(property "DK" "311-13.7KLRCT-ND"
+		(property "DK" ""
 			(at 82.55 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9186,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138021"
+		(property "LCSC" ""
 			(at 289.56 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9188,6 +9210,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 133.35 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +9308,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CC0402KRX7R9BB333"
+		(property "PARTNO" "CL10B333KB8NNNC"
 			(at 77.47 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -9286,7 +9319,7 @@
 				)
 			)
 		)
-		(property "DK" "13-CC0402KRX7R9BB333CT-ND"
+		(property "DK" ""
 			(at 77.47 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -10517,7 +10550,7 @@
 				)
 			)
 		)
-		(property "DK" "YAG3179CT-ND"
+		(property "DK" ""
 			(at 123.19 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10780,6 +10813,17 @@
 		)
 		(property "LCSC" "C18548300"
 			(at 210.82 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "STHW4-DU-HN050206"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12596,7 +12640,7 @@
 				)
 			)
 		)
-		(property "DK" "493-16429-1-ND"
+		(property "DK" ""
 			(at 125.73 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -13320,6 +13364,17 @@
 		)
 		(property "LCSC" "C18548300"
 			(at 210.82 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "STHW4-DU-HN050206"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

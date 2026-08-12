@@ -614,7 +614,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTNO" "XT30PW-M"
+			(property "PARTNO" "XT30PW-M30.G.Y"
 				(at 0.254 -13.462 0)
 				(effects
 					(font
@@ -1322,7 +1322,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "XT30PW-M"
+		(property "PARTNO" "XT30PW-M30.G.Y"
 			(at 75.946 120.142 0)
 			(effects
 				(font

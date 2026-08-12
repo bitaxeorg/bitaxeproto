@@ -1667,7 +1667,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "BSS138K-13"
+		(property "PARTNO" "BSS138"
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1678,7 +1678,7 @@
 				)
 			)
 		)
-		(property "DK" "BSS138K-13DICT-ND"
+		(property "DK" ""
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2114,7 +2114,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "DDZ9684-7"
+		(property "PARTNO" "MMSZ4684T1G"
 			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2125,7 +2125,7 @@
 				)
 			)
 		)
-		(property "DK" "DDZ9684-7DICT-ND"
+		(property "DK" ""
 			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)

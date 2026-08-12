@@ -2545,7 +2545,7 @@
 					)
 				)
 			)
-			(property "PARTNO" "TS3011ILT"
+			(property "PARTNO" "MX7219T"
 				(at 10.414 -17.018 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2556,7 +2556,7 @@
 					)
 				)
 			)
-			(property "DK" "497-11991-1-ND"
+			(property "DK" ""
 				(at 11.176 -19.304 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13137,7 +13137,7 @@
 				)
 			)
 		)
-		(property "DK" "296-TLV77308PDBVRCT-ND"
+		(property "DK" ""
 			(at 506.73 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13148,7 +13148,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "TLV77308PDBVR"
+		(property "PARTNO" "LW8108A23E"
 			(at 506.73 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14890,7 +14890,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "TS3011ILT"
+		(property "PARTNO" "MX7219T"
 			(at 87.376 142.748 0)
 			(hide yes)
 			(show_name no)
@@ -14901,7 +14901,7 @@
 				)
 			)
 		)
-		(property "DK" "497-11991-1-ND"
+		(property "DK" ""
 			(at 86.614 145.034 0)
 			(hide yes)
 			(show_name no)
@@ -18530,7 +18530,7 @@
 				)
 			)
 		)
-		(property "DK" "296-TLV77308PDBVRCT-ND"
+		(property "DK" ""
 			(at 506.73 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -18541,7 +18541,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "TLV77308PDBVR"
+		(property "PARTNO" "LW8108A23E"
 			(at 506.73 217.17 0)
 			(hide yes)
 			(show_name no)

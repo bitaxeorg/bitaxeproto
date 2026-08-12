@@ -6141,6 +6141,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 350.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "701fa250-5087-4c2f-b907-d8dd9a808bbf")
 		)
@@ -6706,6 +6717,17 @@
 			)
 		)
 		(property "PARTNO" "TYPE-C-31-M-12"
+			(at 336.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Origin" "Center"
 			(at 336.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7291,6 +7313,17 @@
 		)
 		(property "LCSC" "C2913202"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Origin" "Center"
+			(at 226.06 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

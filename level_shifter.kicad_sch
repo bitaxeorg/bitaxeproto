@@ -1944,6 +1944,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "06e3c24b-7b61-48f0-9794-4194521e31a7")
 		)
@@ -2825,6 +2836,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)

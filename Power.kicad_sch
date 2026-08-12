@@ -7818,6 +7818,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "bee95c94-2ceb-48d3-ad33-da68dcd7f86c")
 		)
@@ -9658,6 +9669,17 @@
 		)
 		(property "LCSC" "C20345977"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 195.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14312,6 +14334,17 @@
 			)
 		)
 		(property "DK" "296-TPS62933DRLRCT-ND"
+			(at 97.79 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 97.79 184.15 0)
 			(hide yes)
 			(show_name no)

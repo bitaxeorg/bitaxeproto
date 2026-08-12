@@ -716,6 +716,18 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FT Origin",
+          "name": "FT Origin",
+          "show": false
         }
       ],
       "filter_string": "",

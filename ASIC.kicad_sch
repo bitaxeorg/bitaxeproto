@@ -2846,6 +2846,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "esp-miner chip 2"
+		(exclude_from_sim no)
+		(at 362.966 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b2fb600-ebc9-4680-9c81-b026dd7372c0")
+	)
 	(text "1.2V LDO"
 		(exclude_from_sim no)
 		(at 506.984 119.888 0)
@@ -2876,6 +2886,16 @@
 		)
 		(uuid "b81363f4-aedf-455f-a3b3-580d23926768")
 	)
+	(text "esp-miner chip 3"
+		(exclude_from_sim no)
+		(at 231.394 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb43df4b-340d-4f24-b514-6911b6221cc2")
+	)
 	(text "1.2V LDO"
 		(exclude_from_sim no)
 		(at 506.984 232.918 0)
@@ -2885,6 +2905,26 @@
 			)
 		)
 		(uuid "c77ed47a-2dfa-4c86-b615-b20151d20072")
+	)
+	(text "esp-miner chip 0"
+		(exclude_from_sim no)
+		(at 220.726 264.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e055b6a3-f7dc-4a42-95ac-2f633300993f")
+	)
+	(text "esp-miner chip 1"
+		(exclude_from_sim no)
+		(at 352.298 264.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6ab0f16-a7df-4ed6-af91-899ed0cbf76a")
 	)
 	(text "0.8V LDO"
 		(exclude_from_sim no)
